@@ -157,7 +157,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"bold8"
 				}
 			}
 			
@@ -262,6 +262,14 @@
 					"tall"			"p0.96"
 					"visible"		"1"
 					"proportionaltoparent" "1"
+				}
+				if_readymode
+				{
+					"xpos"			"30"
+					"ypos"			"4"
+					"wide"			"22"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
 				}
 			}
 			
@@ -471,7 +479,7 @@
 		if_readymode
 		{
 			"xpos"			"195"
-			"visible"		"1"
+			"visible"		"0"
 		}		
 	}
 	"TournamentLabel"
