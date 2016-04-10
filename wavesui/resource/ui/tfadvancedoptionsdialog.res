@@ -13,12 +13,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"		"46 43 42 0"	//46 43 42 255
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"paintborder"			"1"
-		"paintbackground"		"0"
-		"border"				"GrayDialogBorder"
+		"border"		"MaterialBorderDARKMEDBLUGRAY"
+		"image"				"replay/thumbnails/materialPanel"
+		"paintbackground"	"0"
 		
 		"control_w"			"500"
 		"control_h"			"25"
@@ -90,6 +90,14 @@
 		"Command"		"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"PanelListPanel"
