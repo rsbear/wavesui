@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/objectives_timepanel_progressbar.vtf"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+}

@@ -1,0 +1,22 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/Notification.vtf"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" "2"
+			"sinemin"	"0"
+			"sinemax"	"1"
+			"resultvar"	"$alpha"
+			"timeoffset"	"0"
+		}
+	}
+
+}
+

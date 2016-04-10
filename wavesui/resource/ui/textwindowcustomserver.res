@@ -1,0 +1,313 @@
+"Resource/UI/TextWindowCustomServer.res"
+{
+	"info"
+	{
+		"ControlName"			"CTFTextWindow"
+		"fieldName"				"info"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"settitlebarvisible"	"0"
+	}
+	
+
+
+	"Background"
+	{
+		"ControlName"			"CExImageButton"
+		"fieldName"			"Background"
+		"xpos"					"c-330"
+		"ypos"					"42"
+		"zpos"					"-5"
+		"wide"					"660"
+		"tall"					"360"
+		"visible"				"1"		
+		"enabled"				"1"
+		"defaultbgcolor_override"	"MEDBLUGRAY"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"			"999999"
+	}
+	"BackgroundFilter"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"			"BackgroundFilter"
+		"xpos"					"c-330"
+		"ypos"					"42"
+		"zpos"					"-2"
+		"wide"					"660"
+		"tall"					"360"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 0"
+	}
+	"ContinueBackground"
+	{
+		"ControlName"			"CExImageButton"
+		"fieldName"			"ContinueBackground"
+		"xpos"					"c-330"
+		"ypos"					"396"
+		"zpos"					"-4"
+		"wide"					"660"
+		"tall"					"28"
+		"visible"				"1"		
+		"enabled"				"1"
+		"defaultbgcolor_override"	"37 42 45 255"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"			"999999"
+	}
+	"ContinueBackgroundStrip"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ContinueBackgroundStrip"
+		"xpos"					"c-330"
+		"ypos"					"396"
+		"zpos"					"-4"
+		"wide"					"660"
+		"tall"					"8"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"BOTTOMBLU"
+	}
+
+
+
+
+
+	"ContinueButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueButton"
+		"xpos"					"c-360"
+		"ypos"					"390"		
+		"zpos"			"6"
+		"wide"			"660"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"CONTINUE"
+		"textAlignment"	"east"
+		"Command"		"okay"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"neutralight12"
+		"fgcolor"			"WHITEY"
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+		"selectedFgColor_override" "Black"
+	}
+	"ContinueButton2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueButton2"
+		"xpos"					"c220"
+		"ypos"					"390"		
+		"zpos"			"6"
+		"wide"			"400"
+		"tall"			"41"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"k"
+		"textAlignment"	"west"
+		"Command"		"okay"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"knuckles12"
+		"fgcolor"			"42 47 50 255"
+		"defaultFgColor_override" "42 47 50 255"
+		"armedFgColor_override" "SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+		"selectedFgColor_override" "Black"
+	}
+	"ContinueButtonBind"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContinueButtonBind"
+		"xpos"					"c224"
+		"ypos"					"390"		
+		"zpos"			"7"
+		"wide"			"16"
+		"tall"			"41"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&E"
+		"textAlignment"	"west"
+		"Command"		"okay"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"neutralight8"
+		"fgcolor"			"LITEMEDBLUGRAY"
+		"defaultFgColor_override" "LITEMEDBLUGRAY"
+		"armedFgColor_override" "SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+		"selectedFgColor_override" "Black"
+	}	
+
+
+
+
+	
+	"Shade"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Shade"
+		"xpos"					"-10"
+		"ypos"					"-10"
+		"zpos"					"-100"
+		"wide"					"10000"
+		"tall"					"500"
+		"fillcolor"				"0 0 0 195"
+	}
+	
+	"TFMessageTitle"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"TFMessageTitle"
+		"xpos"					"c-184"
+		"ypos"					"95"
+		"zpos"					"1"
+		"wide"					"420"
+		"tall"					"24"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"#TF_WELCOME"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"nt2light22"
+		"fgcolor"				"240 240 240 255"
+	}
+	
+	"TextMessage"
+	{
+		"ControlName"			"TextEntry"
+		"fieldName"				"TextMessage"
+		"visible"				"0"
+		"enabled"				"0"
+	}
+	
+	"TFTextMessage"
+	{
+		"ControlName"			"CTFRichText"
+		"fieldName"				"TFTextMessage"
+		"font"					"neutralight12"
+		"xpos"					"c-320"
+		"ypos"					"10"
+		"zpos"					"21"
+		"wide"					"640"
+		"tall"					"364"
+		"autoResize"			"3"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"paintborder"			"0"
+		"textAlignment"			"northwest"
+		"fgcolor"				"200 200 200 255"
+	}
+	
+	"HTMLMessage"
+	{
+		"ControlName"			"HTML"
+		"fieldName"				"HTMLMessage"
+		"xpos"					"c-320"
+		"ypos"					"52`"
+		"zpos"					"31"
+		"wide"					"640"
+		"tall"					"334"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"paintborder"			"0"
+	}
+	
+	"ok"
+	{
+		"ControlName"			"CTFButton"
+		"fieldName"				"ok"
+		"xpos"					"c4444440" //c40
+		"ypos"					"r94"
+		"zpos"					"6"
+		"wide"					"150"
+		"tall"					"30"
+		"autoResize"			"0"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Continue"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"wrap"					"0"
+		"command"				"okay"
+		"default"				"1"
+		"font"					"surface15"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"			"CModelPanel"
+		"fieldName"				"MenuBG"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"fov"					"20"
+		
+		"model"
+		{
+			"modelname"			"models/vgui/UI_welcome01_screen.mdl"
+			"skin"				"0"
+			"angles_x" 			"0"
+			"angles_y" 			"180"
+			"angles_z" 			"0"
+			"origin_x" 			"290"
+			"origin_y" 			"0"
+			"origin_z" 			"-39"
+		}
+	}
+	
+	"ShadedBar"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ShadedBar"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+	}
+	
+	"MessageTitle"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"MessageTitle"
+		"visible"				"0"
+		"enabled"				"0"
+	}
+}
