@@ -13,10 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
+		"image"			"replay/thumbnails/materialPanel"
 		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"teambg_2"		"replay/thumbnails/materialPanelRed"
+		"teambg_3"		"replay/thumbnails/materialPanelBlu"
 	}
 	"AlertLabel"
 	{	
