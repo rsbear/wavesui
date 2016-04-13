@@ -24,7 +24,7 @@
 		"fieldName"		"AlertLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"80"
-		"ypos"			"70"
+		"ypos"			"56"
 		//"ypos_hidef"	"23"
 		//"ypos_lodef"	"20"
 		"zpos"			"1"
