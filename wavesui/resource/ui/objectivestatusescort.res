@@ -609,19 +609,21 @@
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Blocked"
-				"xpos"				"2"
-				"ypos"				"3"
-				"ypos_minmode"			"2"	
 				"zpos"				"1"
-				"wide"				"50"
-				"wide_minmode"			"31"
-				"tall"				"50"
-				"tall_minmode"			"31"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_blocked"
-				"iconColor"			"255 255 255 255"	
+				"iconColor"			"255 255 255 255"
+
+				"xpos"				"9"
+				"ypos"				"28"
+				"wide"				"28"
+				"tall"				"28"
+
+				"ypos_minmode"			"2"	
+				"wide_minmode"			"31"			
+				"tall_minmode"			"31"	
 				
 				"if_multiple_trains"
 				{
