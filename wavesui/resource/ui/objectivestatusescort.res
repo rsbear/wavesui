@@ -394,19 +394,21 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
-			"xpos"			"33"
-			"xpos_minmode"		"20"
-			"ypos"			"80"
-			"ypos_minmode"		"52"
 			"zpos"			"3"
-			"wide"			"6"
-			"wide_minmode"		"4"
-			"tall"			"12"
-			"tall_minmode"		"8"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
+
+			"xpos"			"33"
+			"ypos"			"80"
+			"wide"			"0"		//6
+			"tall"			"0"	//12
+
+			"xpos_minmode"		"20"
+			"ypos_minmode"		"52"
+			"wide_minmode"		"4"
+			"tall_minmode"		"8"
 			
 			"if_multiple_trains"
 			{
@@ -430,17 +432,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
-			"font_minmode"		"ItemFontAttribSmall"
-			"xpos"			"39"
-			"xpos_minmode"		"25"
-			"ypos"			"82"
-			"ypos_minmode"		"53"
 			"zpos"			"4"
-			"wide"			"30"
-			"wide_minmode"		"20"
-			"tall"			"10"
-			"tall_minmode"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -449,6 +441,18 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
+
+			"font"			"Bold12"
+			"xpos"			"32"
+			"ypos"			"83"
+			"wide"			"30"
+			"tall"			"10"
+
+			"font_minmode"		"ItemFontAttribSmall"
+			"xpos_minmode"		"25"
+			"ypos_minmode"		"53"
+			"wide_minmode"		"20"
+			"tall_minmode"		"7"
 			
 			"if_multiple_trains"
 			{
