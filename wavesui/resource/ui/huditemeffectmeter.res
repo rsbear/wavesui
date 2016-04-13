@@ -23,7 +23,7 @@
 		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"0"
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
