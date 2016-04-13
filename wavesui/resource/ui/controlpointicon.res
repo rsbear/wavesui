@@ -10,8 +10,8 @@
 		"visible"	"1"
 		"enabled"	"1"
 
-		"wide"		"33"
-		"tall"		"33"
+		"wide"		"28"	//33
+		"tall"		"28"	//33
 
 		"wide_minmode"		"21"
 		"tall_minmode"		"21"
@@ -27,8 +27,8 @@
 		"visible"	"1"
 		"enabled"	"1"
 
-		"wide"		"33"
-		"tall"		"33"
+		"wide"		"28"	//33
+		"tall"		"28"	//33
 
 		"wide_minmode"		"21"
 		"tall_minmode"		"21"
@@ -46,8 +46,8 @@
 
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"10"
-		"tall"		"20"
+		"wide"		"8"
+		"tall"		"16"
 
 		"xpos_minmode"		"0"
 		"ypos_minmode"		"0"
@@ -70,10 +70,10 @@
 		"brighttext"		"0"
 
 		"font"			"Bold14"
-		"xpos"			"15"
-		"ypos"			"0"
+		"xpos"			"13"
+		"ypos"			"-2"
 		"wide"			"20"
-		"tall"			"33"
+		"tall"			"31"
 
 		"font_minmode"			"Bold12"
 		"xpos_minmode"			"10"
