@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"c-200"
-		"ypos"				"r144"
+		"ypos"				"r138"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
@@ -25,16 +25,19 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
-		"xpos"			"73"
-		"ypos"			"120"
 		"zpos"			"0"
-		"wide"			"254"
-		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"image"			"../hud/cart_track"
 		"scaleImage"	"1"
+
+		"xpos"			"73"
+		"ypos"			"120"
+		"wide"			"254"
+		"tall"			"4"
+
+		"ypos_minmode"			"123"
 		
 		"if_multiple_trains"
 		{
@@ -555,6 +558,8 @@
 				"wide"				"35"
 				"tall"				"42"
 
+				"xpos_minmode"			"0"
+				"ypos_minmode"			"0"
 				"wide_minmode"			"35"
 				"tall_minmode"			"42"
 				
