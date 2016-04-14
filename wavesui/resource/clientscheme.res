@@ -2654,6 +2654,29 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 
+
+
+
+
+		/// CIRCLE BORDERS
+		CircleBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 			"LITEMEDBLUGRAY"
+			
+			"image"					"replay/thumbnails/largecircle"
+		}
+		CircleBorderTOMATORED
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 			"TOMATORED"
+			
+			"image"					"replay/thumbnails/largecircle"
+		}
+
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		MedGrayBorder

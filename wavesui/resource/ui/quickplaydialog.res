@@ -315,15 +315,16 @@
 				"depressedFgColor_override" "SOFTORANGE"
 				"selectedFgColor_override" "Black"
 			}		
+
 				
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"NextPageButton"
-				"xpos"			"270"
+				"xpos"			"264"
 				"ypos"			"160"
 				"zpos"			"10"
-				"wide"			"20"
+				"wide"			"30"
 				"tall"			"40"
 				"autoResize"	"0"
 				"pinCorner"		"0"

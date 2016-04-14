@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-466"		 //0
+		"xpos"			"c-326"		 //0
 		"xpos_minmode"	"-5"	 //-5
 		"ypos"			"r160"	 //r120
 		"ypos_minmode"	"r88"	 //r88
@@ -37,7 +37,7 @@
 
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"220"  //114
+		"xpos"			"80"  //114
 		"ypos"			"6"   //34
 
 		"visible_minmode"	"0"
@@ -82,7 +82,7 @@
 
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"221"  //115
+		"xpos"			"81"  //115
 		"ypos"			"7"   //35	
 
 		"visible_minmode"	"1"
@@ -105,7 +105,7 @@
 
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"221"
+		"xpos"			"81"
 		"ypos"			"7"
 		"wide"			"151"
 		"tall"			"101"	
@@ -131,7 +131,7 @@
 
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"222"
+		"xpos"			"82"
 		"ypos"			"8"
 		"wide"			"151"
 		"tall"			"100"	
@@ -154,7 +154,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 
-		"xpos"			"270"	[$WIN32]
+		"xpos"			"131"	[$WIN32]
 		"ypos"			"36"	[$WIN32]
 		"wide"			"50"	[$WIN32]
 		"tall"			"50"	[$WIN32]
@@ -166,6 +166,9 @@
 		"tall_minmode"	"0"  //24	[$WIN32]
 
 	}
+
+
+
 
 
 	"PlayerStatusHealthImage"
@@ -197,6 +200,8 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
+
+
 
 
 								
@@ -252,7 +257,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
+		"xpos"			"125"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -268,9 +273,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
+		"xpos"			"225"
 		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
