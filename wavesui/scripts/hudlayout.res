@@ -69,14 +69,16 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
 		"wide"			"140"
 		"tall"			"50"
 		"MeterFG"		"YELLOWGOLD"
 		"MeterBG"		"CLEARSHADOW"
+
+		"xpos"			"c-70"	
+		"ypos"			"r52"
+
+		"xpos_minmode"	"r52"	
+		"ypos_minmode"	"r50"	[$WIN32]
 	}
 	
 	HudMedicCharge

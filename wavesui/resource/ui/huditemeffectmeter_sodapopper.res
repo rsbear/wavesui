@@ -1,21 +1,26 @@
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
+	///////////////////////////////////////////
+	///  SODAPOPPER AND BABYFACE BLASTER
+	//////////////////////////////////////////////////
+
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
-		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r83"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
+		"MeterFG"		"YELLOWGOLD"
+		"MeterBG"		"CLEARSHADOW"
+
+		"x_offset"		"0"
+		"xpos"			"c-70"
+		"ypos"			"r144"
+		"wide"			"140"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+
+		"x_offset_minmode"		"0"
+		"xpos_minmode"			"r52"
+		"ypos_minmode"			"r68"
 	}
 	
 	"ItemEffectMeterBG"
@@ -27,7 +32,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz3_blue"
@@ -49,8 +54,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"visible_minmode"		"1"
+		"visible"				"0"
+		"visible_minmode"		"0"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"textAlignment_minmode"			"west"
@@ -68,14 +73,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
-		"tall"					"5"				
+		"zpos"					"2"			
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -83,5 +81,18 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"MeterFG_override"		"YELLOWGOLD"
+		"MeterBG_override"		"CLEARSHADOW"
+
+		"xpos"					"0"
+		"ypos"					"23"
+		"wide"					"140"
+		"tall"					"2"	
+
+		"xpos_minmode"			"0"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
+		"wide_minmode"			"50"
+		"tall_minmode"			"1"
 	}					
 }
