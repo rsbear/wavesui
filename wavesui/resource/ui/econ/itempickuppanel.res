@@ -1,5 +1,12 @@
 "Resource/UI/ItemPickupPanel.res"
 {
+
+	/////////////////////////////////////////////////////////////////
+	/// NEW ITEM PAGE THINGY I FINALLY FUCKING FOUND YOU
+	///////////////////////////////////////////////////////////////////////
+
+
+
 	"item_pickup"
 	{
 		"ControlName"		"Frame"
@@ -16,9 +23,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"DARKBLUGRAY"
+		"infocus_bgcolor_override" "DARKBLUGRAY"
+		"outoffocus_bgcolor_override" "DARKBLUGRAY"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -29,8 +36,9 @@
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"2"
-			"paintborder"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"border"		"MaterialBorderDARKMEDBLUGRAY"
+			"image"				"replay/thumbnails/materialPanel"
+			"paintbackground"	"1"
 			
 			"model_xpos"	"0"
 			"model_center_y"	"1"
@@ -51,6 +59,8 @@
 			}
 		}
 	}
+
+	
 	
 	"classimageoutline"
 	{
@@ -88,7 +98,7 @@
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -202,11 +212,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c50"
-		"ypos"			"420"
+		"xpos"			"c19"
+		"ypos"			"380"
 		"zpos"			"6"
-		"wide"			"250"
-		"tall"			"30"
+		"wide"			"230"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -221,16 +231,25 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MaterialBorderHPGREEN"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
+
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OpenLoadoutButton"
-		"xpos"			"c-300"
-		"ypos"			"420"
+		"xpos"			"c-248"
+		"ypos"			"380"
 		"zpos"			"6"
-		"wide"			"250"
-		"tall"			"30"
+		"wide"			"230"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -244,6 +263,14 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MaterialBorderYELLOWGOLD"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"DiscardButton"
