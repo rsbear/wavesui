@@ -1,3 +1,9 @@
+
+
+//IMPORT CROSSHAIR HUDLAYOUT
+#base 	"hudlayout - xhairs.res"
+
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus   //HP

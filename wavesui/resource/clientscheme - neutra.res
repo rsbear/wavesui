@@ -127,6 +127,15 @@ Scheme
 
 //// NEUTRA SEMILIGHT (BOOK) //////////////////////////////////////
 
+		"SemiLight8"
+		{
+			"1"
+			{
+				"name"		"Neutraface 2 Text Book"
+				"tall"		"8"
+				"antialias"	"1"
+			}
+		}
 		"SemiLight9"
 		{
 			"1"
@@ -220,6 +229,17 @@ Scheme
 		}
 
 	//// SEMILIGHT BLURS ////////////////////////
+
+		"SemiLight9blur"
+		{
+			"1"
+			{
+				"name"		"Neutraface 2 Text Book"
+				"tall"		"9"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
 		
 
 
