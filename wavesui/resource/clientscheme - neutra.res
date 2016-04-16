@@ -479,6 +479,29 @@ Scheme
 				}
 			}
 
+	//// BOLD DROPSHADOW ///////////////////////////////////
+
+			"Bold18dropshadow"   //hp ammo
+			{
+				"1"
+				{
+					"name"		"Neutra Text"
+					"tall"		"18"
+					"antialias"	"1"
+					"dropshadow"		"1"
+				}
+			}
+			"Bold20dropshadow"   //hp ammo
+			{
+				"1"
+				{
+					"name"		"Neutra Text"
+					"tall"		"20"
+					"antialias"	"1"
+					"dropshadow"		"1"
+				}
+			}
+
 
 //// NEUTRA DISPLAY ALLCAPS //////////////////////////////////////
 

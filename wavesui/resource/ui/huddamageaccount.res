@@ -9,7 +9,7 @@
 		"PositiveColor"			"HPGREEN"
 		"NegativeColor"			"DARKDARKORANGE"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Bold18"
+		"delta_item_font"		"Bold18dropshadow"
 		"delta_item_font_big"	"Bold20"
 		// I HATE OUTLINE FONTS
 		//"delta_item_font"		"Bold18outline"
