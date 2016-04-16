@@ -456,6 +456,30 @@ Scheme
 				}
 			}
 
+	//// BOLD OUTLINES ///////////////////////////////////
+
+			"Bold18outline"   //hp ammo
+			{
+				"1"
+				{
+					"name"		"Neutra Text"
+					"tall"		"18"
+					"antialias"	"1"
+					"outline"		"1"
+				}
+			}
+			"Bold20outline"   //hp ammo
+			{
+				"1"
+				{
+					"name"		"Neutra Text"
+					"tall"		"20"
+					"antialias"	"1"
+					"outline"		"1"
+				}
+			}
+
+
 //// NEUTRA DISPLAY ALLCAPS //////////////////////////////////////
 
 		"Caps10"

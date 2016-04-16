@@ -11,8 +11,8 @@
 		"ypos_minmode"	"r54"	[$WIN32]
 		"wide"			"140"
 		"tall"			"50"
-		"MeterFG"		"YELLOWGOLD"
-		"MeterBG"		"CLEARSHADOW"
+		"MeterFG_override"		"YELLOWGOLD"
+		"MeterBG_override"		"CLEARSHADOW"
 	}
 	
 	"ItemEffectMeterBG"

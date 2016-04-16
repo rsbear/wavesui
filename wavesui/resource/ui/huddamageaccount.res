@@ -4,12 +4,15 @@
 	{
 		"fieldName"				"CDamageAccountPanel"
 		"text_x"				"0"
-		"text_y"				"0"
+		"text_y"				"-80"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"HPGREEN"
-		"NegativeColor"			"LIMEGREEN"
+		"NegativeColor"			"DARKDARKORANGE"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Bold16"
+		"delta_item_font"		"Bold18"
 		"delta_item_font_big"	"Bold20"
+		// I HATE OUTLINE FONTS
+		//"delta_item_font"		"Bold18outline"
+		//"delta_item_font_big"	"Bold20outline"
 	}
 }

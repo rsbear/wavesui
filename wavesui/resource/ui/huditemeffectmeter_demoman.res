@@ -5,16 +5,18 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"MeterFG"		"YELLOWGOLD"
+		"MeterBG"		"CLEARSHADOW"
+
+		"x_offset"		"0"
+		"xpos"			"c-70"
+		"ypos"			"r144"
+		"wide"			"140"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+
+		"x_offset_minmode"		"0"
+		"xpos_minmode"			"r52"
+		"ypos_minmode"			"r68"
 	}
 	
 	"ItemEffectMeterBG"

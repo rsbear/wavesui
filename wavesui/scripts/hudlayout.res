@@ -71,8 +71,8 @@
 		"enabled"		"1"
 		"wide"			"140"
 		"tall"			"50"
-		"MeterFG"		"YELLOWGOLD"
-		"MeterBG"		"CLEARSHADOW"
+		"MeterFG_override"		"YELLOWGOLD"
+		"MeterBG_override"		"CLEARSHADOW"
 
 		"xpos"			"c-70"	
 		"ypos"			"r52"
