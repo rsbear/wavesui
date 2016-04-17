@@ -147,7 +147,7 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"Bold8"
 					"proportionaltoparent" "1"
 				}
 
@@ -473,7 +473,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 		}
 		
 		if_readymode
@@ -687,10 +687,14 @@
 		"enabled"		"1"
 		"fillcolor"		"192 42 54 255"	
 
+		if_competitive
+		{
+			"visible"		"0"
+		}
 		if_readymode
-				{
-					"visible"		"0"
-				}
+		{
+			"visible"		"0"
+		}		
 	}
 	"TournamentREDLabel"
 	{	
@@ -788,11 +792,11 @@
 
 		if_competitive
 		{
-			"xpos"			"c-45"
-			"ypos"			"18"
+			"xpos"			"c-125"
+			"ypos"			"12"
 			"tall"			"35"
 			"visible"		"1"
-			"font"			"TFFontMedium"
+			"font"			"Medium12"
 		}
 
 		if_readymode
@@ -999,7 +1003,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../HUD/color_panel_red"
+		"image"			"replay/thumbnails/materialPanel"
+		"border"		"MaterialBorderDARKMEDBLUGRAY"
+		"paintbackground"	"0"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -1011,7 +1017,7 @@
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"150"
+			"ypos"			"151"
 		}
 
 		if_readymode
