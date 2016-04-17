@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
@@ -21,18 +21,18 @@
 		"teambg_3"			"replay/thumbnails/MaterialPanelBlu"
 		"teambg_3_lodef"	"replay/thumbnails/MaterialPanelBlu"
 		
-		"src_corner_height"		"18"				// pixels inside the image
-		"src_corner_width"		"18"
+		"src_corner_height"		"26"				// pixels inside the image
+		"src_corner_width"		"26"
 			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"	
+		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"12"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -43,18 +43,18 @@
 		"image"			"replay/thumbnails/MaterialPanelBlu"
 		"image_lodef"	"replay/thumbnails/MaterialPanelBlu"
 		
-		"src_corner_height"	"18"				// pixels inside the image
-		"src_corner_width"	"18"
+		"src_corner_height"	"26"				// pixels inside the image
+		"src_corner_width"	"26"
 		
-		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"12"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -65,11 +65,11 @@
 		"image"			"replay/thumbnails/MaterialPanelRed"
 		"image_lodef"	"replay/thumbnails/MaterialPanelRed"
 		
-		"src_corner_height"		"18"				// pixels inside the image
-		"src_corner_width"		"18"
+		"src_corner_height"		"26"				// pixels inside the image
+		"src_corner_width"		"26"
 			
-		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"
+		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"12"
 	}
 	
 	"TargetNameLabel"
