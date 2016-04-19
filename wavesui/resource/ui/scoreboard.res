@@ -305,7 +305,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"SOFTBLULITE"
+		"fgcolor"		"SOFTLITEBLU"
 		"centerwrap"	"0"
 		
 		if_mvm
