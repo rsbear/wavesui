@@ -305,7 +305,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"SOFTLITEBLU"
+		"fgcolor"		"HPGREEN"
 		"centerwrap"	"0"
 		
 		if_mvm
@@ -329,7 +329,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"SOFTBLULITE"
+		"fgcolor"		"HPGREEN"
 		"centerwrap"	"0"
 		
 		if_mvm
