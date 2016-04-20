@@ -331,6 +331,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Bold13"
+		{
+			"1"
+			{
+				"name"		"Neutra Text"
+				"tall"		"13"
+				"antialias"	"1"
+			}
+		}
 		"Bold14"
 		{
 			"1"

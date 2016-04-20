@@ -3083,14 +3083,13 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "20 20 20 140"
-			"offset" "0 0"
+			"color" "30 30 30 40"
 			
 			"image"					"replay/thumbnails/materialPanel"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"18"				// pixels inside the image
+			"src_corner_width"		"18"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -3120,10 +3119,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/thumbnails/MaterialPanelRed"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -3131,10 +3130,10 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/thumbnails/MaterialPanelBlu"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 		TFFatLineBorderBlueBGOpaque
 		{

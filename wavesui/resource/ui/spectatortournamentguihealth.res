@@ -7,15 +7,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"1"
-		"ypos"			"7"
+		"ypos"			"9"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"10"
+		"tall"			"13"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bold12"
+		"font"			"Bold13"
 		"fgcolor"		"WHITEY"
 	}
 	"PlayerStatusHealthValueSpecShadow"
@@ -23,15 +23,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
 		"xpos"			"1"
-		"ypos"			"7"
+		"ypos"			"9"
 		"zpos"			"4"
 		"wide"			"21"
-		"tall"			"11"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bold12"
+		"font"			"Bold13"
 		"fgcolor"		"BLACKY"
 	}
 	"PlayerStatusHealthImage"
@@ -43,7 +43,7 @@
 		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"17"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -56,7 +56,7 @@
 		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"17"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
@@ -69,7 +69,7 @@
 		"zpos"			"-1"
 		"wide"			"91"
 		"tall"			"16"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"32 32 32 255" //OverhealGreen_Custom transparent
 		"alpha"			"255"
@@ -83,7 +83,7 @@
 		"zpos"			"1"
 		"wide"			"91"
 		"tall"			"17"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"COOLSOLIDGREEN" //OverhealGreen_Custom transparent
 		"alpha"			"0"
@@ -91,7 +91,7 @@
 
 
 
-
+	
 
 
 //////////////////////////////////////////////////////////////////////////////
