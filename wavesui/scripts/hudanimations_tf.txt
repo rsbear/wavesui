@@ -223,8 +223,9 @@ event HudHealthBonusPulse
 	Animate	TargetIDHPBuff 	   	Alpha		"255"		        Accel 0.0 0.0
 
 	//SPECHUD 
-	Animate HPBuffBox alpha 255 linear 0.0 0.00
-	Animate HPBuffBox FgColor "HPGREEN" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpec   fgcolor "HPGREEN" 	accel 0.0 0.0
+	//Animate HPBuffBox alpha 255 linear 0.0 0.00
+	//Animate HPBuffBox FgColor "HPGREEN" Accel 0.0 0.0
 
 
 	//FREEZEPANEL
@@ -258,7 +259,8 @@ event HudHealthBonusPulseStop
     Animate	TargetIDHPBuff 	     Alpha		    "0"		           Accel 0.0 0.0
 
     //STOP SPECHUD
-    Animate HPBuffBox alpha 0 linear 0.0 0.00
+    Animate PlayerStatusHealthValueSpec   fgcolor "WHITEY" 	accel 0.0 0.0
+    //Animate HPBuffBox alpha 0 linear 0.0 0.00
 
     //STOP FREEZEPANELKILLER
     Animate PlayerStatusHealthValueKiller fgcolor "WHITEY" accel 0.0 0.0

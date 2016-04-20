@@ -3086,8 +3086,8 @@ Scheme
 			"color" "30 30 30 40"
 			
 			"image"					"replay/thumbnails/materialPanel"
-			"src_corner_height"		"18"				// pixels inside the image
-			"src_corner_width"		"18"
+			"src_corner_height"		"20"				// pixels inside the image
+			"src_corner_width"		"20"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
@@ -3117,8 +3117,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"REDTEAM"
 			
-			"image"					"replay/thumbnails/MaterialPanelRed"
+			"image"					"replay/thumbnails/MaterialPanel"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -3128,8 +3129,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"BLUTEAM"
 			
-			"image"					"replay/thumbnails/MaterialPanelBlu"
+			"image"					"replay/thumbnails/MaterialPanel"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional

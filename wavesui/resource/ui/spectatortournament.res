@@ -13,17 +13,17 @@
 		"team1_player_base_offset_x"		"-416"  //-316
 		"team1_player_base_y"				"135"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"18"
+		"team1_player_delta_y"				"19"
 		"team2_player_base_offset_x"		"-416"  //-316
 		"team2_player_base_y"				"263"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"18"
+		"team2_player_delta_y"				"19"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"138"
-			"tall"			"30"
+			"tall"			"28"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -100,45 +100,7 @@
 				"bgcolor_override"		"190 190 190 255"
 			}
 
-			"healthbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"healthbar"
-				"font"					"Default"																		
-				"xpos"					"47"
-				"ypos"					"19"
-				"zpos"					"5"
-				"wide"					"52"
-				"tall"					"1"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "50 50 50 255"
-			}
-			"overhealbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"																		
-				"xpos"					"47"
-				"ypos"					"19"
-				"zpos"					"6"
-				"wide"					"26"
-				"tall"					"1"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
-			}
+		
 			
 			"HealthIcon"
 			{
@@ -147,7 +109,7 @@
 				"xpos"				"22"
 				"ypos"				"-3"
 				"zpos"				"3"
-				"wide"				"21"
+				"wide"				"100"
 				"tall"				"35"
 				"visible"			"1"
 				"enabled"			"1"	

@@ -89,9 +89,52 @@
 		"alpha"			"0"
 	}
 
+			
+	"healthbar"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"healthbar"
+		"font"					"Default"																		
+		"xpos"					"23"
+		"ypos"					"21"
+		"zpos"					"5"
+		"wide"					"60"
+		"tall"					"1"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"bgcolor_override"	   "80 80 80 255"
 
-
-	
+		"color_bar_health_high"		"COOLBLUGREEN"
+		"color_bar_health_med"		"VERYBRIGHTGRAY"
+		"percentage_health_med"		"0.6"
+		"color_bar_health_low"		"YELLOWGOLD"
+		"percentage_health_low"		"0.4"
+	}
+	"overhealbar"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"overhealbar"
+		"font"					"Default"																		
+		"xpos"					"23"
+		"ypos"					"21"
+		"zpos"					"6"
+		"wide"					"19"
+		"tall"					"1"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"bgcolor_override"	   "0 0 0 0"
+		"fgcolor_override"	   "HPGREEN"
+	}
 
 
 //////////////////////////////////////////////////////////////////////////////
