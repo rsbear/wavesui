@@ -9,6 +9,7 @@
 		"PositiveColor"			"SOFTLITEBLU"
 		"NegativeColor"			"TOMATORED"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"Bold24"
+		"delta_item_font_minmode"		"Bold18"
 	}
 }

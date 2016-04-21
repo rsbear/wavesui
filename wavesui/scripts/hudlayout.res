@@ -233,8 +233,8 @@
 		"xpos"					"206"
 		"ypos"					"r152"
 
-		"xpos_minmode"			"61"
-		"ypos_minmode"			"r134"
+		"xpos_minmode"			"296"
+		"ypos_minmode"			"r214"
 	}
 	
 	CDamageAccountPanel
