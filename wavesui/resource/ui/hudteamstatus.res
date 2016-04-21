@@ -27,9 +27,9 @@
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"COOLBLUGREEN"
 			"color_bar_health_med"	"VERYBRIGHTGRAY"
-			"percentage_health_med"	"0.6"
+			"percentage_health_med"	"0.9"
 			"color_bar_health_low"	"YELLOWGOLD"
-			"percentage_health_low"	"0.4"
+			"percentage_health_low"	"0.5"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
 			

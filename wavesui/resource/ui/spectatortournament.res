@@ -101,57 +101,13 @@
 			}
 
 		
-			"healthbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"healthbar"
-				"font"					"Default"																		
-				"xpos"					"26"
-				"ypos"					"20"
-				"zpos"					"5"
-				"wide"					"89"
-				"tall"					"1"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "OPAQUESHADOW"
-
-				"color_bar_health_high"		"COOLBLUGREEN"
-				"color_bar_health_med"		"VERYBRIGHTGRAY"
-				"percentage_health_med"		"1.0"
-				"color_bar_health_low"		"YELLOWGOLD"
-				"percentage_health_low"		"0.4"
-			}
-			"overhealbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"																		
-				"xpos"					"26"
-				"ypos"					"20"
-				"zpos"					"6"
-				"wide"					"19"
-				"tall"					"1"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "HPGREEN"
-			}
+		
 
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"96"
+				"xpos"				"26"
 				"ypos"				"-3"
 				"zpos"				"3"
 				"wide"				"100"

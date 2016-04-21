@@ -262,6 +262,7 @@ event HudHealthBonusPulseStop
     Animate PlayerStatusHealthValueSpec   fgcolor "WHITEY" 	accel 0.0 0.0
     //Animate HPBuffBox alpha 0 linear 0.0 0.00
 
+
     //STOP FREEZEPANELKILLER
     Animate PlayerStatusHealthValueKiller fgcolor "WHITEY" accel 0.0 0.0
 }
