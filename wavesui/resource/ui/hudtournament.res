@@ -19,7 +19,7 @@
 		"team2_player_base_y"				"-40"
 		"team2_player_delta_x"				"67"
 		"team2_player_delta_y"				"20"
-		"teams_player_delta_x_comp"			"43"
+		"teams_player_delta_x_comp"			"45"    //spacing between tiles
 
 		"avatar_width"	"63"
 		"spacer"		"5"
@@ -47,7 +47,7 @@
 
 			"team1_player_base_y"			"75"
 			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"25"
+			"team2_player_base_offset_x"	"22"
 		}
 		
 		if_readymode
@@ -98,19 +98,19 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
+				"wide"		"52"
 				"tall"		"35"
 			}
 						
 			if_competitive
 			{
-				"wide"		"47"
+				"wide"		"52"
 				"tall"		"34"
 			}
 
 			if_readymode
 			{
-				"wide"		"55"
+				"wide"		"52"
 				"tall"		"35"
 			}
 			
@@ -144,7 +144,7 @@
 				{
 					"xpos"				"4"
 					"ypos"				"21"
-					"wide"				"p0.9"
+					"wide"				"p0.84"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
 					"font"				"Bold8"
@@ -186,9 +186,9 @@
 
 				if_competitive
 				{
-					"xpos"			"4"
+					"xpos"			"5"
 					"ypos"			"6"
-					"wide"			"p0.34"
+					"wide"			"p0.32"
 					"tall"			"p0.44"
 					"image"			"../vgui/hud_connecting"
 					"proportionaltoparent" "1"
@@ -303,7 +303,7 @@
 				{
 					"xpos"			"28"
 					"ypos"			"7"
-					"wide"			"p0.28"
+					"wide"			"p0.26"
 					"tall"			"p0.39"
 					"proportionaltoparent" "1"
 					"visible"		"1"
@@ -849,7 +849,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"Caps18"
+		"font"			"Caps12"
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
@@ -866,7 +866,7 @@
 		
 		if_mvm
 		{
-			"font"			"Caps18"
+			"font"			"Caps12"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
@@ -876,7 +876,7 @@
 
 		if_competitive
 		{
-			"font"			"Caps18"
+			"font"			"Caps12"
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
@@ -886,7 +886,7 @@
 
 		if_readymode
 		{
-			"font"			"Caps18"
+			"font"			"Caps12"
 			"xpos"			"225"
 			"ypos"			"110"
 			"wide"			"190"
@@ -899,7 +899,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"Caps18"
+		"font"			"Caps12"
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
@@ -916,7 +916,7 @@
 		
 		if_mvm
 		{
-			"font"			"Caps18"
+			"font"			"Caps12"
 			"xpos"			"156"
 			"ypos"			"106"
 			"wide"			"190"
@@ -927,7 +927,7 @@
 
 		if_competitive
 		{
-			"font"			"Caps18"
+			"font"			"Caps12"
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
@@ -938,7 +938,7 @@
 
 		if_readymode
 		{
-			"font"			"Caps18"
+			"font"			"Caps12"
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
@@ -1271,7 +1271,7 @@
 			"xpos"			"6"
 			"ypos"			"38"
 			"zpos"			"1"
-			"wide"			"136"
+			"wide"			"134"
 			"tall"			"205"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1319,7 +1319,7 @@
 			"ypos"			"10"
 			"zpos"			"2"
 			"wide"			"147"
-			"tall"			"36"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
