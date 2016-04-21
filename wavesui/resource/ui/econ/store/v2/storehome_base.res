@@ -1,11 +1,16 @@
 "Resource/UI/StoreHome_Base.res"
 {
+
+	///////////////////////////////////////////
+	////  STORE HOME PAGE / FRONT PAGE
+	/////////////////////////////////////////////////
+
 	"StorePage"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"StorePage"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"60"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -15,9 +20,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"DARKBLUGRAY"
+		"infocus_bgcolor_override" "DARKBLUGRAY"
+		"outoffocus_bgcolor_override" "DARKBLUGRAY"
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
@@ -35,7 +40,7 @@
 		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"item_backdrop_color"				"24 22 20 0"  //color behind items
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -44,9 +49,9 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"DARKMEDBLUGRAY"
+		"item_panel_bgcolor_mouseover"	"SOFTLITEBLU"
+		"item_panel_bgcolor_selected"	"SOFTLITEBLU"
 		
 		"classicon_xdelta"		"5"
 
@@ -62,7 +67,10 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
+
+			"border"		"MaterialBorderDARKMEDBLUGRAY"
+			"image"				"replay/thumbnails/materialPanel"
+			"paintbackground"	"0"
 						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
@@ -202,7 +210,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SaxtonBackgroundPanel"
 		"xpos"			"c-315"
-		"ypos"			"10"
+		"ypos"			"50"
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
@@ -216,8 +224,8 @@
 			"xpos"			"15"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"420"
-			"tall"			"220"
+			"wide"			"360"
+			"tall"			"180"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"store/saxton_welcome"
@@ -229,14 +237,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c-100"
+		"xpos"			"c40"
 		"ypos"			"330"
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
@@ -285,11 +293,11 @@
 			"font"			"HudFontSmallestBold"
 			
 			"fgcolor"	"124 114 99 255"
-			"defaultBgColor_override" "38 35 33 255"
+			"defaultBgColor_override" "38 35 33 0"
 			"defaultFgColor_override" "124 114 99 255"
-			"armedBgColor_override" "30 30 30 255"
+			"armedBgColor_override" "30 30 30 0"
 			"armedFgColor_override" "124 114 99 255"
-			"selectedBgColor_override" "10 10 10 255"
+			"selectedBgColor_override" "10 10 10 0"
 			"selectedFgColor_override"	"235 227 203 255"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -299,28 +307,31 @@
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
-			"border"				"ButtonBorder"
+			"border"				"MainMenuButtonArmed"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
 		}
 	}
 	
+
+
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c190"
-		"ypos"			"283"
-		"zpos"			"5"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"c-22288"
+		"ypos"			"330000"
+		"zpos"			"-5"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
+		"labelText"		"&A"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -328,17 +339,45 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+
+	"PreviousPageButton1"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PreviousPageButton1"
+		"xpos"			"c-46"
+		"ypos"			"364"		
+		"zpos"			"6"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"("
+		"textAlignment"	"center"
+		"Command"		"prevpage"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"		"Symbols16"
+		
+		"defaultFgColor_override" "SOFTBLUGRAY"
+		"armedFgColor_override" "SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+		"selectedFgColor_override" "Black"
+	}	
 	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Light12"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"283"
+		"xpos"			"c-22"
+		"ypos"			"279"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"20"
@@ -346,16 +385,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "SOFTORANGE"
 	}
 	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c270"
-		"ypos"			"283"
-		"zpos"			"5"
+		"xpos"			"c222270"
+		"ypos"			"233383"
+		"zpos"			"-5"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -372,6 +411,35 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+
+	"NextPageButton1"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageButton1"
+		"xpos"			"c28"
+		"ypos"			"364"		
+		"zpos"			"6"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		")"
+		"textAlignment"	"center"
+		"Command"		"nextpage"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"		"Symbols16"
+		"defaultFgColor_override" "SOFTBLUGRAY"
+		"armedFgColor_override" "SOFTORANGE"
+		"depressedFgColor_override" "SOFTORANGE"
+		"selectedFgColor_override" "Black"
+	}
+
+
 	
 	"BackpackSpaceLabel"
 	{
@@ -380,8 +448,8 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
-		"xpos"			"c-56"
-		"ypos"			"315"
+		"xpos"			"c196"
+		"ypos"			"280"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"20"
@@ -398,11 +466,11 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c-56"
-		"ypos"			"334"
+		"xpos"			"c242"
+		"ypos"			"352"
 		"zpos"			"12"
 		"wide"			"56"
-		"tall"			"24"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
@@ -412,17 +480,25 @@
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"CartImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-51"
-		"ypos"			"336"
+		"xpos"			"c250"
+		"ypos"			"360"
 		"zpos"			"13"
-		"wide"			"24"
-		"tall"			"20"
+		"wide"			"18"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"store_cart"
@@ -433,11 +509,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BrowseTheStoreButton"
-		"xpos"			"c-265"
-		"ypos"			"c-80"
+		"xpos"			"c-305"
+		"ypos"			"c-37"
 		"zpos"			"2"
-		"wide"			"160"
-		"tall"			"23"
+		"wide"			"220"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -452,17 +528,25 @@
 		"Command"		"startshopping"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"MarketPlaceButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketPlaceButton"
-		"xpos"			"c-285"
-		"ypos"			"c-50"
+		"xpos"			"c-305"
+		"ypos"			"c2"
 		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"23"
+		"wide"			"220"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -477,6 +561,14 @@
 		"Command"		"marketplace"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}
 	
 	"TitleLabel"

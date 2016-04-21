@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"DARKBLUGRAY"
+		"infocus_bgcolor_override" "DARKBLUGRAY"
+		"outoffocus_bgcolor_override" "DARKBLUGRAY"
 		
 		"max_cart_model_panels"	"10"
 		
@@ -33,16 +33,16 @@
 		"item_controls_yoffset"	"2"
 
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"item_backdrop_color"				"24 22 20 0"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"2"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"DARKMEDBLUGRAY"
+		"item_panel_bgcolor_mouseover"	"SOFTLITEBLU"
+		"item_panel_bgcolor_selected"	"SOFTLITEBLU"
 		
 		"classicon_xdelta"		"5"
 
