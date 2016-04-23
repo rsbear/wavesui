@@ -15,11 +15,19 @@
 
 
 
+
+
+
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////
 //// DONT DISABLE THESE CLIENTSCHEMES
 	
 	#base 	"clientscheme - colours.res"
 	#base 	"clientscheme - xhairs.res"
+	#base 	"clientscheme - symbols.res"
 
 
 //
