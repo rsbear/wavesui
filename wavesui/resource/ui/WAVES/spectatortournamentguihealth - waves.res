@@ -1,9 +1,4 @@
-
-
-#base     "WAVES/SpectatorTournamentGUIHealth - waves.res"
-
-
-"Resource/UI/SpectatorTournamentGUIHealth.res"
+"Resource/UI/WAVES/SpectatorTournamentGUIHealth - waves.res"
 {
 
 
@@ -39,6 +34,50 @@
 		"font"			"Bold13"
 		"fgcolor"		"BLACKY"
 	}
+
+
+
+
+
+
+
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"44444"
+		"ypos"			"4"
+		"zpos"			"3"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}
+	"HPbarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HPbarBG"
+		"xpos"			"-34"
+		"ypos"			"5"
+		"zpos"			"-1"
+		"wide"			"91"
+		"tall"			"16"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"32 32 32 255" //OverhealGreen_Custom transparent
+		"alpha"			"255"
+	}
+
+
+
+
+
+
+
+
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -65,34 +104,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
-	"HPBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HPBG"
-		"xpos"			"-34"
-		"ypos"			"5"
-		"zpos"			"-1"
-		"wide"			"91"
-		"tall"			"16"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"32 32 32 255" //OverhealGreen_Custom transparent
-		"alpha"			"255"
-	}
-	"HPBuffBox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HPBuffBox"
-		"xpos"			"-34"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"91"
-		"tall"			"17"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"COOLSOLIDGREEN" //OverhealGreen_Custom transparent
-		"alpha"			"0"
-	}
+	
+	
 
 			
 	
@@ -115,18 +128,19 @@
 		"fillcolor"		"22 22 22 0"
 		"scaleImage"	"0"	
 	}	
-	"PlayerStatusHealthBonusImage"
+	
+	"HPBuffBox"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"44444"
-		"ypos"			"4"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
+		"fieldName"		"HPBuffBox"
+		"xpos"			"-34"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"91"
+		"tall"			"17"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"fillcolor"		"COOLSOLIDGREEN" //OverhealGreen_Custom transparent
+		"alpha"			"0"
 	}
 }

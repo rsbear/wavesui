@@ -1,8 +1,4 @@
-
-#base     "WAVES/spectatortournament - waves.res"
-
-
-"Resource/UI/SpectatorTournament.res"
+"Resource/UI/WAVES/SpectatorTournament - waves.res"
 {
 	"specgui"
 	{
@@ -32,12 +28,6 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-
-			"color_bar_health_high"	"HPGREEN"
-			"color_bar_health_med"	"VERYBRIGHTGRAY"
-			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"YELLOWGOLD"
-			"percentage_health_low"	"0.3"
 
 			"playername"
 			{
@@ -120,11 +110,14 @@
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
+				"TFFont"					"Block14"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 			}
 			
+
+		
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"

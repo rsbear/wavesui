@@ -330,6 +330,19 @@ Scheme
 
 
 
+//// BLOKK FONT FOR HORIZONTAL HP ////////////////////////////////////
+		
+		"Block14"
+		{
+			"1"
+			{
+				"name"		"BLOKK Neue"
+				"tall"		"14"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+
 
 
 
@@ -386,6 +399,11 @@ CustomFontFiles
 	{
 		"font"	"resource/fonts/HudasIscariote.otf"
 		"name"	"Hudas Iscariote"
+	}
+	"6"
+	{
+		"font"	"resource/fonts/BLOKKNeue-Regular.otf"
+		"name"	"BLOKK Neue"
 	}
 }	
 }
