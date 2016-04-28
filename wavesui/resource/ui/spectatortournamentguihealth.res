@@ -1,17 +1,43 @@
 
 
-#base     "WAVES/SpectatorTournamentGUIHealth - waves.res"
+#base     "WAVES/spectatortournamentguihealth - waves.res"
 
 
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
+
+	"HealthBarBG"
+	{
+        "ControlName"   "EditablePanel"
+        "fieldName"     "PlayerStatusHealthImageBG"
+        "xpos"          "10"
+        "ypos"          "23"
+        "zpos"          "-10"
+        "wide"          "90"
+        "tall"          "1"
+        "visible"       "0"		//1
+        "enabled"       "1"
+        "PaintBackgroundType" "0"
+        "bgcolor_override" "OPAQUESHADOW"
+    }
+
+	"PlayerStatusHealthBonusImage"
+	{
+		"xpos"          "11100" //100
+        "ypos"          "-50"   
+        "wide"          "100"
+        "tall"          "100"
+        "image"         "replay/thumbnails/bg_green"
+        "alpha"         "225"
+	}
+
 
 
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
-		"xpos"			"72"
+		"xpos"			"79"
 		"ypos"			"9"
 		"zpos"			"5"
 		"wide"			"20"
@@ -27,7 +53,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"72"
+		"xpos"			"79"
 		"ypos"			"9"
 		"zpos"			"4"
 		"wide"			"21"
@@ -65,6 +91,31 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
+	
+
+			
+	
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+		
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"6666"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"22 22 22 0"
+		"scaleImage"	"0"	
+	}	
+	
+
 	"HPBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -92,41 +143,5 @@
 		"enabled"		"1"
 		"fillcolor"		"COOLSOLIDGREEN" //OverhealGreen_Custom transparent
 		"alpha"			"0"
-	}
-
-			
-	
-
-
-//////////////////////////////////////////////////////////////////////////////
-
-		
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"6666"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"22 22 22 0"
-		"scaleImage"	"0"	
-	}	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"44444"
-		"ypos"			"4"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
-		"scaleImage"	"1"	
 	}
 }

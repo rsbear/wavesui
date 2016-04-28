@@ -78,31 +78,29 @@
 
 
 
-	"PlayerStatusHealthImage"
+	"HealthBarBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"-34"
-		"ypos"			"5"
-		"zpos"			"0"
-		"wide"			"90"
-		"tall"			"17"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
-	"PlayerStatusHealthImageBG"
+        "ControlName"   "EditablePanel"
+        "fieldName"     "PlayerStatusHealthImageBG"
+        "xpos"          "0"
+        "ypos"          "23"
+        "zpos"          "-10"
+        "wide"          "90"
+        "tall"          "1"
+        "visible"       "1"
+        "enabled"       "1"
+        "PaintBackgroundType" "0"
+        "bgcolor_override" "OPAQUESHADOW"
+    }
+
+	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"-34"
-		"ypos"			"5"
-		"zpos"			"0"
-		"wide"			"90"
-		"tall"			"17"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"xpos"          "100"
+        "ypos"          "-50"   
+        "wide"          "100"
+        "tall"          "1"
+        "image"         "replay/thumbnails/bg_green"
+        "alpha"         "225"
 	}
 	
 	

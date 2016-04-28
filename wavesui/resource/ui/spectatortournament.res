@@ -14,11 +14,11 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-416"  //-316
+		"team1_player_base_offset_x"		"0"  //-316
 		"team1_player_base_y"				"135"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"19"
-		"team2_player_base_offset_x"		"-416"  //-316
+		"team2_player_base_offset_x"		"0"  //-316
 		"team2_player_base_y"				"263"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"19"
@@ -29,15 +29,6 @@
 			"wide"			"128"
 			"tall"			"28"
 			"zpos"			"1"
-			
-			"color_ready"	"0 255 0 220"
-			"color_notready"	"0 0 0 220"
-
-			"color_bar_health_high"	"HPGREEN"
-			"color_bar_health_med"	"VERYBRIGHTGRAY"
-			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"YELLOWGOLD"
-			"percentage_health_low"	"0.3"
 
 			"playername"
 			{
@@ -107,24 +98,25 @@
 		
 		
 
-			"HealthIcon"
+			"HealthIcon1"
 			{
 				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
+				"fieldName"			"HealthIcon1"
 				"xpos"				"26"
-				"ypos"				"-3"
+				"ypos"				"20"
 				"zpos"				"3"
-				"wide"				"100"
-				"tall"				"35"
+				"wide"				"90"
+				"tall"				"1"
 				"visible"			"1"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
-				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"HudOffWhite"
+				"HealthBonusPosAdj" "225" //250 for 16:10, 225 for 16:9, 178 for 1920x850 
+                "HealthDeathWarning"        "1.0"
+                "TextColor"                 "0 0 0 0"
 			}
 			
+
+
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
