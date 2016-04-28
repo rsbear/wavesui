@@ -226,15 +226,11 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
 		"ypos"				"0"	[$WIN32]
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -263,27 +259,23 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"fgcolor"		"WHITEY"
 			"zpos"			"3"
-			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
-			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+
+			"font"			"Bold13"
+			"xpos"			"32"
+			"ypos"			"-6"
+			"wide"			"45"
+			"tall"			"31"
+
+			"font_minmode"	"HudFontSmall"
+			"xpos_minmode"	"39"
+			"ypos_minmode"	"6"
+			"wide_minmode"	"30"
 
 			if_comp
 			{
@@ -299,6 +291,12 @@
 			}
 		}	
 	}
+
+
+
+
+
+	//edit this later
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
