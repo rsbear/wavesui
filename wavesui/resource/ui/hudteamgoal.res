@@ -1,5 +1,10 @@
 "Resource/UI/HudTeamGoal.res"
 {
+
+	///////////////////////////////////////////
+	///  YOU ARE NOW ATTACKING POPUP THINGY
+	/////////////////////////////////////////////////////////
+	
 	"HudTeamGoalBG"
 	{
 		"ControlName"		"CTFImagePanel"
