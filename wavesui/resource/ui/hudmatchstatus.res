@@ -1,15 +1,14 @@
 "Resource/UI/Competitive.res"
 {
 	"HudMatchStatus"
- 	{
- 		"fieldName"		"RoundSignModel"
- 		"avatar_width"	"63"
- 		"spacer"		"5"
- 		"name_width"	"57"
- 		"horiz_inset"	"2"
- 	}
+	{
+		"fieldName"		"RoundSignModel"
+		"avatar_width"	"63"
+		"spacer"		"5"
+		"name_width"	"57"
+		"horiz_inset"	"2"
+	}
 
- 	S
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
@@ -57,144 +56,144 @@
 				"sequence"		"outro"
 			}
 		}
+	}
+	
+	"CountdownLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountdownLabel"
+		"font"			"HudFontGiant"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.1"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
+		"fgcolor"		"TanLight"
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"HudFontGiant"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
+		"fgcolor"		"Black"
+		"proportionaltoparent"	"1"
+
+	
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}	
 
-	"CountdownLabel"
- 	{	
- 		"ControlName"	"CExLabel"
- 		"fieldName"		"CountdownLabel"
- 		"font"			"HudFontGiant"
- 		"xpos"			"cs-0.5"
- 		"ypos"			"cs-0.1"
- 		"wide"			"40"
- 		"tall"			"40"
- 		"zpos"			"5"
- 		"autoResize"	"0"
- 		"pinCorner"		"0"
- 		"visible"		"0"
- 		"enabled"		"1"
- 		"wrap"			"0"
- 		"labelText"		"%countdown%"
- 		"textAlignment"	"center"
- 		"proportionaltoparent"	"1"
- 		"fgcolor"		"TanLight"
- 
- 		if_readymode
- 		{
- 			"xpos"			"300"
- 			"ypos"			"130"
- 		}
- 	}
- 	
- 	"CountdownLabelShadow"
- 	{	
- 		"ControlName"	"CExLabel"
- 		"fieldName"		"CountdownLabelShadow"
- 		"font"			"HudFontGiant"
- 		"xpos"			"cs-0.48"
- 		"ypos"			"cs-0.08"
- 		"wide"			"40"
- 		"tall"			"40"
- 		"zpos"			"4"
- 		"autoResize"	"0"
- 		"pinCorner"		"0"
- 		"visible"		"0"
- 		"enabled"		"1"
- 		"wrap"			"0"
- 		"labelText"		"%countdown%"
- 		"textAlignment"	"center"
- 		"fgcolor"		"Black"
- 		"proportionaltoparent"	"1"
- 
- 	
- 		if_readymode
- 		{
- 			"xpos"			"300"
- 			"ypos"			"130"
- 		}
- 	}	
- 
- 	"FrontParticlePanel"
- 	{
- 		"ControlName"	"CTFParticlePanel"
- 		"fieldName"		"FrontParticlePanel"
- 		"xpos"			"0"
- 		"ypos"			"0"
- 		"zpos"			"3"
- 		"wide"			"f0"
- 		"tall"			"f0"
- 		"visible"		"1"
- 		"proportionaltoparent"	"1"
- 
- 		"ParticleEffects"
- 		{
- 			"0"
- 			{
- 				"particle_xpos" "c0"
- 				"particle_ypos" "c0"
- 				"particle_scale"	"2"
- 				"particleName"	"versus_door_slam"
- 				"start_activated" "0"
- 				"loop"	"0"
- 			}
- 		}
- 
- 		"paintbackground"	"0"	
- 	}
- 
- 	"MatchDoors"
- 	{
- 		"ControlName"	"CModelPanel"
- 		"fieldName"		"MatchDoors"
- 		"xpos"			"0"
- 		"ypos"			"0"
- 		"zpos"			"2"		
- 		"wide"			"f0"
- 		"tall"			"f0"
- 		"autoResize"	"0"
- 		"pinCorner"		"0"
- 		"visible"		"0"
- 		"enabled"		"1"
- 		"fov"			"70"
- 		"proportionaltoparent"	"1"
- 		
- 		"model"
- 		{
- 			"modelname"	"models/vgui/versus_doors.mdl"
- 			"skin"		"0"
- 			"angles_x"	"0"
- 			"angles_y"	"0"
- 			"angles_z"	"0"
- 			"origin_x"	"120"
- 			"origin_y"	"0"
- 			"origin_z"	"-77"
- 
- 			"animation"
- 			{
- 				"name"			"ref"
- 				"sequence"		"ref"
- 				"default"		"1"
- 			}
- 
- 			"animation"
- 			{
- 				"name"			"open"
- 				"sequence"		"open"
- 			}
- 			
- 			"animation"
- 			{
- 				"name"			"close"
- 				"sequence"		"close"
- 			}
- 
- 			"animation"
- 			{
- 				"name"			"idle_closed"
- 				"sequence"		"idle_closed"
- 			}
- 		}
-  	}	
+	"FrontParticlePanel"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"FrontParticlePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos" "c0"
+				"particle_ypos" "c0"
+				"particle_scale"	"2"
+				"particleName"	"versus_door_slam"
+				"start_activated" "0"
+				"loop"	"0"
+			}
+		}
+
+		"paintbackground"	"0"	
+	}
+
+	"MatchDoors"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MatchDoors"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fov"			"70"
+		"proportionaltoparent"	"1"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/versus_doors.mdl"
+			"skin"		"0"
+			"angles_x"	"0"
+			"angles_y"	"0"
+			"angles_z"	"0"
+			"origin_x"	"120"
+			"origin_y"	"0"
+			"origin_z"	"-77"
+
+			"animation"
+			{
+				"name"			"ref"
+				"sequence"		"ref"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"open"
+				"sequence"		"open"
+			}
+			
+			"animation"
+			{
+				"name"			"close"
+				"sequence"		"close"
+			}
+
+			"animation"
+			{
+				"name"			"idle_closed"
+				"sequence"		"idle_closed"
+			}
+		}
+	}	
 
 	"RoundCounter"
 	{
@@ -209,40 +208,44 @@
 	}	
 
 	"BGFrame"
- 	{
- 		"ControlName"		"EditablePanel"
- 		"fieldName"			"BGFrame"
- 		"xpos"				"cs-0.5"
- 		"ypos"				"-5"
- 		"zpos"				"0"
- 		"wide"				"365"
- 		"tall"				"28"
- 
- 		"proportionaltoaparent"	"1"
- 		"border"			"MaterialBorderDARKMEDBLUGRAY"
- 	}
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrame"
+		"xpos"				"cs-0.5"
+		"ypos"				"-5"
+		"zpos"				"0"
+		"wide"				"365"
+		"tall"				"28"
+
+		"proportionaltoaparent"	"1"
+		"border"			"TFFatLineBorder"
+	}
 
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
+		"xpos"				"c-55"
+		"xpos_hidef"		"c-150"
+		"xpos_lodef"		"c-150"
+		"ypos"				"0"	[$WIN32]
+		"ypos_minmode"		"-14"	[$WIN32]
+		"ypos"				"24"	[$X360]
 		"zpos"				"2"
+		"wide"				"110"
+		"wide_hidef"		"300"
+		"wide_lodef"		"300"
+		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
+		"delta_item_x"			"115"	[$X360]
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"SOFTLITEBLU"
-		"NegativeColor"			"TOMATORED"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-
-		"xpos"				"c-47"
-		"ypos"				"-6"	
-		"wide"				"110"
-		"tall"				"150"
-
-		"ypos_minmode"		"-14"	[$WIN32]
 
 		if_comp
 		{
@@ -250,8 +253,8 @@
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
-			"PositiveColor"			"SOFTLITEBLU"
-			"NegativeColor"			"TOMATORED"
+			"PositiveColor"			"0 255 0 255"
+			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
@@ -260,33 +263,35 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"fgcolor_override"		"WHITEY"
+			"font"			"HudFontMediumSmall"
+			"font_minmode"	"HudFontSmall"
+			"font_lodef"	"HudFontMedium"
+			"fgcolor"		"TanLight"
+			"xpos"			"23"
+			"xpos_minmode"	"39"
+			"xpos_hidef"	"114"
+			"xpos_lodef"	"114"
+			"ypos"			"11"
+			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"wide_lodef"	"50"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-
-			"font"			"HudFontMediumSmall"
-			"xpos"			"c-23"
-			"ypos"			"11"
-			"wide"			"46"
-			"tall"			"31"
-
-			"font_minmode"	"HudFontSmall"
-			"xpos_minmode"	"39"
-			"ypos_minmode"	"6"
-			"wide_minmode"	"30"
 
 			if_comp
 			{
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"9"
-				"ypos_minmode"	"9"
+				"ypos"			"12"
+				"ypos_minmode"	"12"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
@@ -294,13 +299,6 @@
 			}
 		}	
 	}
-
-
-
-
-
-
-	//EDIT THIS SECTION LATER
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
