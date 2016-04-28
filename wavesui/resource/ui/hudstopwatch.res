@@ -16,11 +16,10 @@
 		"image"			"../HUD/tournament_panel_brown"
 
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"7"	
+		if_comp
+ 		{
+ 			"ypos"	"20"
+ 		}
 	}
 
 	"StopWatchImageCaptureTime"
@@ -37,7 +36,12 @@
 		"image"			"../hud/ico_time_10"
 		"scaleImage"		"1"	
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"	
+
+		if_comp
+ 		{
+ 			"ypos"	"27"
+ 		}	
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -51,6 +55,11 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
+
+		if_comp
+ 		{
+ 			"ypos"	"11"
+ 		}
 
 		"TimePanelValue"
 		{
@@ -94,7 +103,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+
+		if_comp
+ 		{
+ 			"ypos"	"21"
+ 		}
 	}
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -112,6 +127,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+
+		if_comp
+ 		{
+ 			"ypos"	"24"
+ 		}
 	}
 
 	"StopWatchLabel"
@@ -131,6 +151,11 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
+
+		if_comp
+ 		{
+ 			"ypos"	"20"
+ 		}
 	}
 
 	"HudStopWatchDescriptionBG"
@@ -154,6 +179,11 @@
 		
 		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"2"	
+
+		if_comp
+ 		{
+ 			"ypos"	"42"
+ 		}
 	}
 
 	"StopWatchDescriptionLabel"
@@ -173,5 +203,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
+
+		if_comp
+ 		{
+ 			"ypos"	"38"
+ 		}
 	}
 }

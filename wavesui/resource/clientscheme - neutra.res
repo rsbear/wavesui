@@ -1917,6 +1917,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"MatchSummaryWinner"
+ 		{
+			"1"
+ 			{
+ 				"name"		"Neutra Text Light"
+ 				"tall"		"20"
+ 				"weight"	"400"
+ 				"additive"	"0"
+ 				"antialias" "1"
+ 			}
+ 		}
 		"CompMatchStartTeamNames"
 		{
 			"1"

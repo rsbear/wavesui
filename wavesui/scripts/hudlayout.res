@@ -878,6 +878,8 @@
 		"ypos"					"215"
 		"wide"					"f0"
 		"tall"					"300"
+
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel

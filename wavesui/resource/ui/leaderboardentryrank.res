@@ -67,7 +67,7 @@
 			"xpos"			"40"
 			"ypos"			"2"
 			"zpos"			"2"
-			"wide"			"110"
+			"wide"			"180"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -75,7 +75,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 		}
-		"LadderRank"
+		"RankImage"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LadderRank"
