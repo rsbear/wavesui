@@ -487,11 +487,11 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"r308"
+		"xpos"			"r268"
 		"ypos"			"30"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
+		"wide"			"260"
+		"tall"			"280"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
@@ -513,7 +513,7 @@
 				{
 					"ControlName"	"CExButton"
 					"fieldName"		"Stream_URLButton"
-					"xpos"			"50"
+					"xpos"			"30"
 					"ypos"			"rs1.2"
 					"wide"			"200"
 					"tall"			"28"
