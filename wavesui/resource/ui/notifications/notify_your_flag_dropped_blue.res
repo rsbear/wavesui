@@ -4,7 +4,7 @@
 {	
 	"Notification_Background"
 	{
-		"image"			"../hud/score_panel_blue_bg"
+		"image"			"replay/thumbnails/materialPanelBlu"
 	}
 	
 	"Notification_Icon"	
