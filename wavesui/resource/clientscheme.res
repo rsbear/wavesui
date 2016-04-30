@@ -91,6 +91,22 @@ Scheme
 		////  MY CUSTOM BORDERS
 		//////////////////////////////////////////////////////////////////////////
 
+		
+		wavesDARKMEDBLUGRAY
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/waves-darkmedblugray"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+
+
 		MaterialBorderTransparent
 		{
 			"bordertype"			"scalable_image"
