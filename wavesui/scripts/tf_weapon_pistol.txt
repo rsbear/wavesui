@@ -79,7 +79,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
+				"file"		"vgui/replay/thumbnails/xhairshadow/xhairshadowdefault"
 				"x"			"0"
 				"y"			"0"
 				"width"		"32"

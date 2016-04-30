@@ -79,11 +79,11 @@ fWeaponData
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"   //vgui/replay/thumbnails/cpma_11
+				"file"		"vgui/replay/thumbnails/xhairshadow/xhairshadowdefault" //vgui/replay/thumbnails/xhairshadow/xhairshadowdefault
 				"x"			"0"
 				"y"			"0"
-				"width"		"32"   //62
-				"height"	"32"   //62
+				"width"		"64" //62
+				"height"	"64" //62
 		}
 		"autoaim"
 		{
