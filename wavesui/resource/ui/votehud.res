@@ -566,7 +566,7 @@
 			"xpos"			"0"
 			"ypos"			"10"
 			"wide"			"400"
-			"tall"			"20"
+			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
