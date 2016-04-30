@@ -166,12 +166,32 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"entypo15"
+		{
+			"1"
+			{
+				"name"		"Entypo"
+				"tall"		"15"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
 		"entypo16"
 		{
 			"1"
 			{
 				"name"		"Entypo"
 				"tall"		"16"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"entypo17"
+		{
+			"1"
+			{
+				"name"		"Entypo"
+				"tall"		"17"
 				"additive"  "0"
 				"antialias"	"1"
 			}

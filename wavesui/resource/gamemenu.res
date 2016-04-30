@@ -106,7 +106,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			"9"
+		"label"			"O"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" ""
@@ -114,7 +114,7 @@
 	}
 	"ReportPlayerButton"
 	{
-		"label"			"c"
+		"label"			"Q"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
