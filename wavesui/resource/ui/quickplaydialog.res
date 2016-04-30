@@ -52,8 +52,8 @@
 			"bgcolor_override"	"40 37 37 0"
 			"proportionalToParent"	"1"
 
-			"border"			"wavesDARKMEDBLUGRAY"
-			"image"				"replay/thumbnails/waves-darkmedblugray"
+			"border"		"MaterialBorderDARKMEDBLUGRAY"
+			"image"				"replay/thumbnails/materialPanel"
 			"paintbackground"	"0"
 		}
 
