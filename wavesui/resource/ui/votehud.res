@@ -1,5 +1,11 @@
 "Resource/UI/VoteHud.res"
 {	
+
+	//////////////////////////////////////////////////////////
+	///  callvote dialog thingy
+	///  also the vote thingy that pops up in game
+	//////////////////////////////////////////////////////////////
+
 	"VotePassed"
 	{
 		"ControlName"	"EditablePanel"
@@ -10,7 +16,10 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		
+		"border"			"MaterialBorderDARKMEDBLUGRAY"
+		"image"				"replay/thumbnails/materialPanel"
+		"paintbackground"	"0"
 				
 		"PassedIcon"
 		{
@@ -141,7 +150,7 @@
 			"ypos"			"50"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"DARKMEDBLUGRAY"
 			"zpos"			"0"
 		}
 		
@@ -354,7 +363,7 @@
 			"ypos"			"100"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"DARKMEDBLUGRAY"
 			"zpos"			"0"
 		}
 		
@@ -404,7 +413,7 @@
 		"xpos"			"10"
 		"ypos"			"c-80"
 		"wide"			"150"
-		"tall"			"67"
+		"tall"			"72"
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
@@ -470,7 +479,7 @@
 		"xpos"			"10"
 		"ypos"			"r315"
 		"wide"			"150"
-		"tall"			"67"
+		"tall"			"72"
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
@@ -532,9 +541,9 @@
 	{
 		"ControlName"		"CVoteSetupDialog"
 		"fieldName"			"VoteSetupDialog"
-		"xpos"				"c-200"
+		"xpos"				"c-180"
 		"ypos"				"c-150"
-		"wide"				"400"
+		"wide"				"360"
 		"tall"				"310"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -542,11 +551,11 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
+		"border"			"MaterialBorderDARKMEDBLUGRAY"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
-		"header_font"		"ItemFontNameLarge"
+		"header_font"		"Light8"
 		"header_fgcolor"	"Orange"
 
 		"issue_width"		"180"		
@@ -554,7 +563,7 @@
 		"issue_fgcolor"		"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		
-		"parameter_width"	"200"
+		"parameter_width"	"140"
 
 		"TitleLabel"
 		{
@@ -563,7 +572,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
-			"xpos"			"0"
+			"xpos"			"-22"
 			"ypos"			"10"
 			"wide"			"400"
 			"tall"			"26"
@@ -581,7 +590,7 @@
 			"xpos"		"10"
 			"ypos"		"38"
 			"zpos"		"2"
-			"wide"		"180"
+			"wide"		"140"
 			"tall"		"200"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -596,10 +605,10 @@
 		{
 			"ControlName"		"SectionedListPanel"
 			"fieldName"		"VoteParameterList"
-			"xpos"		"190"
+			"xpos"		"170"
 			"ypos"		"38"
 			"zpos"		"2"
-			"wide"		"200"
+			"wide"		"140"
 			"tall"		"200"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -660,9 +669,9 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
-			"ypos"		"275"
-			"wide"		"160"
+			"xpos"		"c-160"
+			"ypos"		"4275"
+			"wide"		"300"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -677,12 +686,43 @@
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
 		}
+		"CallVoteButton1"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CallVoteButton1"
+			"xpos"			"20"
+			"ypos"			"272"
+			"wide"			"320"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"#TF_call_vote"
+			"font"			"Bold16"
+			"textAlignment"	"center"
+			"textinsetx"	"50"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"CallVote"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"border_default"	"MainMenuButtonDefault"
+			"border_armed"		"MainMenuButtonArmed"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "WHITEY"
+			"armedFgColor_override" "DEEPRED"
+			"depressedFgColor_override" "DEEPRED"
+		}
 		"Button1"
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
 			"xpos"		"240"
-			"ypos"		"275"
+			"ypos"		"2275" //275
 			"wide"		"80"
 			"tall"		"24"
 			"autoResize"	"0"
@@ -697,6 +737,37 @@
 			"Command"		"Close"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+		}
+		"Button2"
+		{
+			"ControlName"		"Button"
+			"fieldName"		"Button2"
+			"proportionalToParent"	"1"
+			"xpos"			"320"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"32"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"r"
+			"textAlignment"	"center"
+			"Command"		"Close"
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			"font"		"knuckles18"
+
+			"defaultFgColor_override" "WHITEY"
+			"armedFgColor_override" "TOMATORED"
+			"depressedFgColor_override" "DEEPRED"
+			"selectedFgColor_override" "Black""
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
 }

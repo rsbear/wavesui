@@ -52,7 +52,7 @@
 			"bgcolor_override"	"40 37 37 0"
 			"proportionalToParent"	"1"
 
-			"border"		"MaterialBorderDARKMEDBLUGRAY"
+			"border"			"MaterialBorderDARKMEDBLUGRAY"
 			"image"				"replay/thumbnails/materialPanel"
 			"paintbackground"	"0"
 		}
