@@ -294,6 +294,20 @@ Scheme
 			}
 		}
 
+	////  SYMBOLS BLURS  /////////////////////////////////////////////////////
+
+			"Symbols19blur"
+			{
+				"1"
+				{
+					"name"		"Web Symbols"
+					"tall"		"19"
+					"additive"  "0"
+					"antialias"	"1"
+					"blur"		"2"
+				}
+			}
+
 
 //// MODERN PICTOGRAMS MORE SYMBOL SHIT  ////////////////////////////////////
 

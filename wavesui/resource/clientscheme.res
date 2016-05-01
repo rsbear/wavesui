@@ -93,6 +93,24 @@ Scheme
 		//////////////////////////////////////////////////////////////////////////
 
 		
+		wavesCIRCLEBUTTON
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/wavesCIRCLEBUTTON"
+		}
+		wavesCIRCLEBUTTONsoftorange
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"SOFTORANGE"		
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/wavesCIRCLEBUTTON"
+		}
+
 		wavesDARKMEDBLUGRAY
 		{
 			"bordertype"			"scalable_image"
@@ -105,6 +123,8 @@ Scheme
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
+
+
 
 
 
