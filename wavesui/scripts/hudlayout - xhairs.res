@@ -16,7 +16,7 @@
 		"wide"			"26"
 		"tall"			"26"
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/ql_10" //3
+		"image"			"vgui/replay/thumbnails/xhairshadow/xhairshadowdefault" //3
 	}
 
 	CrossHairTLR
