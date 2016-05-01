@@ -19,7 +19,7 @@
 			"zpos"				"-3"
 			"wide"				"f0"
 			"tall"				"6"
-			"visible"			"0"
+			"visible"			"1"
 			"enabled"			"1"
 			"fillcolor"			"BLUTEAM"
 		}
@@ -32,7 +32,7 @@
 			"zpos"				"-2"
 			"wide"				"f0"
 			"tall"				"6"
-			"visible"			"0"
+			"visible"			"1"
 			"enabled"			"1"
 			"fillcolor"			"REDTEAM"
 		}
@@ -221,7 +221,7 @@
 		"scaleImage"		"1"	
 
 		"PaintBackgroundType"	"2"
-		"border"			"MaterialBorderDARKERMEDBLUGRAY"
+		"border"		"MaterialBorderDARKERMEDBLUGRAY"
 		"image"				"replay/thumbnails/materialPanel"
 		"paintbackground"	"0"
 	}
