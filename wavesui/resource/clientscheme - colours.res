@@ -300,7 +300,7 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"MEDBLUGRAY" //tandark
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"

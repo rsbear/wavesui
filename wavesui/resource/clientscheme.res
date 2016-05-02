@@ -114,13 +114,26 @@ Scheme
 			"image"					"replay/thumbnails/wavesCIRCLEBUTTON"
 		}
 
-		wavesDARKMEDBLUGRAY
+		wavesDARKBLUGRAY
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"offset" "0 0"
 			
-			"image"					"replay/thumbnails/waves-darkmedblugray"
+			"image"					"replay/thumbnails/waves-darkblugray"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+		wavesTRANSPARENTBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/waves-transparentbg"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -128,6 +141,15 @@ Scheme
 		}
 
 
+		wavesREDTEAMnocorner
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"REDTEAM"
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/materialPanel"
+		}
 
 
 
