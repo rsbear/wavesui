@@ -82,11 +82,11 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/xhairshadow/xhairshadowdefault" //vgui/replay/thumbnails/xhairshadow/xhairshadowdefault
+				"file"		"vgui/replay/thumbnails/xhairshadow/xhairshadowdefault" //sprites/crosshairs
 				"x"			"0"
 				"y"			"0"
-				"width"		"64" //62
-				"height"	"64" //62
+				"width"		"64" //32
+				"height"	"64" //32
 		}
 		"autoaim"
 		{
