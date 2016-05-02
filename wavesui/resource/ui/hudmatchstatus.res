@@ -215,7 +215,7 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"28"
+		"tall"				"0"		//28
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
