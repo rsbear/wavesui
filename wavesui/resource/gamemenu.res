@@ -32,7 +32,7 @@
 	"HomeButton"
 	{
 		"label" "scrim"
-		"command" "engine connect 216.105.171.122:27018;password obese"
+		"command" "engine connect 216.103.171.162:27015;password wavesui"
 	}
 
 
