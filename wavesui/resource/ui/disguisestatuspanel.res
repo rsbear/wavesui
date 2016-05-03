@@ -32,15 +32,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"10"
-		"xpos_minmode"			"10"
-		"ypos"			"29"
-		"ypos_minmode"			"48"
 		"zpos"			"-1"
-		"wide"			"200"
-		"wide_minmode"			"140"
-		"tall"	 		"32"
-		"tall_minmode"	 		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -49,10 +41,18 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/materialPanel"
 		"teambg_2"		"replay/thumbnails/materialPanelRed"
-		"teambg_2_lodef"	"replay/thumbnails/materialPanelRed"
 		"teambg_3"		"replay/thumbnails/materialPanelBlu"
-		"teambg_3_lodef"	"replay/thumbnails/materialPanelBlu"
-		
+
+		"xpos"			"10"
+		"ypos"			"29"
+		"wide"			"200"
+		"tall"	 		"32"
+
+		//"xpos_minmode"			"10"
+		//"ypos_minmode"			"48"
+		//"wide_minmode"			"140"
+		//"tall_minmode"	 		"22"
+
 		"src_corner_height"		"24"				// pixels inside the image
 		"src_corner_width"		"24"
 			
@@ -64,15 +64,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Bold16"
-		"font_minmode"	"Bold16"
-		"xpos"			"52"
-		"xpos_minmode"	"34"
-		"ypos"			"30"
-		"ypos_minmode"	"51"
 		"zpos"			"1"
-		"wide"			"110"
-		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -81,21 +73,23 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+
+		"font"			"Bold16"
+		"xpos"			"52"
+		"ypos"			"30"
+		"wide"			"110"
+		"tall"			"24"
+
+		//"font_minmode"	"Bold16"
+		//"xpos_minmode"	"34"
+		//"ypos_minmode"	"51"
 	}
 	
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Medium12"
-		"font_minmode"	"Medium12"
-		"xpos"			"52"
-		"xpos_minmode"	"34"
-		"ypos"			"44"
-		"ypos_minmode"	"58"
 		"zpos"			"1"
-		"wide"			"110"
-		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -104,6 +98,16 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+
+		"font"			"Medium12"
+		"xpos"			"52"
+		"ypos"			"44"
+		"wide"			"110"
+		"tall"			"24"
+
+		//"font_minmode"	"Medium12"
+		//"xpos_minmode"	"34"
+		//"ypos_minmode"	"58"
 	}
 	
 	"SpectatorGUIHealth"
@@ -111,9 +115,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"20"
-		"xpos_minmode"	"10"
 		"ypos"			"30"
-		"ypos_minmode"	"45"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
@@ -123,6 +125,9 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
+
+		//"xpos_minmode"	"10"
+		//"ypos_minmode"	"45"
 	}	
 	
 }
