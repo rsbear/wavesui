@@ -282,14 +282,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"24"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"24"
-		"ypos_minmode"	"24"
 		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -298,6 +291,13 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Medium10"
+
+		"xpos"			"32"
+		"ypos"			"18"
+		"wide"			"45"
+		"tall"			"31"
+
+		"ypos_minmode"	"24"
 
 		if_comp
 		{
