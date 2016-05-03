@@ -3104,20 +3104,5 @@ CustomFontFiles
 		"font"	"resource/fonts/Neutra2Display-Titling.otf"
 		"name"	"Neutraface 2 Display Titling"
 	}
-	"7"
-	{
-		"font"	"resource/fonts/Sosa-Regular.ttf"
-		"name"	"Sosa"
-	}
-	"8"
-	{
-		"font"	"resource/fonts/Entypo.otf"
-		"name"	"Entypo"
-	}
-	"9"
-	{
-		"font"	"resource/fonts/WebSymbols-Regular.otf"
-		"name"	"Web Symbols"
-	}
 }	
 }

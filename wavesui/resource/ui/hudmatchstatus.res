@@ -273,7 +273,7 @@
 			"tall"			"31"
 
 			"font_minmode"	"HudFontSmall"
-			"xpos_minmode"	"32"
+			"xpos_minmode"	"39"
 			"ypos_minmode"	"6"
 			"wide_minmode"	"30"
 

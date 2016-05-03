@@ -252,8 +252,8 @@ Scheme
                 {
                         "1"
                         {
-                                "name"           "Roboto Regular" [$WINDOWS]
-                                "name"           "Roboto Regular" [$X360]
+                                "name"           "Verdana" [$WINDOWS]
+                                "name"           "Verdanar" [$X360]
                                 "name"           "Verdana" [$POSIX]
                                 "tall"          "10" [$LINUX]
                                 "tall"          "10" [$OSX]
@@ -299,8 +299,8 @@ Scheme
                 {
                         "1"
                         {
-                                "name"          "Roboto Mono" [!$POSIX]
-                                "name"          "Roboto Mono" [$POSIX]
+                                "name"          "Verdana" [!$POSIX]
+                                "name"          "Verdana" [$POSIX]
                                 "tall"          "14"
                                 "antialias"        "1"
                         }
@@ -309,8 +309,8 @@ Scheme
                 {
                         "1"
                         {
-                                "name"          "Roboto Mono" [!$POSIX]
-                                "name"          "Roboto Mono" [$POSIX]
+                                "name"          "Verdana" [!$POSIX]
+                                "name"          "Verdana" [$POSIX]
                                 "tall"          "14"
                                 "antialias"        "1"
                                 "dropshadow"    "1"
@@ -320,8 +320,8 @@ Scheme
                 {
                         "1"
                         {
-                                "name"          "Roboto Mono" [!$POSIX]
-                                "name"          "Roboto Mono" [$POSIX]
+                                "name"          "Verdana" [!$POSIX]
+                                "name"          "Verdana" [$POSIX]
                                 "tall"          "14"
                                 "antialias"        "1"
                         }
@@ -331,8 +331,8 @@ Scheme
                 {
                         "1"
                         {
-                                "name"          "Roboto Mono" [!$POSIX]
-                                "name"          "Roboto Mono" [$POSIX]
+                                "name"          "Verdana" [!$POSIX]
+                                "name"          "Verdana" [$POSIX]
                                 "tall"          "18"
                                 "antialias"        "1"
                         }
@@ -341,8 +341,8 @@ Scheme
                 {
                         "1"     [$WIN32]
                         {
-                                "name"          "Roboto Mono" [!$POSIX]
-                                "name"          "Roboto Mono" [$POSIX]
+                                "name"          "Verdana" [!$POSIX]
+                                "name"          "Verdana" [$POSIX]
                                 "tall"          "18"
                                 "Antialias"     "1"
                         }
@@ -381,7 +381,7 @@ Scheme
                 {
                         "1"     [$POSIX]
                         {
-                                "name"          "Helvetica Bold"
+                                "name"          "Verdana"
                                 "tall"          "20"
                                 "antialias" "1"
                         }
@@ -467,7 +467,7 @@ Scheme
                 {
                         "1"
                         {
-                                "name"           "Roboto Mono" [$WINDOWS]
+                                "name"           "Verdana" [$WINDOWS]
                                 "name"           "Roboto Mono" [$X360]
                                 "name"           "Verdana" [$POSIX]
                                 "tall"          "12" [$OSX]
@@ -579,7 +579,7 @@ Scheme
                 {
                         "1"
                         {
-                                "name"           "Roboto Regular" [$WINDOWS]
+                                "name"           "Verdana" [$WINDOWS]
                                 "name"           "Roboto Regular" [$X360]
                                 "name"           "Verdana" [$POSIX]
                                 "tall"          "11" [$POSIX]
@@ -598,7 +598,7 @@ Scheme
                 {
                         "1"
                         {
-                                "name"           "Roboto Regular" [$WINDOWS]
+                                "name"           "Verdana" [$WINDOWS]
                                 "name"           "Roboto Regular" [$X360]
                                 "name"           "Verdana" [$OSX]
                                 "name"           "Courier" [$LINUX]
@@ -803,7 +803,7 @@ Scheme
                 {
                         "1"
                         {
-                                "name"          "Roboto Bold Caps"
+                                "name"          "Verdana"
                                 "tall"          "28"
                                 "antialias" "1"
                         }
@@ -813,7 +813,7 @@ Scheme
                 {
                         "1"
                         {
-                                "name"          "Roboto Regular"
+                                "name"          "Verdana"
                                 "tall"          "16"
                                 "weight"        "0"
                                 "range"         "0x0000 0x017F" //      Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -821,7 +821,7 @@ Scheme
                         }
                         "2"
                         {
-                                "name"          "Roboto Regular"
+                                "name"          "Verdana"
                                 "tall"          "16"
                                 "weight"        "0"
                                 "range"         "0x0000 0x017F" //      Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -829,7 +829,7 @@ Scheme
                         }
                         "3"
                         {
-                                "name"          "Roboto Regular"
+                                "name"          "Verdana"
                                 "tall"          "16"
                                 "weight"        "0"
                                 "range"         "0x0000 0x017F" //      Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -838,7 +838,7 @@ Scheme
                         }
                         "4"
                         {
-                                "name"          "Roboto Regular"
+                                "name"          "Verdana"
                                 "tall"          "19"
                                 "weight"        "0"
                                 "range"         "0x0000 0x017F" //      Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -847,7 +847,7 @@ Scheme
                         }
                         "5"
                         {
-                                "name"          "Roboto Regular"
+                                "name"          "Verdana"
                                 "tall"          "19"
                                 "weight"        "0"
                                 "range"         "0x0000 0x017F" //      Basic Latin, Latin-1 Supplement, Latin Extended-A
