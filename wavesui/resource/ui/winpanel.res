@@ -445,6 +445,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"font"			"Bold14"
+		"fgcolor_override"	"DARKMEDBLUGRAY"
 	}
 	"Player1Class"
 	{	
