@@ -153,6 +153,19 @@ Scheme
 
 
 
+		/// WAVES TARGET HPBGs  ////////////////////////////////////////////////////////
+
+		waveshpbg
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/hp/waves-hpbg"
+		}
+	
+
+
 		MaterialBorderTransparent
 		{
 			"bordertype"			"scalable_image"

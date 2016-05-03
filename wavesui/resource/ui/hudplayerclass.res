@@ -5,14 +5,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"0"
-		"ypos"			"0"
-		"ypos_minmode"	"18"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"	
+
+		"xpos"			"0"
+		"ypos"			"0"	
+
+		"ypos_minmode"	"98"
 	}
 	"PlayerStatusClassImage"
 	{
@@ -76,12 +78,6 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"		[$WIN32]
-		"xpos_minmode"	"-10"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"0"
 		"tall"			"0"
@@ -90,48 +86,41 @@
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+
+
+		"xpos"			"9"		[$WIN32]
+		"ypos"			"r-60"	//r60
+
+		"xpos_minmode"	"-10"		[$WIN32]
+		"ypos_minmode"		"r40"	[$WIN32]
 	}
 
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
+		"wide"			"109"  //109
+		"tall"			"50"   //50
+		"visible"		"0"    //1
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
 		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+
+		"xpos"			"-1"		
+		"ypos"			"r-60" //r60	
+		"xpos_minmode"	"-15"		
+		"ypos_minmode"		"r-60"	//r40
 	}
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
-		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"100"
-		"wide_minmode"	"52"
-		"tall"			"200"
-		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -142,7 +131,17 @@
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
-				
+
+		"xpos"			"0"
+		"ypos"			"r156"	
+		"wide"			"80"
+		"tall"			"180"
+
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"r98"
+		"wide_minmode"	"50"
+		"tall_minmode"	"102"
+
 		"model"
 		{
 			"force_pos"	"1"
