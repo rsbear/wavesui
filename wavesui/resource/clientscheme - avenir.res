@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"8"
 				"antialias"	"1"
 			}
@@ -28,7 +28,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -37,7 +37,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -46,7 +46,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -55,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -64,7 +64,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -75,7 +75,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"22"
 				"antialias"	"1"
 			}
@@ -84,7 +84,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"24"
 				"antialias"	"1"
 			}
@@ -93,7 +93,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"28"
 				"antialias"	"1"
 			}
@@ -102,7 +102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"43"
 				"antialias"	"1"
 			}
@@ -114,7 +114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 45 Book"
+				"name"		"AvenirLTStd-Book"
 				"tall"		"8"
 				"antialias"	"1"
 				"blur"		"1"
@@ -131,7 +131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"8"
 				"antialias"	"1"
 			}
@@ -140,7 +140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -149,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -158,7 +158,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -167,7 +167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"13"
 				"antialias"	"1"
 			}
@@ -176,7 +176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -185,7 +185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"15"
 				"antialias"	"1"
 			}
@@ -194,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -203,7 +203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -212,7 +212,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"28"
 				"antialias"	"1"
 			}
@@ -222,7 +222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"32"
 				"antialias"	"1"
 			}
@@ -234,7 +234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"9"
 				"antialias"	"1"
 				"blur"		"1"
@@ -249,7 +249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -258,7 +258,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -267,7 +267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -276,7 +276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -286,7 +286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"32"
 				"antialias"	"1"
 			}
@@ -299,7 +299,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"antialias"	"1"
 			}
@@ -308,7 +308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -317,7 +317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -326,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -335,7 +335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"
 				"antialias"	"1"
 			}
@@ -344,7 +344,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -353,7 +353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -362,7 +362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -371,7 +371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"antialias"	"1"
 			}
@@ -380,7 +380,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"22"
 				"antialias"	"1"
 			}
@@ -389,7 +389,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"antialias"	"1"
 			}
@@ -398,7 +398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"26"
 				"antialias"	"1"
 			}
@@ -407,7 +407,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"28"
 				"antialias"	"1"
 			}
@@ -416,7 +416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"antialias"	"1"
 			}
@@ -426,7 +426,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"38"
 				"antialias"	"1"
 			}
@@ -436,7 +436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"42"
 				"antialias"	"1"
 			}
@@ -446,7 +446,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"56"
 				"antialias"	"1"
 			}
@@ -458,7 +458,7 @@ Scheme
 			{
 				"1"
 				{
-					"name"		"Avenir LT Std 65 Medium"
+					"name"		"AvenirLTStd-Black"
 					"tall"		"38"
 					"antialias"	"1"
 					"blur"		"1"
@@ -471,7 +471,7 @@ Scheme
 			{
 				"1"
 				{
-					"name"		"Avenir LT Std 65 Medium"
+					"name"		"AvenirLTStd-Black"
 					"tall"		"18"
 					"antialias"	"1"
 					"outline"		"1"
@@ -481,7 +481,7 @@ Scheme
 			{
 				"1"
 				{
-					"name"		"Avenir LT Std 65 Medium"
+					"name"		"AvenirLTStd-Black"
 					"tall"		"20"
 					"antialias"	"1"
 					"outline"		"1"
@@ -494,7 +494,7 @@ Scheme
 			{
 				"1"
 				{
-					"name"		"Avenir LT Std 65 Medium"
+					"name"		"AvenirLTStd-Black"
 					"tall"		"18"
 					"antialias"	"1"
 					"dropshadow"		"1"
@@ -504,7 +504,7 @@ Scheme
 			{
 				"1"
 				{
-					"name"		"Avenir LT Std 65 Medium"
+					"name"		"AvenirLTStd-Black"
 					"tall"		"20"
 					"antialias"	"1"
 					"dropshadow"		"1"
@@ -518,7 +518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -527,7 +527,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -536,7 +536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -545,7 +545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"antialias"	"1"
 			}
@@ -555,7 +555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"44"
 				"antialias"	"1"
 			}
@@ -564,7 +564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"52"
 				"antialias"	"1"
 			}
@@ -573,7 +573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"64"
 				"antialias"	"1"
 			}
@@ -590,7 +590,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -642,7 +642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -650,7 +650,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -659,7 +659,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -668,7 +668,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -948,7 +948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -958,7 +958,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -968,7 +968,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -977,7 +977,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -986,7 +986,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -998,7 +998,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -1011,7 +1011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -1024,7 +1024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1036,7 +1036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1047,7 +1047,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1058,7 +1058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1070,7 +1070,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1081,7 +1081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1092,7 +1092,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1103,7 +1103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1116,7 +1116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1129,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1141,7 +1141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1152,7 +1152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1163,7 +1163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1175,7 +1175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1186,7 +1186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1198,7 +1198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1209,7 +1209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1220,7 +1220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1231,7 +1231,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1242,7 +1242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1253,7 +1253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1264,7 +1264,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1275,7 +1275,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1288,7 +1288,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1363,7 +1363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1376,7 +1376,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1436,7 +1436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1446,7 +1446,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1457,7 +1457,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1466,7 +1466,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1475,7 +1475,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1641,7 +1641,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1651,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1662,7 +1662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1687,7 +1687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Avenir LT Std 55 Roman"
+				"name"			"AvenirLTStd-Roman"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1702,7 +1702,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Avenir LT Std 55 Roman"
+				"name"			"AvenirLTStd-Roman"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1717,7 +1717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1730,7 +1730,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Avenir LT Std 55 Roman"
+				"name"			"AvenirLTStd-Roman"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1744,7 +1744,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1757,7 +1757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1770,7 +1770,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1782,7 +1782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1794,7 +1794,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1808,7 +1808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1820,7 +1820,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1832,7 +1832,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1847,7 +1847,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1859,7 +1859,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1869,7 +1869,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1879,7 +1879,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1888,7 +1888,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1897,7 +1897,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1909,7 +1909,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1921,7 +1921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1932,7 +1932,7 @@ Scheme
  		{
 			"1"
  			{
- 				"name"		"Avenir LT Std 55 Roman"
+ 				"name"		"AvenirLTStd-Roman"
  				"tall"		"20"
  				"weight"	"400"
  				"additive"	"0"
@@ -1943,7 +1943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1954,7 +1954,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1965,7 +1965,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1977,7 +1977,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2034,7 +2034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2134,7 +2134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2147,7 +2147,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2159,7 +2159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2212,7 +2212,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2222,7 +2222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2232,7 +2232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2260,7 +2260,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2269,7 +2269,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2308,7 +2308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2319,7 +2319,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2330,7 +2330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2416,7 +2416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2427,7 +2427,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2438,7 +2438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2449,7 +2449,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2460,7 +2460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2481,7 +2481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2492,7 +2492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2503,7 +2503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2515,7 +2515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2526,7 +2526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2669,7 +2669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2681,7 +2681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2690,7 +2690,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2699,7 +2699,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2712,7 +2712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2722,7 +2722,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2732,7 +2732,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2746,7 +2746,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2755,7 +2755,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2764,7 +2764,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2777,7 +2777,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2789,7 +2789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2801,7 +2801,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2909,7 +2909,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2973,7 +2973,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2984,7 +2984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2995,7 +2995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -3008,7 +3008,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3019,7 +3019,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3036,7 +3036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3047,7 +3047,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 65 Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3059,7 +3059,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Avenir LT Std 55 Roman"
+				"name"		"AvenirLTStd-Roman"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3077,22 +3077,22 @@ CustomFontFiles
 	"1"
 	{
 		"font"	"resource/fonts/AvenirLTStd-Book.otf"
-		"name"	"Avenir LT Std 45 Book"
+		"name"	"AvenirLTStd-Book"
 	}
 	"2"
 	{
 		"font"	"resource/fonts/AvenirLTStd-Roman.otf"
-		"name"	"Avenir LT Std 55 Roman"
+		"name"	"AvenirLTStd-Roman"
 	}
 	"3"
 	{
 		"font"	"resource/fonts/AvenirLTStd-Roman.otf"
-		"name"	"Avenir LT Std 55 Roman"
+		"name"	"AvenirLTStd-Roman"
 	}
 	"4"
 	{
 		"font"	"resource/fonts/AvenirLTStd-Black.ttf"
-		"name"	"Avenir LT Std 65 Medium"
+		"name"	"AvenirLTStd-Black"
 	}
 }	
 }

@@ -1,7 +1,7 @@
 
 
 //////////////////////////////////
-/// SURFACE 
+/// Surface 
 /// FONT IMPLEMENTATION
 /////////////////////////////////////////////////
 
@@ -590,7 +590,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Surface Uber Regular"
+				"name"		"Surface"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -3076,18 +3076,13 @@ CustomFontFiles
 {
 	"1"
 	{
-		"font"	"resource/fonts/Surface_Medium.otf"
+		"font"	"resource/fonts/Surface.otf"
 		"name"	"Surface"
 	}
 	"2"
 	{
 		"font"	"resource/fonts/Surface-Sharpened.ttf"
 		"name"	"Surface Sharpened"
-	}
-	"3"
-	{
-		"font"	"resource/fonts/Surface-Uber.otf"
-		"name"	"Surface Uber Regular"
 	}
 }	
 }
