@@ -704,7 +704,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "30 30 30 40"
+			"color" "30 30 30 255"
 			
 			"image"					"replay/thumbnails/materialPanel"
 			"src_corner_height"		"20"				// pixels inside the image

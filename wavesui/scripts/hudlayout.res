@@ -48,7 +48,7 @@
 		"tall"	"104"
 
 		"xpos"	"c102"	[$WIN32]
-		"ypos"	"r149"	[$WIN32]
+		"ypos"	"r150"	[$WIN32]
 
 		"xpos_minmode"			"c44" 
 		"ypos_minmode"			"r206"
