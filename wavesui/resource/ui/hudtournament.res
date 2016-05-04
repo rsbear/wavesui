@@ -59,7 +59,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"44f"
 			"team2_player_base_offset_x"	"5"
 		}
 
@@ -111,7 +111,7 @@
 			if_readymode
 			{
 				"wide"		"52"
-				"tall"		"35"
+				"tall"		"38"
 			}
 			
 			"playername"
@@ -196,7 +196,7 @@
 
 				if_readymode
 				{
-					"xpos"			"5"
+					"xpos"			"7"
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
@@ -235,7 +235,7 @@
 
 				if_readymode
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 			}
 			
@@ -284,15 +284,11 @@
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"image"			"replay/thumbnails/materialPanel"
+				"border"		"waveshpbg"
 				
 				if_mvm
 				{
@@ -307,6 +303,7 @@
 					"tall"			"p0.39"
 					"proportionaltoparent" "1"
 					"visible"		"1"
+					"border"		"waveshpbg"
 				}
 				
 				if_readymode
@@ -418,7 +415,7 @@
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
 				"xpos"			"4"
-				"ypos"			"2"
+				"ypos"			"20000"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
@@ -478,7 +475,7 @@
 		
 		if_readymode
 		{
-			"xpos"			"195"
+			"xpos"			"111195"
 			"visible"		"0"
 		}		
 	}
@@ -801,9 +798,9 @@
 
 		if_readymode
 		{
-			"xpos"			"285"
+			"xpos"			"222285"
 			"ypos"			"26"
-			"visible"		"1"
+			"visible"		"0"
 			"font"			"TFFontMedium"
 		}
 	}

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/hp/waves-hpbg.vtf"
+	"$baseTexture" "vgui/replay/thumbnails/hp/waveshpbg.vtf"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

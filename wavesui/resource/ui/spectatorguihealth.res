@@ -2,7 +2,7 @@
 {
 	"TargetIDHPbox"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TargetIDHPbox"
 		"xpos"			"-2"
 		"ypos"			"2"
@@ -14,19 +14,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MaterialBorderDARKMEDBLUGRAY"
-		"image"				"replay/thumbnails/materialPanel"
+
+		"border"			"waveshpbg"
+		"image"				"replay/thumbnails/hp/waveshpbg"
 		"scaleImage"		"1"
-		
-		"src_corner_height"		"13"				// pixels inside the image
-		"src_corner_width"		"13"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"	
 	}
 	"TargetIDHPLow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TargetIDHPLow"
 		"xpos"			"-2"
 		"ypos"			"2"
@@ -38,20 +33,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"MaterialBorderYELLOWGOLD"
-		"image"				"replay/thumbnails/MaterialPanelLow"
-		"scaleImage"		"1"
+
 		"alpha"				"0"
-		
-		"src_corner_height"		"13"				// pixels inside the image
-		"src_corner_width"		"13"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"	
+		"border"			"waveshpbghurt"
+		"image"				"replay/thumbnails/materialPanel"
+		"scaleImage"		"1"
 	}
 	"TargetIDHPBuff"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TargetIDHPBuff"
 		"xpos"			"-2"
 		"ypos"			"2"
@@ -63,16 +53,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MaterialBorderHPGREEN"
-		"image"				"replay/thumbnails/MaterialPanelBuff"
-		"scaleImage"		"1"
-		"alpha"				"0"
 		
-		"src_corner_height"		"13"				// pixels inside the image
-		"src_corner_width"		"13"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"	
+		"alpha"				"0"
+		"border"			"waveshpbgbuff"
+		"image"				"replay/thumbnails/materialPanel"
+		"scaleImage"		"1"
 	}
 
 

@@ -152,18 +152,49 @@ Scheme
 		}
 
 
-
-		/// WAVES TARGET HPBGs  ////////////////////////////////////////////////////////
-
+		///TARGETID HPBG borders
 		waveshpbg
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"offset" "0 0"
+			"color"					"DARKMEDBLUGRAY"
 			
-			"image"					"replay/thumbnails/hp/waves-hpbg"
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"13"				// pixels inside the image
+			"src_corner_width"		"13"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
 		}
-	
+		waveshpbgbuff
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"COOLSOLIDGREEN"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"13"				// pixels inside the image
+			"src_corner_width"		"13"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
+		}
+		waveshpbghurt
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"YELLOWGOLD"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"13"				// pixels inside the image
+			"src_corner_width"		"13"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
+		}
+
+
+
+
+
+
 
 
 		MaterialBorderTransparent
@@ -333,6 +364,23 @@ Scheme
 			"draw_corner_height" 	"8"	
 		}
 
+
+
+
+
+		///TARGETID HPBG borders
+		waveshpbg
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "40 44 46 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
 
 
 
