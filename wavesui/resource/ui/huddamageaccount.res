@@ -1,3 +1,6 @@
+
+#base "WAVES/huddamageaccount - waves.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
