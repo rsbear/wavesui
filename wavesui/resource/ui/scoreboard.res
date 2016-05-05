@@ -12,7 +12,7 @@
 		"xpos"				"c-185"
 		"ypos"				"c-72"
 		"zpos"				"70"
-		"wide"				"238"
+		"wide"				"195"
 		"tall"				"32"
 		"visible"			"1"		
 		"enabled"			"1"
@@ -126,7 +126,7 @@
 		"tall"				"188"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"border"		"wavesTRANSPARENTBG"
 	}
