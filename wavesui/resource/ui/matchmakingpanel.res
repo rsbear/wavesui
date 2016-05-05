@@ -218,8 +218,8 @@
 			"zpos"		"-1"
 			"wide"		"300"
 			"tall"		"225"
-			"visible"	"0"
-			"PaintBackgroundType"	"2"
+			"visible"	"1"
+
 			"paintbackground"		"0"
 			"bgcolor_override"	"0 0 0 200"
 			"image"			"replay/thumbnails/materialPanel"
