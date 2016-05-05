@@ -15,7 +15,6 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"DARKBLUGRAY"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -1186,6 +1185,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"SOFTORANGE"
 		}
 
 		"PlayersInGameTotalLabel"
@@ -1298,6 +1298,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"SOFTORANGE"
 		}
 
 		"PlayersSearchingTotalLabel"
@@ -1410,6 +1411,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"SOFTORANGE"
 		}
 
 			"EmptyGameserversMatchingNearbyValue"
@@ -1448,11 +1450,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PartyHasLowPriorityGroupBox"
-			"xpos"		"30"
-			"ypos"		"250"
+			"xpos"		"26"
+			"ypos"		"230"
 			"zpos"			"2"
 			"wide"		"340"
-			"tall"		"100"
+			"tall"		"60"
 			"visible"	"0"
 			"enabled"	"1"
 
@@ -1463,8 +1465,8 @@
 				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
-				"wide"			"50"
-				"tall"			"50"
+				"wide"			"30"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"mouseinputenabled" "0"
@@ -1475,18 +1477,18 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PartyHasLowPriorityLabel"
-				"font"			"HudFontSmall"
+				"font"			"Medium12"
 				"labelText"		"#TF_Matchmaking_PartyPenalty"
-				"xpos"		"60"
-				"ypos"		"0"
+				"xpos"		"36"
+				"ypos"		"-12"
 				"zpos"			"2"
-				"wide"		"275"
+				"wide"		"270"
 				"tall"		"60"
 				"textAlignment"	"west"
 				"visible"	"1"
 				"enabled"	"1"
 				"wrap"		"1"
-				"fgcolor_override"	"250 114 45 255"
+				"fgcolor_override"	"TOMATORED"
 			}
 			"PartyLowPriorityPenaltyTimer"
 			{
@@ -1517,6 +1519,8 @@
 		"wide"		"280"
 		"tall"		"330"
 		"visible"	"0"
+
+
 
 		"NavToRelay"	"PartyGroupBox"
 		"NavDown"		"<<NextButton"
@@ -1889,7 +1893,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				//"fgcolor_override"	"250 114 45 255"
+				"fgcolor_override"	"250 114 45 255"
 				"textAlignment"	"west"
 				"labelText"		"%ranktitle%"
 			}
