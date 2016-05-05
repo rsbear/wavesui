@@ -1105,7 +1105,7 @@
 
 	}
 
-	"SearchActiveGroupBox"
+	"SearchActiveGroupBox" //MM box while searching for a game
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SearchActiveGroupBox"
@@ -1113,11 +1113,13 @@
 		"ypos"		"10"
 		"zpos"		"-1"
 		"wide"		"400"
-		"tall"		"330"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
+		"tall"		"280"
+
+		"paintbackground"		"0"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"image"			"replay/thumbnails/materialPanel"
+		"border"		"MaterialBorderDARKMEDBLUGRAY"
+		"proportionaltoparent"	"1"
 
 		"SearchActiveTitle"
 		{
@@ -1133,6 +1135,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override" "SOFTLITEBLU"
 		}
 
 		"NearbyColumnHead"
