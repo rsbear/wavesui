@@ -281,6 +281,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Medium24"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
 
 		"Medium32"
 		{

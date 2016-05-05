@@ -10,7 +10,7 @@
 		"text_y"				"-80"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"HPGREEN"
-		"NegativeColor"			"DARKDARKORANGE"
+		"NegativeColor"			"LIMEYELLOW"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Bold18dropshadow"
 		"delta_item_font_big"	"Bold20"

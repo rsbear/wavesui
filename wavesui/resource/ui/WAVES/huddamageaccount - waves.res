@@ -7,7 +7,7 @@
 		"text_y"				"-80"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"HPGREEN"
-		"NegativeColor"			"DARKDARKORANGE"
+		"NegativeColor"			"LIMEYELLOW"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Bold18dropshadow"
 		"delta_item_font_big"	"Bold20"
@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"DPURPLE"
+		"fgcolor"		"LIMEYELLOW"
 		"font"			"Medium24"
 	}
 	
@@ -37,11 +37,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-187"
-		"ypos"			"289"
+		"xpos"			"c-188"
+		"ypos"			"288"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"26"
+		"wide"			"101"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"

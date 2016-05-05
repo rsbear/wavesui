@@ -281,6 +281,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Medium18"
+		{
+			"1"
+			{
+				"name"		"Surface"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
 
 		"Medium32"
 		{
