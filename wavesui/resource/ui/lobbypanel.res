@@ -1109,10 +1109,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SearchActiveGroupBox"
 		"xpos"			"c-35"
-		"ypos"			"20"
+		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"330"
-		"tall"			"285"
+		"tall"			"295"
 
 		"paintbackground"		"0"
 		"bgcolor_override"	"0 0 0 200"
@@ -1514,13 +1514,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PartyActiveGroupBox"
 		"xpos"			"c-310"
-		"ypos"		"10"
+		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"280"
-		"tall"		"330"
+		"tall"		"360"
 		"visible"	"0"
-
-
 
 		"NavToRelay"	"PartyGroupBox"
 		"NavDown"		"<<NextButton"
@@ -1529,15 +1527,38 @@
 
 		"if_competitive"
 		{
-			"ypos"		"32"
+			"ypos"		"0"
 		}
+
+		"PartyWavesBG"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"PartyWavesBG"
+				"xpos"			"c-144"
+				"ypos"			"10"
+				"zpos"			"-1"
+				"wide"			"260"
+				"tall"			"294"
+
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"		"0"
+				"bgcolor_override"	"40 37 37 0"
+				"proportionalToParent"	"1"
+
+				"border"			"MaterialBorderDARKMEDBLUGRAY"
+				"image"				"replay/thumbnails/materialPanel"
+				"paintbackground"	"0"
+			}
 
 		"PartyGroupBox"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PartyGroupBox"
 			"xpos"		"0"
-			"ypos"		"0"
+			"ypos"		"10"
 			"zpos"		"-1"
 			"wide"		"280"
 			"tall"		"360"
@@ -1552,7 +1573,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PartyLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"Bold24"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"
@@ -1560,6 +1581,7 @@
 				"zpos"			"0"
 				"wide"			"120"
 				"tall"			"20"
+				"fgcolor_override"	"SOFTLITEBLU"
 			}
 
 			"InviteButton"
@@ -1567,7 +1589,7 @@
 				"ControlName"	"CExImageButton"
 				"fieldName"		"InviteButton"
 				"xpos"			"-3"
-				"ypos"			"276"
+				"ypos"			"298"
 				"zpos"			"4"
 				"wide"			"258"
 				"tall"			"36"
@@ -1631,10 +1653,10 @@
 			"fieldName"		"ChatLog"
 			"Default"			"ChatMiniFont"
 			"xpos"			"0"
-			"ypos"			"170"
+			"ypos"			"190"
 			"zpos"			"0"
 			"wide"			"252"
-			"tall"			"80"
+			"tall"			"90"
 			"bgcolor_override"	"0 0 0 0"
 			"border"		""
 		}
@@ -1645,12 +1667,12 @@
 			"fieldName"		"ChatTextEntry"
 			"font"			"ChatFont"
 			"xpos"			"0"
-			"ypos"			"248"
+			"ypos"			"280"
 			"zpos"			"0"
 			"wide"			"252"
 			"tall"			"20"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"MaterialBorderDARKBLUGRAY"
 		}
 	}
 
