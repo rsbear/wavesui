@@ -1,5 +1,9 @@
 
-#base "WAVES/huddamageaccount - waves.res"
+////////////////////////////////////////////////
+////  ENABLE/DISABLE EXTRA DAMAGE TEXT
+
+
+	//#base 	"WAVES/huddamageaccount - waves.res"
 
 "Resource/UI/HudDamageAccount.res"
 {

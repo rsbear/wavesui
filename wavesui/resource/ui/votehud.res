@@ -111,7 +111,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"Issue"
 			"xpos"			"10"
-			"ypos"			"22"
+			"ypos"			"26"
 			"wide"			"120"
 			"tall"			"40"
 			"visible"		"1"
