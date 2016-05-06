@@ -593,7 +593,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Player3Medal"
-		"xpos"			"11"
+		"xpos"			"-211"
 		"ypos"			"174"
 		"zpos"			"3"
 		"wide"			"25"
@@ -607,7 +607,7 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
-		"xpos"			"39"
+		"xpos"			"-239"
 		"ypos"			"179"
 		"zpos"			"3"
 		"wide"			"0"
@@ -622,7 +622,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
-		"xpos"			"350"
+		"xpos"			"390"
 		"ypos"			"230"
 		"zpos"			"3"
 		"wide"			"125"
@@ -641,7 +641,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
-		"xpos"			"350"
+		"xpos"			"390"
 		"ypos"			"240"
 		"zpos"			"3"
 		"wide"			"200"
@@ -660,7 +660,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
-		"xpos"			"400"
+		"xpos"			"440"
 		"ypos"			"240"
 		"zpos"			"3"
 		"wide"			"30"
