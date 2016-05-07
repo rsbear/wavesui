@@ -1,6 +1,8 @@
 
 ////////////////////////////////////////////////
 ////  ENABLE/DISABLE EXTRA DAMAGE TEXT
+////  BY REMOVING THE //
+////  BEFORE #base BELOW
 
 
 	//#base 	"WAVES/huddamageaccount - waves.res"
