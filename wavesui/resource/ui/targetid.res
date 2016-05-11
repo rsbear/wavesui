@@ -13,13 +13,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"				"replay/thumbnails/MaterialPanel"
+		"image"				""	//replay/thumbnails/MaterialPanel
 		"scaleImage"		"1"
-		"teambg_1"			"replay/thumbnails/MaterialPanel"
-		"teambg_2"			"replay/thumbnails/MaterialPanelRed"
-		"teambg_2_lodef"	"replay/thumbnails/MaterialPanelRed"
-		"teambg_3"			"replay/thumbnails/MaterialPanelBlu"
-		"teambg_3_lodef"	"replay/thumbnails/MaterialPanelBlu"
+		"teambg_1"			""
+		"teambg_2"			""	//replay/thumbnails/MaterialPanelRed
+		"teambg_2_lodef"	""	//replay/thumbnails/MaterialPanelRed
+		"teambg_3"			""	//replay/thumbnails/MaterialPanelBlu
+		"teambg_3_lodef"	""	//replay/thumbnails/MaterialPanelBlu
 		
 		"src_corner_height"		"26"				// pixels inside the image
 		"src_corner_width"		"26"
@@ -40,8 +40,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/MaterialPanelBlu"
-		"image_lodef"	"replay/thumbnails/MaterialPanelBlu"
+		"image"			""	//replay/thumbnails/MaterialPanelBlu
+		"image_lodef"	""	//replay/thumbnails/MaterialPanelBlu
 		
 		"src_corner_height"	"26"				// pixels inside the image
 		"src_corner_width"	"26"
@@ -62,8 +62,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/MaterialPanelRed"
-		"image_lodef"	"replay/thumbnails/MaterialPanelRed"
+		"image"			""	//replay/thumbnails/MaterialPanelRed
+		"image_lodef"	""	//replay/thumbnails/MaterialPanelRed
 		
 		"src_corner_height"		"26"				// pixels inside the image
 		"src_corner_width"		"26"
@@ -76,7 +76,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"SemiLight14"
+		"font"			"Medium14"
 		"xpos"			"30"
 		"ypos"			"8"
 		"zpos"			"1"

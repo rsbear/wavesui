@@ -194,6 +194,38 @@ Scheme
 
 
 
+		///TARGETID HPBG borders  test
+		waveshpbgtest
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/hp/waveshpbg"
+		}
+		waveshpbgbufftest
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"COOLSOLIDGREEN"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"13"				// pixels inside the image
+			"src_corner_width"		"13"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
+		}
+		waveshpbghurttest
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"YELLOWGOLD"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"13"				// pixels inside the image
+			"src_corner_width"		"13"
+			"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"6"	
+		}
 
 
 

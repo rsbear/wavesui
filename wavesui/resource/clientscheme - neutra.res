@@ -3086,32 +3086,32 @@ CustomFontFiles
 	"1"
 	{
 		"font"	"resource/fonts/Neutra2Text-Light.otf"
-		"name"	"Neutraface 2 Text Light"
+		"name"	"Neutra2Text-Light"
 	}
 	"2"
 	{
 		"font"	"resource/fonts/Neutra2Text-Book.otf"
-		"name"	"Neutraface 2 Text Book"
+		"name"	"Neutra2Text-Book"
 	}
 	"3"
 	{
 		"font"	"resource/fonts/NeutraText-Demi_0.otf"
-		"name"	"Neutra Text Light"
+		"name"	"NeutraText-Demi"
 	}
 	"4"
 	{
 		"font"	"resource/fonts/NeutraText-Bold_0.otf"
-		"name"	"Neutra Text"
+		"name"	"NeutraText-Bold"
 	}
 	"5"
 	{
 		"font"	"resource/fonts/Neutra2Text-Bold.otf"
-		"name"	"Neutraface 2 Text Bold"
+		"name"	"Neutra2Text-Bold"
 	}
 	"6"
 	{
 		"font"	"resource/fonts/Neutra2Display-Titling.otf"
-		"name"	"Neutraface 2 Display Titling"
+		"name"	"Neutra2Display-Titling"
 	}
 }	
 }

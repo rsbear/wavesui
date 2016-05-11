@@ -16,7 +16,7 @@
 		"enabled"		"1"
 
 		"border"			"waveshpbg"
-		"image"				"replay/thumbnails/hp/waveshpbg"
+		"image"				"replay/thumbnails/materialPanel"
 		"scaleImage"		"1"
 	}
 	"TargetIDHPLow"
