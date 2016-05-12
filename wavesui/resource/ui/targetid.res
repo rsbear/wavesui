@@ -35,26 +35,26 @@
 		"ypos"			"-1"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"30"
+		"tall"	 		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	//replay/thumbnails/MaterialPanelBlu
-		"image_lodef"	""	//replay/thumbnails/MaterialPanelBlu
+		"image"			"replay/thumbnails/MaterialPanelBlu"	//replay/thumbnails/MaterialPanelBlu
+		"image_lodef"	"replay/thumbnails/MaterialPanelBlu"	//replay/thumbnails/MaterialPanelBlu
 		
-		"src_corner_height"	"26"				// pixels inside the image
-		"src_corner_width"	"26"
-		
-		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"12"	
+		"src_corner_height"		"14"				// pixels inside the image
+		"src_corner_width"		"14"
+			
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"-2"
-		"ypos"			"-62"  //-2
+		"ypos"			"-1"  //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -62,14 +62,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	//replay/thumbnails/MaterialPanelRed
-		"image_lodef"	""	//replay/thumbnails/MaterialPanelRed
+		"image"			"replay/thumbnails/MaterialPanelRed"	//replay/thumbnails/MaterialPanelRed
+		"image_lodef"	"replay/thumbnails/MaterialPanelRed"	//replay/thumbnails/MaterialPanelRed
 		
-		"src_corner_height"		"26"				// pixels inside the image
-		"src_corner_width"		"26"
+		"src_corner_height"		"14"				// pixels inside the image
+		"src_corner_width"		"14"
 			
-		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"12"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 	}
 	
 	"TargetNameLabel"
@@ -117,7 +117,7 @@
 		"xpos"			"0"
 		"ypos"			"2"
 		"wide"			"36"
-		"tall"			"36"
+		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
