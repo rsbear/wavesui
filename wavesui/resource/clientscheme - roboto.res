@@ -452,6 +452,16 @@ Scheme
 			}
 		}
 
+		"Bold48"   //hp ammo
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+
 		"Bold56" 
 		{
 			"1"
