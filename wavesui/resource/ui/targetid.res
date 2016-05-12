@@ -5,34 +5,34 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"-2"
-		"ypos"			"-62"   //-2
+		"ypos"			"-1"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"50"
+		"tall"	 		"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"				""	//replay/thumbnails/MaterialPanel
+		"image"				"replay/thumbnails/MaterialPanel"	//replay/thumbnails/MaterialPanel
 		"scaleImage"		"1"
-		"teambg_1"			""
-		"teambg_2"			""	//replay/thumbnails/MaterialPanelRed
-		"teambg_2_lodef"	""	//replay/thumbnails/MaterialPanelRed
-		"teambg_3"			""	//replay/thumbnails/MaterialPanelBlu
-		"teambg_3_lodef"	""	//replay/thumbnails/MaterialPanelBlu
+		"teambg_1"			"replay/thumbnails/MaterialPanel"
+		"teambg_2"			"replay/thumbnails/MaterialPanelRed"	//replay/thumbnails/MaterialPanelRed
+		"teambg_2_lodef"	"replay/thumbnails/MaterialPanelRed"	//replay/thumbnails/MaterialPanelRed
+		"teambg_3"			"replay/thumbnails/MaterialPanelBlu"	//replay/thumbnails/MaterialPanelBlu
+		"teambg_3_lodef"	"replay/thumbnails/MaterialPanelBlu"	//replay/thumbnails/MaterialPanelBlu
 		
-		"src_corner_height"		"26"				// pixels inside the image
-		"src_corner_width"		"26"
+		"src_corner_height"		"14"				// pixels inside the image
+		"src_corner_width"		"14"
 			
-		"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"12"	
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"-2"
-		"ypos"			"-62"   //-2
+		"ypos"			"-1"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -97,7 +97,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"Medium10"
 		"xpos"			"30"
-		"ypos"			"-2"	
+		"ypos"			"-5"	
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
