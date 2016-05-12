@@ -5,7 +5,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"-2"
-		"ypos"			"-2"
+		"ypos"			"-62"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
@@ -32,7 +32,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"-2"
-		"ypos"			"-2"
+		"ypos"			"-62"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -54,7 +54,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"-2"
-		"ypos"			"-2"
+		"ypos"			"-62"  //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
