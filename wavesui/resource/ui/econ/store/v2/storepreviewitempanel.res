@@ -108,8 +108,10 @@
 			"tall"			"213"
 			"visible"		"1"
 			"enabled"		"1"
-			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			
+			"border"			"MaterialBorderDARKERMEDBLUGRAY"
+			"image"				"replay/thumbnails/materialPanel"
+			"paintbackground"	"0"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -122,12 +124,12 @@
 			"zpos"			"1"
 			"wide"			"474"
 			"tall"			"10"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
-			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			
+			"border"			"MaterialBorderDARKERMEDBLUGRAY"
+			"image"				"replay/thumbnails/materialPanel"
+			"paintbackground"	"0"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -135,17 +137,17 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"3"
+			"xpos"			"-2"
 			"ypos"			"240"
 			"zpos"			"1"
-			"wide"			"474"
-			"tall"			"58"
+			"wide"			"484"
+			"tall"			"63"
 			"visible"		"1"
 			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
-			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			
+			"border"			"MaterialBorderDARKBLUGRAY"
+			"image"				"replay/thumbnails/materialPanel"
+			"paintbackground"	"0"
 		}
 		
 		"ItemNameLabel"
@@ -371,7 +373,7 @@
 					"fieldName"		"ItemWikiPageButton"
 					"zpos"			"20"
 					"wide"			"150"
-					"tall"			"20"
+					"tall"			"24"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -385,6 +387,14 @@
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+				
+					"defaultFgColor_override" "WHITEY"
+					"armedFgColor_override" "DEEPRED"
+					"depressedFgColor_override" "DEEPRED"
 				}		
 				
 				"TradableLabel"
@@ -1475,18 +1485,18 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c221"
+		"xpos"			"c214"
 		"ypos"			"c-144"
 		"zpos"			"10"
-		"wide"			"14"
+		"wide"			"20"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"		"r"
+		"font"			"knuckles18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1497,8 +1507,9 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "TOMATORED"
+		"depressedFgColor_override" "DEEPRED"
 		
 		"SubImage"
 		{
@@ -1511,7 +1522,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"close_button"
+			"image"			""
 			"scaleImage"	"1"
 		}				
 	}		
@@ -1521,16 +1532,16 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-230"
-		"ypos"			"c105"
+		"ypos"			"c106"
 		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"22"
+		"wide"			"150"
+		"tall"			"33"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"font"			"Bold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1539,48 +1550,61 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
+
+		"border_default"	"MaterialBorderYELLOWGOLD"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}		
 	
 	"TryItOutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TryItOutButton"
-		"xpos"			"c-130"
-		"ypos"			"c105"
+		"xpos"			"c-76"
+		"ypos"			"c106"
 		"zpos"			"2"
-		"wide"			"120"
-		"tall"			"22"
+		"wide"			"150"
+		"tall"			"33"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_TryItOut"
-		"font"			"HudFontSmallBold"
+		"font"			"Bold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"tryitout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}	
 	
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c25"
-		"ypos"			"c103"
+		"xpos"			"c78"
+		"ypos"			"c106"
 		"zpos"			"2"
-		"wide"			"160"
-		"tall"			"27"
+		"wide"			"150"
+		"tall"			"33"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontSmallishBold"
+		"font"			"Bold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1588,9 +1612,13 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		
+		"border_default"	"MaterialBorderHPGREEN"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "WHITEY"
+		"armedFgColor_override" "DEEPRED"
+		"depressedFgColor_override" "DEEPRED"
 	}	
 }

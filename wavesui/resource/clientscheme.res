@@ -313,6 +313,20 @@ Scheme
 			"draw_corner_height" 	"11"	
 		}
 
+		MaterialBorderDARKBLUGRAY
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "DARKBLUGRAY"   //
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/materialPanel"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+
 		MaterialBorderDARKMEDBLUGRAY
 		{
 			"bordertype"			"scalable_image"
