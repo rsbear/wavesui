@@ -35,7 +35,7 @@
 		"xpos"	"8"   //116
 		"ypos"	"-24"   //60
 
-		"xpos_minmode"	"8"
+		"xpos_minmode"	"10"
 		"ypos_minmode"	"-143"
 	}
 

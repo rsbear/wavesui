@@ -17,7 +17,7 @@
 		"ypos"			"r160"	 //r120
 		"wide"			"310"
 
-		"xpos_minmode"	"-5"	 //-5
+		"xpos_minmode"	"c-324"	 //-5
 		"ypos_minmode"	"r88"	 //r88
 		"wide_minmode"	"355"
 	}	
@@ -67,7 +67,7 @@
 
 		"visible_minmode"	"1"
 		"font_minmode"		"Bold28"
-		"xpos_minmode"		"236"
+		"xpos_minmode"		"126"
 		"ypos_minmode"		"2"
 	}	
 
@@ -90,9 +90,9 @@
 
 		"visible_minmode"	"1"
 		"font_minmode"		"Bold28"
-		"xpos_minmode"		"237"
+		"xpos_minmode"		"127"
 		"ypos_minmode"		"3"
-		"wide_minmode"		"149"
+		"wide_minmode"		"150"
 
 	}
 
@@ -115,7 +115,7 @@
 
 		"visible_minmode"	"0"
 		"font_minmode"		"Bold28"
-		"xpos_minmode"		"61"
+		"xpos_minmode"		"22261"
 		"zpos_minmode"		"7"
 		"wide_minmode"		"70"
 		"tall_minmode"		"34"
@@ -141,7 +141,7 @@
 
 		"visible_minmode"	"0"
 		"font_minmode"		"Bold28"
-		"xpos_minmode"		"61"
+		"xpos_minmode"		"22261"
 		"zpos_minmode"		"7"
 		"wide_minmode"		"70"
 		"tall_minmode"		"34"
