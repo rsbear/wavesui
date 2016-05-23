@@ -13,7 +13,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"320"
-		"tall"			"150"
+		"tall"			"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -32,7 +32,6 @@
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -70,8 +69,8 @@
 		"xpos"			"27"
 		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"45"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
