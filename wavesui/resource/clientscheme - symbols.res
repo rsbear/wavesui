@@ -412,7 +412,7 @@ CustomFontFiles
 	"1"
 	{
 		"font"	"resource/fonts/Sosa-Regular.ttf"
-		"name"	"Sosa"
+		"name"	"Sosa Regular"
 	}
 	"2"
 	{

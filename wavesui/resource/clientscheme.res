@@ -2899,6 +2899,30 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
-
+		"8"	"resource/fonts/Sosa-Regular.ttf"
+		{
+			"font"	"resource/fonts/Sosa-Regular.ttf"
+			"name"	"Sosa Regular"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/Entypo.otf"
+			"name"	"Entypo"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/WebSymbols-Regular.otf"
+			"name"	"Web Symbols"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/modernpics.otf"
+			"name"	"ModernPictograms"
+		}
+		"12"
+		{
+			"font"	"resource/fonts/HudasIscariote.otf"
+			"name"	"Hudas Iscariote"
+		}
 	}
 }
