@@ -32,8 +32,8 @@
 		
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"186"
-		"ypos"			"2"
+		"xpos"			"c122"
+		"ypos"			"c64"
 
 		"visible_minmode"		"0"
 		"font_minmode"			"Bold28"
@@ -84,8 +84,8 @@
 		
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"187"
-		"ypos"			"3"
+		"xpos"			"c123"
+		"ypos"			"c65"
 		"wide"			"91"
 		"tall"			"35"
 
@@ -112,10 +112,10 @@
 		
 		"visible"		"1"
 		"font"			"Bold38"
-		"xpos"			"188"
-		"ypos"			"4"
+		"xpos"			"c124"
+		"ypos"			"c66"
 		"wide"			"90"
-		"tall"			"34"
+		"tall"			"35"
 
 		"visible_minmode"		"0"
 		"font_minmode"			"Bold28"
@@ -141,8 +141,8 @@
 		"fgcolor_override"	"OPAQUESHADOW"
 		
 		"font"			"Bold38"
-		"xpos"			"187"
-		"ypos"			"3"
+		"xpos"			"c123"
+		"ypos"			"c65"
 
 		"font_minmode"			"Bold28"
 		"xpos_minmode"			"132"
@@ -191,9 +191,9 @@
 		"fgcolor_override"	"YELLOWGOLD"
 
 		"xpos"			"0"
-		"ypos"			"22"
-		"tall"			"2"
-		"wide"			"140"	
+		"ypos"			"438"
+		"tall"			"3"
+		"wide"			"f0"	
 
 		"xpos_minmode"		"0"
 		"ypos_minmode"		"32"

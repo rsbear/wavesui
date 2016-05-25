@@ -33,7 +33,7 @@
 		"tall"	"481"
 
 		"xpos"	"8"   //116
-		"ypos"	"-24"   //60
+		"ypos"	"-15"   //60
 
 		"xpos_minmode"	"12"
 		"ypos_minmode"	"-143"
@@ -48,7 +48,7 @@
 		"tall"	"104"
 
 		"xpos"	"c102"	[$WIN32]
-		"ypos"	"r152"	[$WIN32]
+		"ypos"	"r143"	[$WIN32]
 
 		"xpos_minmode"			"c44" 
 		"ypos_minmode"			"r206"
@@ -105,12 +105,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"xpos"	"c-70"	
-		"ypos"	"r149"	
-		"wide"	"300"
-		"tall"	"100"
+		"xpos"	"0"	
+		"ypos"	"40"	
+		"wide"	"f0"
+		"tall"	"480"
 
-		"xpos_minmode"		"c-60" 
+		"xpos_minmode"		"0" 
 		"ypos_minmode"		"r210"
 	}
 	
@@ -293,7 +293,7 @@
 		"priority"	"40"
 		"priority_lodef"	"5"
 
-		"ypos"		"285"
+		"ypos"		"316"
 
 		"ypos_minmode"		"265"
 
@@ -331,7 +331,7 @@
 		"tall"	 	"35"
 		"priority"	"35"
 
-		"ypos"		"320"
+		"ypos"		"285"
 
 		if_vr
 		{
