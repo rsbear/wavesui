@@ -32,10 +32,10 @@
 		"image"			"../hud/cart_track"
 		"scaleImage"	"1"
 
-		"xpos"			"73"
+		"xpos"			"84"
 		"ypos"			"120"
-		"wide"			"254"
-		"tall"			"4"
+		"wide"			"212"
+		"tall"			"2"
 
 		"ypos_minmode"			"123"
 		
@@ -93,15 +93,15 @@
 		"image"			"../hud/cart_home_blue"
 		"scaleImage"	"1"	
 
-		"xpos"			"59"
-		"ypos"			"111"
-		"wide"			"22"
-		"tall"			"22"
+		"xpos"			"74"
+		"ypos"			"115"
+		"wide"			"12"
+		"tall"			"12"
 
 		"xpos_minmode"		"64"
 		"ypos_minmode"		"116"
-		"wide_minmode"		"18"
-		"tall_minmode"		"18"
+		"wide_minmode"		"12"
+		"tall_minmode"		"12"
 		
 		"if_team_red"
 		{
@@ -163,14 +163,14 @@
 		"scaleImage"	"1"	
 
 		"xpos"			"60"
-		"ypos"			"111"
-		"wide"			"22"
-		"tall"			"22"
+		"ypos"			"115"
+		"wide"			"12"
+		"tall"			"12"
 
 		"xpos_minmode"		"65"
 		"ypos_minmode"		"116"
-		"wide_minmode"		"18"
-		"tall_minmode"		"18"
+		"wide_minmode"		"14"
+		"tall_minmode"		"14"
 												
 		"if_multiple_trains"
 		{
