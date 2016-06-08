@@ -9,8 +9,8 @@
 		"MeterBG"		"CLEARSHADOW"
 
 		"x_offset"		"0"
-		"xpos"			"c-70"
-		"ypos"			"r144"
+		"xpos"			"c120"
+		"ypos"			"r120"
 		"wide"			"140"
 		"tall"			"50"
 
@@ -28,7 +28,7 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
@@ -43,8 +43,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"35"
+		"ypos"					"18"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -57,7 +57,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"Light8"
 	}
 
 	"ItemEffectMeter"
@@ -86,8 +86,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"15"
+		"ypos"					"14"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -99,6 +99,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"Bold18"
 	}
 }
