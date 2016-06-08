@@ -6,8 +6,8 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"3"
-		"ypos"			"370"
+		"xpos"			"2"
+		"ypos"			"2"	//380 for bottom of the screen
 		"wide"	 		"235"
 		"tall"	 		"105"
 		"PaintBackgroundType"	"1"
