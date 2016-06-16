@@ -1,0 +1,7 @@
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations.txt" // Default Source Animations
+	"file"		"scripts/animations/hudanimations_tf - classic.txt" // Classic wavesui target id's
+	//"file"		"scripts/animations/hudanimations_tf - alt.txt" // alt wavesui target id's
+	"file"		"scripts/hudanimations_tf.txt" // Default Team Fortress 2 Animations
+}

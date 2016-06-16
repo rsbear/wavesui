@@ -43,6 +43,16 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+
+
+
+
+
+
+
+
+
+
 event LevelInit
 {
 }
@@ -218,9 +228,14 @@ event HudHealthBonusPulse
 		Animate PlayerStatusHealthValueMinmode alpha 255 linear 0.0 0.00
 		Animate PlayerStatusHealthValueMinmode FgColor "COOLBLUGREEN" Accel 0.0 0.0
 
+
 	//TARGET ID
   	Animate	TargetIDHPbox 	   	Alpha		"0"		        Accel 0.0 0.0
 	Animate	TargetIDHPBuff 	   	Alpha		"255"		        Accel 0.0 0.0
+
+	//ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt FgColor "COOLBLUGREEN" Accel 0.0 0.0
+
 
 	//SPECHUD 
 	Animate PlayerStatusHealthValueSpec   fgcolor "HPGREEN" 	accel 0.0 0.0
@@ -258,6 +273,9 @@ event HudHealthBonusPulseStop
     Animate	TargetIDHPbox 	     Alpha		    "255"		           Accel 0.0 0.0
     Animate	TargetIDHPBuff 	     Alpha		    "0"		           Accel 0.0 0.0
 
+    //STOP ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt FgColor "WHITEY" Accel 0.0 0.0
+
     //STOP SPECHUD
     Animate PlayerStatusHealthValueSpec   fgcolor "WHITEY" 	accel 0.0 0.0
     //Animate HPBuffBox alpha 0 linear 0.0 0.00
@@ -288,6 +306,10 @@ event HudHealthDyingPulse
     Animate	TargetIDHPbox 	    Alpha		"0"		        Accel 0.0 0.0
 	Animate	TargetIDHPLow 	   	Alpha		"255"		        Accel 0.0 0.0
 	Animate PlayerStatusHealthValueTarget   fgcolor "DEEPRED" 	accel 0.0 0.0
+
+	//ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt FgColor "YELLOWGOLD" Accel 0.0 0.0
+
 
 	//SPECHUD
 	Animate PlayerStatusHealthValueSpec   fgcolor "YELLOWGOLD" 	accel 0.0 0.0
@@ -322,6 +344,9 @@ event HudHealthDyingPulseStop
 	Animate	TargetIDHPbox 	     Alpha		    "255"		           Accel 0.0 0.0
     Animate	TargetIDHPLow 	     Alpha		    "0"		           	   Accel 0.0 0.0
     Animate PlayerStatusHealthValueTarget   fgcolor "WHITEY" 	accel 0.0 0.0
+
+    //STOP ALT TARGET IDs
+	Animate PlayerStatusHealthValueAlt FgColor "WHITEY" Accel 0.0 0.0
 
     //STOP SPECHUD
     Animate PlayerStatusHealthValueSpec   fgcolor "WHITEY" 	accel 0.0 0.0
