@@ -14,8 +14,8 @@
 ///  THAT INDICATE YOU TOOK DAMAGE
 
 
-	//#base 		"hudlayout - damageindicatorON.res"
-	#base 		"hudlayout - damageindicatorOFF.res"
+	#base 		"hudlayout - damageindicatorON.res"
+	//#base 		"hudlayout - damageindicatorOFF.res"
 
 
 

@@ -8,7 +8,7 @@
 		"ypos"			"-1"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"25"
+		"tall"	 		"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -21,11 +21,11 @@
 		"teambg_3"			"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
 		"teambg_3_lodef"	"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
 		
-		"src_corner_height"		"0"				// pixels inside the image
-		"src_corner_width"		"0"
+		"src_corner_height"		"16"				// pixels inside the image
+		"src_corner_width"		"16"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"7"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -74,14 +74,14 @@
 
 	WavesBG
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WavesBG"
 		"xpos"			"-2"
 		"ypos"			"3"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"24"
-		"autoResize"		"0"
+		"autoResize"		"2"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
