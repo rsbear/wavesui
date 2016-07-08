@@ -1,7 +1,7 @@
 "GameMenu" [$WIN32]
 {
 
-	//// TITLE BUTTON /////////////////////////////////////////////
+	///  TITLE BAR ////////////////////////////////////////////////////////
 	"CrspButton"
 	{
 		"label"			"w a v e s"
@@ -10,60 +10,23 @@
 	}
 
 
-
-	////  SWAP COMP FOR RESUME  //////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////
 	"ResumeGameButton"
 	{
 		"label"			"resume"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage"		"icon_resume"
 	}
-	"PlayCompetitiveButton"
+	"FindAGameButton"
 	{
-		"label" "mm.. food" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
+		"label" "play" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
 	}
-
-
-
-	////  HOME SERVER BUTTON  //////////////////////////////////////////////////
-	"HomeButton"
+	"FindAGameButton2"
 	{
-		"label" "scrim"
-		"command" "engine connect 216.103.171.162:27015;password wavesui"
-	}
-
-
-
-	//// SWAP CREATE FOR LOGS  /////////////////////////////////////////////////////
-	"CreateServerButton"
-	{
-		"label" "create"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
-	"Logs"
-	{
-		"label"			"logs"
-		"command"		"engine cl_disablehtmlmotd 0; say !log"
-		"OnlyInGame"	"1"
-	}
-
-
-
-	//// NO MORE SWAPPING AS OF NOW  ////////////////////////////////////////////////////
-	"ServerBrowserButton"
-	{
-		"label" "servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-	} 
-	"QuickplayButton"
-	{
-		"label" "quickplay" 
-		"command" "quickplay"
+		"label" "r" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
 	}
 	"DemoUI"
@@ -78,7 +41,7 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "money"
+		"label" "shop"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
@@ -88,12 +51,20 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
-	
-	
-	
 
 
-	//// IN GAME BUTTONS  /////////////////////////////////////////////////
+
+
+	"VRModeButton"
+	{
+		"label" "#MMenu_VRMode_Activate"
+		"command" "engine vr_toggle"
+		"subimage" "glyph_vr"
+		"OnlyWhenVREnabled" "1"
+	}
+
+	
+
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
@@ -119,53 +90,4 @@
 		"OnlyInGame"	"1"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-	///////////////////////////////////////////////////////////////////
-	////  BUTTONS HAVE BEEN HIDDEN BECAUSE
-	////  THEYRE USELESS TO ME
-	////////////////////////////////////////////////////////////
-	"ReplayBrowserButton"
-	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
-	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	
-	
-	
-
 }

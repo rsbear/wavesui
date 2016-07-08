@@ -3088,6 +3088,17 @@ Scheme
 			}
 		}
 
+		"MMenuPlayListDesc"
+ 		{
+ 			"1"
+ 			{
+ 				"name"		"Roboto Medium"
+ 				"tall"		"9"
+ 				"weight"	"400"
+ 				"additive"	"0"
+ 				"antialias" 	"1"
+ 			}
+ 		}
 
 
 

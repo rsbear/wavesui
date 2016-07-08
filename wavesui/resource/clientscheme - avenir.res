@@ -3087,6 +3087,18 @@ Scheme
 			}
 		}
 
+		"MMenuPlayListDesc"
+ 		{
+ 			"1"
+ 			{
+ 				"name"		"AvenirLTStd-Roman"
+ 				"tall"		"9"
+ 				"weight"	"400"
+ 				"additive"	"0"
+ 				"antialias" 	"1"
+ 			}
+ 		}
+
 
 
 

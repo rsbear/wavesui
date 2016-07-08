@@ -3087,7 +3087,17 @@ Scheme
 			}
 		}
 
-
+		"MMenuPlayListDesc"
+ 		{
+ 			"1"
+ 			{
+ 				"name"		"Neutra Text Light"
+ 				"tall"		"9"
+ 				"weight"	"400"
+ 				"additive"	"0"
+ 				"antialias" 	"1"
+ 			}
+ 		}
 
 
 //////////////////////// CUSTOM FONT FILES /////////////////////////////

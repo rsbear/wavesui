@@ -1,5 +1,0 @@
-hudanimations_manifest
-{
-	"file"		"scripts/hudanimations.txt" // Default Source Animations
-	"file"		"scripts/hudanimations_tf.txt" // Default Team Fortress 2 Animations
-}
