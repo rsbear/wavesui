@@ -110,7 +110,7 @@
 		"wide"	"f0"
 		"tall"	"480"
 
-		"xpos_minmode"		"0" 
+		"xpos_minmode"		"c-60" 
 		"ypos_minmode"		"r210"
 	}
 	
@@ -313,12 +313,14 @@
 		"ypos"		"360"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"12"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
 		"x_offset" "20"
-		"y_offset" "20"
+		"y_offset" "40"
+
+		"ypos_minmode"		"245"
 	}
 	
 	CSecondaryTargetID
@@ -332,6 +334,8 @@
 		"priority"	"35"
 
 		"ypos"		"285"
+
+		"ypos_minmode"		"315"
 
 		if_vr
 		{
