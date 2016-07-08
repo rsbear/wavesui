@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"LobbyPanel"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"50"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -15,1044 +15,44 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"46 43 42 255"
+		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
-
-		"bgcolor_override"	"DARKBLUGRAY"
-		"infocus_bgcolor_override" "DARKBLUGRAY"
-		"outoffocus_bgcolor_override" "DARKBLUGRAY"
 	}
 
-	"ModeBackgroundImage"
+	"TooltipPanel"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ModeBackgroundImage"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TooltipPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"0"
+		"zpos"			"10000"
+		"wide"			"300"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled" "0"
-		"image"			""
-		"scaleImage"	"1"
-
-		"bgcolor_override"	"DARKBLUGRAY"
-		"infocus_bgcolor_override" "DARKBLUGRAY"
-		"outoffocus_bgcolor_override" "DARKBLUGRAY"
-	}
-
-	"QuickplaySearchCriteriaGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"QuickplaySearchCriteriaGroupBox"
-		"xpos"		"c-345"
-		"ypos"		"40"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"300"
-
-		"NavToRelay"	"NextPageButton"
-
-		"SimplifiedOptionsContainer"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"SimplifiedOptionsContainer"
-			"xpos"		"0"
-			"ypos"		"00"
-			"zpos"		"-1"
-			"wide"		"400"
-			"tall"		"300"
-
-			"CurPageLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"CurPageLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"%page%"
-				"textAlignment"	"north-west"
-				"xpos"			"50"
-				"ypos"			"20"
-				"zpos"			"10"
-				"wide"			"100"
-				"tall"			"20"
-				"autoResize"	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override"	"89 81 71 255"
-			}
-
-			"MoreInfoButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"MoreInfoButton"
-				"xpos"			"335"
-				"ypos"			"20"
-				"zpos"			"20"
-				"wide"			"15"
-				"tall"			"15"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"?"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"Command"		"more_info"
-				"button_activation_type"	"1"	// only on press
-
-				"NavDown"		"NextPageButton"
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-			}
-	
-			"ModeInfoContainer"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"ModeInfoContainer"
-				"xpos"		"40"
-				"ypos"		"10"
-				"wide"		"320"
-				"tall"		"245"
-				"visible"	"1"
-				"enabled"	"1"
-				"border"				"MainMenuButtonDefault"
-
-				"ModeImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"ModeImage"
-					"xpos"			"45"
-					"ypos"			"10"
-					"zpos"			"0"
-					"wide"			"230"
-					"tall"			"230"
-					"visible"		"1"
-					"enabled"		"1"
-					"mouseinputenabled" "0"
-					"image"			"maps/menu_screen_ctf_2fort"
-					"scaleImage"	"1"
-				}
-	
-				"Label_GameType"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"Label_GameType"
-					"font"			"HudFontMediumSmallBold"
-					"labelText"		"%gametype%"
-					"textAlignment"	"center"
-					"xpos"			"0"
-					"ypos"			"7"
-					"zpos"			"2"
-					"wide"			"320"
-					"tall"			"25"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"mouseinputenabled" "0"
-					"fgcolor_override"	"89 81 71 255"
-				}
-
-				"DescLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"DescLabel"
-					"font"			"HudFontSmallest"
-					"labelText"		"%description%"
-					"textAlignment"	"south"
-					"xpos"			"5"
-					"ypos"			"175"
-					"zpos"			"2"
-					"wide"			"310"
-					"tall"			"50"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"fgcolor_override"	"89 81 71 255"
-					"auto_wide_tocontents" "0"
-					"wrap"				   "1"
-					"centerwrap"		   "1"
-				}
-
-				"ComplexityLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"ComplexityLabel"
-					"font"			"HudFontSmallest"
-					"labelText"		"%complexity%"
-					"textAlignment"	"south"
-					"xpos"			"5"
-					"ypos"			"225"
-					"zpos"			"2"
-					"wide"			"310"
-					"tall"			"15"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"1"
-					"enabled"		"1"
-					"fgcolor_override"	"201 79 57 255"
-					"auto_wide_tocontents" "0"
-					"wrap"				   "1"
-					"centerwrap"		   "1"
-				}
-
-				"MoreInfoContainer"
-				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"MoreInfoContainer"
-					"xpos"		"20"
-					"ypos"		"30"
-					"zpos"		"3"
-					"wide"		"280"
-					"tall"		"205"
-					"autoResize"		"0"
-					"pinCorner"		"0"
-					"visible"		"0"
-					"enabled"		"1"
-					"tabPosition"		"0"
-					"PaintBackgroundType"	"0"
-					"paintbackground"		"1"
-					"border"				"BackpackItemBorder"
-		
-					"Background"
-					{
-						"ControlName"	"EditablePanel"
-						"fieldName"		"Background"
-						"xpos"		"0"
-						"ypos"		"0"
-						"wide"		"400"
-						"tall"		"400"
-						"autoResize"		"0"
-						"pinCorner"		"0"
-						"visible"		"0"
-						"enabled"		"1"
-						"tabPosition"		"0"
-						"bgcolor_override"	"40 37 37 255"
-					}
-		
-					"MoreInfoLabel"
-					{
-						"ControlName"		"CExLabel"
-						"fieldName"		"MoreInfoLabel"
-						"font"			"HudFontSmallest"
-						"labelText"		"%more_info%"
-						"textAlignment"	"center"
-						"xpos"			"10"
-						"ypos"			"15"
-						"zpos"			"1"
-						"wide"			"260"
-						"tall"			"160"
-						"autoResize"	"1"
-						"pinCorner"		"0"
-						"visible"		"1"
-						"enabled"		"1"
-						"wrap"			"1"
-						"centerwrap"	"1"
-					}
-				}	
-			}	
-
-			"PrevPageButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"PrevPageButton"
-				"xpos"			"12"
-				"ypos"			"110"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"40"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"<"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"Command"		"prevpage"
-				"button_activation_type"	"1"	// only on press
-
-				"NavUp"			"MoreInfoButton"
-				"NavRight"		"NextPageButton"
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-			}		
-				
-			"NextPageButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"NextPageButton"
-				"xpos"			"367"
-				"ypos"			"110"
-				"zpos"			"10"
-				"wide"			"20"
-				"tall"			"40"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		">"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"Command"		"nextpage"
-				"button_activation_type"	"1"	// only on press
-
-				"NavUp"			"MoreInfoButton"
-				"NavLeft"		"PrevPageButton"
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
-		}
-	}
-
-	"MannVsMachineGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannVsMachineGroupBox"
-		"xpos"		"c-305"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"350"
-		"visible"	"1"
-		"enabled"	"1"
-		"border"	"MainMenuHighlightBorder"
-		
-		"MannVsMachineLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"MannVsMachineLabel"
-			"xpos"			"15"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"370"
-			"tall"			"25"
-			"labelText"		"#TF_MvM_HeaderMannVsMachine"
-			"font"			"HudFontMediumBold"
-			//"fgcolor_override"	"89 81 71 255"
-			"fgcolor_override"	"201 79 57 255"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-		
-		"MannVsMachineExplanation"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MannVsMachineExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labelText"		"#TF_MvM_MannVsMachineExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"15"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"400"
-			"tall"			"40"
-			"wrap" "1"
-		}
-
-		"ModeImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ModeImage"
-			"xpos"			"10"
-			"ypos"			"55"
-			"zpos"			"0"
-			"wide"			"380"
-			"tall"			"190"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"illustrations/gamemode_mvm"
-			"scaleImage"	"1"
-		}
-	}
-
-	"MannUpGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpGroupBox"
-		"xpos"		"c-305"
-		"ypos"		"245"
-		"zpos"		"-1"
-		"wide"		"200"
-		"tall"		"110"
-		"visible"	"1"
-		"enabled"	"1"
-
-		"PlayForBraggingRightsExplanation"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labelText"		"#TF_MvM_BraggingRightsExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"15"
-			"ypos"			"50"
-			"zpos"			"0"
-			"wide"			"170"
-			"tall"			"60"
-			"wrap" "1"
-		}
-	}
-
-	"PracticeGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PracticeGroupBox"
-		"xpos"		"c-105"
-		"ypos"		"245"
-		"zpos"		"-1"
-		"wide"		"200"
-		"tall"		"110"
-		"visible"	"1"
-		"enabled"	"1"
-
-		"PlayOnCommunityServerExplanation"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
-			"labelText"		"#TF_MvM_PracticeExplaination"
-			"textAlignment"	"north-west"
-			"xpos"			"15"
-			"ypos"			"50"
-			"zpos"			"0"
-			"wide"			"170"
-			"tall"			"60"
-			"wrap" "1"
-		}
-	}
-
-	"MvMTourOfDutyGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MvMTourOfDutyGroupBox"
-		"xpos"		"c-305"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"225"
-
-		"NavToRelay"	"TourlistGroupBox"
-		"NavUp"			"MvMSelectChallengeGroupBox"
-		"NavLeft"		"MvMSelectChallengeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
-
-		"ChallengeLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontMediumSmallBold"
-			"labelText"		"#TF_MvM_TourOfDuty"
-			"textAlignment"	"south-west"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"400"
-			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
-		}
-
-		"DifficultyLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"south-west"
-			"xpos"			"189"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"100"
-			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
-		}
-
-		"CompleteLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_TourOfDutyProgress"
-			"textAlignment"	"south-west"
-			"xpos"			"279"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"80"
-			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
-		}
-
-		"TourLevelLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_TourNumber"
-			"textAlignment"	"south-west"
-			"xpos"			"345"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"80"
-			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
-		}
-
-		"TourlistGroupBox"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"TourlistGroupBox"
-			"xpos"			"0"
-			"ypos"			"28"
-			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"197"
-			"PaintBackgroundType"	"2"
-			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
-
-			"NavToRelay"	"TourList"
-
-			"GreyOutPanel"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"GreyOutPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"200"
-				"wide"			"400"
-				"tall"			"225"
-				"visible"		"0"
-				"bgcolor_override"	"128 128 128 128"
-			}
-
-			"TourList"
-			{
-				"ControlName"	"SectionedListPanel"
-				"fieldName"		"TourList"
-				"font"			"HudFontSmall"
-				"xpos"			"0"
-				"ypos"			"5"
-				"zpos"			"0"
-				"wide"			"400"
-				"tall"			"197"
-				"linespacing"	"12"
-			}
-		}
-
-		"TourDifficultyWarning"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TourDifficultyWarning"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MVM_Tour_ExpertDifficulty_Warning"
-			"xpos"		"30"
-			"ypos"		"100"
-			"zpos"			"2"
-			"wide"		"340"
-			"tall"		"120"
-			"textAlignment"	"north-west"
-			"visible"	"1"
-			"enabled"	"1"
-			"wrap"		"1"
-			"fgcolor_override"	"250 114 45 255"
-		}
-	}
-
-	"MannUpTourLootDescriptionBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpTourLootDescriptionBox"
-		"xpos"		"c-305"
-		"ypos"		"240"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"120"
 		"PaintBackgroundType"	"2"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
-
-		"TourLootImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TourLootImage"
-			"xpos"			"280"
-			"ypos"			"6"
-			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"pve/mvm_loot_image"
-			"scaleImage"	"1"
-		}
-
-		"ToorLootTitle"
+		"border"		"MainMenuBGBorder"
+		
+		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"ToorLootTitle"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_MvM_TourLootTitle"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%tiptext%"
 			"textAlignment"	"west"
-			"xpos"			"10"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"30"
-		}
-
-		"ToorLootDetailLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ToorLootDetailLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"%tour_loot_detail%"
-			"textAlignment"	"west"
-			"wrap"			"1"
-			"xpos"			"10"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"280"
-			"tall"			"50"
-		}
-	}
-
-	"MvMEconItemsGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MvMEconItemsGroupBox"
-		"xpos"			"c-305"
-		"ypos"			"240"
-		"zpos"			"-1"
-		"wide"			"400"
-		"tall"			"120"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
-
-		"NavToRelay"	"OpenHelpButton"
-		"NavUp"			"MvMTourOfDutyGroupBox"
-		"NavDown"		"MvMPracticeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
-
-		"InventoryTitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"InventoryTitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_MvM_InventoryTitle"
-			"textAlignment"	"west"
-			"xpos"			"8"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"30"
-		}
-
-		"OpenHelpButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"OpenHelpButton"
-			"xpos"			"175"
+			"xpos"			"20"
 			"ypos"			"10"
 			"zpos"			"2"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"?"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"command" "open_help"
-			"button_activation_type"	"1"	// only on press
-
-			"NavDown"		"OpenStoreButton2"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-
-		"MannUpTicketImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MannUpTicketImage"
-			"xpos"			"6"
-			"ypos"			"61"
-			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"pve/mvm_ticket_inactive"
-			"scaleImage"	"1"
-		}
-
-		"MannUpTicketCountLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%ticket_count%"
-			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"70"
-			"ypos"			"79"
-			"zpos"			"1"
-			"wide"			"60"
-			"tall"			"30"
-			"mouseinputenabled" "0"
-		}
-
-		"OpenStoreButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"OpenStoreButton"
-			"xpos"			"95"
-			"ypos"			"82"
-			"zpos"			"2"
 			"wide"			"100"
-			"tall"			"20"
+			"tall"			"10"
 			"autoResize"	"0"
-			"pinCorner"		"3"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_BuyMore"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"command" "open_store_ticket"
-
-			"NavUp"			"OpenStoreButton2"
-			"NavDown"		"<<BackButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-
-		"SquadSurplusImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SquadSurplusImage"
-			"xpos"			"6"
-			"ypos"			"24"
-			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"pve/mvm_voucher_inactive"
-			"scaleImage"	"1"
-		}
-
-		"SquadSurplusCountLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%voucher_count%"
-			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"70"
-			"ypos"			"43"
-			"zpos"			"1"
-			"wide"			"60"
-			"tall"			"30"
-			"mouseinputenabled" "0"
-		}
-
-		"OpenStoreButton2"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"OpenStoreButton2"
-			"xpos"			"95"
-			"ypos"			"46"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_BuyMore"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"command" "open_store_voucher"
-
-			"NavUp"			"OpenHelpButton"
-			"NavDown"		"OpenStoreButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-
-		"SquadSurplusCheckButton"
-		{
-			"ControlName"		"CheckButton"
-			"fieldName"		"SquadSurplusCheckButton"
-			"xpos"		"240"
-			"ypos"		"43"
-			"zpos"		"2"
-			"wide"		"25"
-			"tall"		"25"
-			"font"			"HudFontSmall"
-			"labelText"		""
-		}
-
-		"ActivateSquadSurplusLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SquadSurplusCheckLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"#TF_MvM_ActivateSquadSurplus"
-			"textAlignment"	"north-west"
-			"wrap"			"1"
-			"xpos"			"268"
-			"ypos"			"46"
-			"zpos"			"0"
-			"wide"			"120"
-			"tall"			"60"
-		}
-	}
-
-	"MvMPracticeGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MvMPracticeGroupBox"
-		"xpos"		"c-305"
-		"ypos"		"240"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"120"
-		"PaintBackgroundType"	"2"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
-
-		"NavToRelay"	"MannUpNowButton"
-		"NavUp"			"MvMEconItemsGroupBox"
-		"NavDown"		"<<BackButton"
-		"NavRight"		"PartyActiveGroupBox"
-
-		"NoMannUpImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"NoMannUpImage"
-			"xpos"			"250"
-			"ypos"			"6"
-			"zpos"			"0"
-			"wide"			"110"
-			"tall"			"110"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"pve/mvm_loot_image"
-			"scaleImage"	"1"
-		}
-
-		"NoMannUpTitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NoMannUpTitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_MvM_NoMannUpTitle"
-			"textAlignment"	"west"
-			"xpos"			"10"
-			"ypos"			"5"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"30"
-		}
-
-		"NoMannUpDescriptionLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NoMannUpDescriptionLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_NoMannUpDescription"
-			"textAlignment"	"west"
-			"wrap"			"1"
-			"xpos"			"10"
-			"ypos"			"30"
-			"zpos"			"0"
-			"wide"			"280"
-			"tall"			"50"
-		}
-
-		"MannUpNowButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"MannUpNowButton"
-			"xpos"			"10"
-			"ypos"			"85"
-			"zpos"			"2"
-			"wide"			"120"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"#TF_MvM_MannUpNow"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"command" "mann_up_now"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-	}
-
-	"MvMSelectChallengeGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MvMSelectChallengeGroupBox"
-		"xpos"		"c-305"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"400"
-		"tall"		"225"
-
-		"NavToRelay"	"ChallengeListGroupBox"
-		"NavRight"		"MvMTourOfDutyGroupBox"
-
-		"ChallengeLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontMediumSmallBold"
-			"labelText"		"%tour_name%"
-			"textAlignment"	"south-west"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"400"
-			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
-		}
-
-		"CompleteLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%complete_heading%"
-			"textAlignment"	"south-west"
-			"xpos"			"264"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"100"
-			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
-		}
-
-		"TourLevelImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"TourLevelImage"
-			"xpos"			"342"
-			"ypos"			"-10"
-			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"mouseinputenabled" "0"
-			"image"			"../hud/mvm_tours"
-			"scaleImage"	"1"
-		}
-
-		"TourLevelLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontMediumSmallBold"
-			"labelText"		"%tour_level%"
-			"textAlignment"	"south"
-			"xpos"			"357"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"30"
-			"tall"			"26"
-			"fgcolor_override"	"0 0 0 255"
-		}
-
-		"ChallengeListGroupBox"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"ChallengeListGroupBox"
-			"xpos"			"0"
-			"ypos"			"28"
-			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"197"
-			"PaintBackgroundType"	"2"
-			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
-
-			"NavToRelay"	"ChallengeList"
-
-			"GreyOutPanel"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"GreyOutPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"200"
-				"wide"			"400"
-				"tall"			"225"
-				"visible"		"0"
-				"bgcolor_override"	"128 128 128 128"
-			}
-
-			"ChallengeList"
-			{
-				"ControlName"	"SectionedListPanel"
-				"fieldName"		"ChallengeList"
-				"font"			"HudFontSmall"
-				"xpos"			"70"
-				"ypos"			"5"
-				"zpos"			"0"
-				"wide"			"330"
-				"tall"			"192"
-				"linespacing"	"12"
-			}
+			"fgcolor_override"	"TanLight"
+			"auto_wide_tocontents"	"1"
 		}
 	}
 
@@ -1060,6 +60,136 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoGCGroupBox"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1000"
+		"wide"		"f0"
+		"tall"		"f0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"0 0 0 250"
+		"proportionaltoparent"	"1"
+
+		"NoGCTitle"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoGCTitle"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#TF_Matchmaking_PleaseWait"
+			"xpos"		"cs-0.5"
+			"ypos"		"120"
+			"zpos"			"2"
+			"wide"		"340"
+			"tall"		"40"
+			"textAlignment"	"center"
+			"visible"	"1"
+			"enabled"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"NoGCSubTitle"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoGCSubTitle"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_Matchmaking_RestoringConnection"
+			"xpos"		"cs-0.5"
+			"ypos"		"140"
+			"zpos"			"2"
+			"wide"		"340"
+			"tall"		"40"
+			"textAlignment"	"center"
+			"visible"	"1"
+			"enabled"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"SpinnerImage"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"SpinnerImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"160"
+			"zpos"			"0"
+			"wide"			"o1"
+			"tall"			"80"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"animated/tf2_logo_hourglass"
+		
+			"proportionaltoparent"	"1"
+		}
+	}
+
+	"MatchInProgressGroupBox"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MatchInProgressGroupBox"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1000"
+		"wide"		"f0"
+		"tall"		"f0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"0 0 0 250"
+		"proportionaltoparent"	"1"
+
+		"MatchInProgressTitle"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"MatchInProgressTitle"
+			"font"			"HudFontMediumBold"
+			"labelText"		"#TF_Matchmaking_MatchInProgress"
+			"xpos"		"cs-0.5"
+			"ypos"		"120"
+			"zpos"			"2"
+			"wide"		"340"
+			"tall"		"40"
+			"textAlignment"	"center"
+			"visible"	"1"
+			"enabled"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"MatchInProgressSubTitle"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"MatchInProgressSubTitle"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_Matchmaking_MatchInProgress_RestoringConnection"
+			"xpos"		"cs-0.5"
+			"ypos"		"140"
+			"zpos"			"2"
+			"wide"		"340"
+			"tall"		"40"
+			"textAlignment"	"center"
+			"visible"	"1"
+			"enabled"	"1"
+			"proportionaltoparent"	"1"
+		}
+
+		"SpinnerImage"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"SpinnerImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"160"
+			"zpos"			"0"
+			"wide"			"o1"
+			"tall"			"80"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"animated/tf2_logo_hourglass"
+		
+			"proportionaltoparent"	"1"
+		}
+	}
+
+	"SearchActiveGroupBox"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SearchActiveGroupBox"
 		"xpos"		"c-305"
 		"ypos"		"10"
 		"zpos"		"-1"
@@ -1070,59 +200,9 @@
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
 
-		"NoGCTitle"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"NoGCTitle"
-			"font"			"HudFontMediumBold"
-			"labelText"		"#TF_Matchmaking_PleaseWait"
-			"xpos"		"30"
-			"ypos"		"20"
-			"zpos"			"2"
-			"wide"		"340"
-			"tall"		"40"
-			"textAlignment"	"north-west"
-			"visible"	"1"
-			"enabled"	"1"
-		}
-
-		"NoGCSubTitle"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"NoGCSubTitle"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_Matchmaking_RestoringConnection"
-			"xpos"		"30"
-			"ypos"		"70"
-			"zpos"			"2"
-			"wide"		"340"
-			"tall"		"40"
-			"textAlignment"	"north-west"
-			"visible"	"1"
-			"enabled"	"1"
-		}
-
-	}
-
-	"SearchActiveGroupBox" //MM box while searching for a game
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SearchActiveGroupBox"
-		"xpos"			"c-35"
-		"ypos"			"10"
-		"zpos"			"0"
-		"wide"			"330"
-		"tall"			"295"
-
-		"paintbackground"		"0"
-		"bgcolor_override"	"0 0 0 200"
-		"image"			"replay/thumbnails/materialPanel"
-		"border"		"MaterialBorderDARKMEDBLUGRAY"
-		"proportionaltoparent"	"1"
-
 		"SearchActiveTitle"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"SearchActiveTitle"
 			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Matchmaking_Searching"
@@ -1134,16 +214,15 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
-			"fgcolor_override" "SOFTLITEBLU"
 		}
 
 		"NearbyColumnHead"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"NearbyColumnHead"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Matchmaking_Nearby"
-			"xpos"		"120"
+			"xpos"		"190"
 			"ypos"		"50"
 			"zpos"			"2"
 			"wide"		"90"
@@ -1151,16 +230,15 @@
 			"textAlignment"	"south-east"
 			"visible"	"1"
 			"enabled"	"1"
-			"fgcolor_override" "SOFTORANGE"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"WorldwideColumnHead"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Matchmaking_Worldwide"
-			"xpos"		"210"
+			"xpos"		"280"
 			"ypos"		"50"
 			"zpos"			"2"
 			"wide"		"90"
@@ -1168,12 +246,11 @@
 			"textAlignment"	"south-east"
 			"visible"	"1"
 			"enabled"	"1"
-			"fgcolor_override" "SOFTORANGE"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"PlayersInGameLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Matchmaking_ActivePlayers"
@@ -1185,12 +262,11 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
-			"fgcolor_override"	"SOFTORANGE"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"PlayersInGameTotalLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Matchmaking_Total"
@@ -1206,10 +282,10 @@
 
 			"PlayersInGameTotalNearbyValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersInGameTotalNearbyValue"
 				"font"			"HudFontSmall"
-				"xpos"		"120"
+				"xpos"		"190"
 				"ypos"		"90"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1222,10 +298,10 @@
 
 			"PlayersInGameTotalWorldwideValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersInGameTotalWorldwideValue"
 				"font"			"HudFontSmall"
-				"xpos"		"210"
+				"xpos"		"280"
 				"ypos"		"90"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1238,7 +314,7 @@
 
 		"PlayersInGameMatchingLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"PlayersInGameMatchingLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Matchmaking_Compatible"
@@ -1254,10 +330,10 @@
 
 			"PlayersInGameMatchingNearbyValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersInGameMatchingNearbyValue"
 				"font"			"HudFontSmall"
-				"xpos"		"120"
+				"xpos"		"190"
 				"ypos"		"110"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1270,10 +346,10 @@
 
 			"PlayersInGameMatchingWorldwideValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersInGameMatchingWorldwideValue"
 				"font"			"HudFontSmall"
-				"xpos"		"210"
+				"xpos"		"280"
 				"ypos"		"110"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1286,7 +362,7 @@
 
 		"PlayersSearchingLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"PlayersSearchingLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Matchmaking_SearchingPlayers"
@@ -1298,12 +374,11 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
-			"fgcolor_override"	"SOFTORANGE"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"PlayersSearchingTotalLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Matchmaking_Total"
@@ -1319,10 +394,10 @@
 
 			"PlayersSearchingTotalNearbyValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersSearchingTotalNearbyValue"
 				"font"			"HudFontSmall"
-				"xpos"		"120"
+				"xpos"		"190"
 				"ypos"		"160"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1335,10 +410,10 @@
 
 			"PlayersSearchingTotalWorldwideValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersSearchingTotalWorldwideValue"
 				"font"			"HudFontSmall"
-				"xpos"		"210"
+				"xpos"		"280"
 				"ypos"		"160"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1351,7 +426,7 @@
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"PlayersSearchingMatchingLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_Matchmaking_Compatible"
@@ -1367,10 +442,10 @@
 
 			"PlayersSearchingMatchingNearbyValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersSearchingMatchingNearbyValue"
 				"font"			"HudFontSmall"
-				"xpos"		"120"
+				"xpos"		"190"
 				"ypos"		"180"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1383,10 +458,10 @@
 
 			"PlayersSearchingMatchingWorldwideValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PlayersSearchingMatchingWorldwideValue"
 				"font"			"HudFontSmall"
-				"xpos"		"210"
+				"xpos"		"280"
 				"ypos"		"180"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1399,7 +474,7 @@
 
 		"EmptyGameserversLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"EmptyGameserversLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Matchmaking_EmptyGameservers"
@@ -1411,15 +486,14 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
-			"fgcolor_override"	"SOFTORANGE"
 		}
 
 			"EmptyGameserversMatchingNearbyValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"EmptyGameserversMatchingNearbyValue"
 				"font"			"HudFontSmall"
-				"xpos"		"120"
+				"xpos"		"190"
 				"ypos"		"210"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1432,10 +506,10 @@
 
 			"EmptyGameserversMatchingWorldwideValue"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"EmptyGameserversMatchingWorldwideValue"
 				"font"			"HudFontSmall"
-				"xpos"		"210"
+				"xpos"		"280"
 				"ypos"		"210"
 				"zpos"			"2"
 				"wide"		"90"
@@ -1450,11 +524,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PartyHasLowPriorityGroupBox"
-			"xpos"		"26"
-			"ypos"		"230"
+			"xpos"		"30"
+			"ypos"		"250"
 			"zpos"			"2"
 			"wide"		"340"
-			"tall"		"60"
+			"tall"		"100"
 			"visible"	"0"
 			"enabled"	"1"
 
@@ -1465,8 +539,8 @@
 				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
-				"wide"			"30"
-				"tall"			"30"
+				"wide"			"50"
+				"tall"			"50"
 				"visible"		"1"
 				"enabled"		"1"
 				"mouseinputenabled" "0"
@@ -1475,24 +549,24 @@
 			}
 			"PartyHasLowPriorityLabel"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PartyHasLowPriorityLabel"
-				"font"			"Medium12"
+				"font"			"HudFontSmall"
 				"labelText"		"#TF_Matchmaking_PartyPenalty"
-				"xpos"		"36"
-				"ypos"		"-12"
+				"xpos"		"60"
+				"ypos"		"0"
 				"zpos"			"2"
-				"wide"		"270"
+				"wide"		"275"
 				"tall"		"60"
 				"textAlignment"	"west"
 				"visible"	"1"
 				"enabled"	"1"
 				"wrap"		"1"
-				"fgcolor_override"	"TOMATORED"
+				"fgcolor_override"	"250 114 45 255"
 			}
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"ControlName"		"CExLabel"
+				"ControlName"		"Label"
 				"fieldName"		"PartyLowPriorityPenaltyTimer"
 				"font"			"HudFontSmall"
 				"labelText"		"%penaltytimer%"
@@ -1509,15 +583,15 @@
 		}
 	}
 
-	"PartyActiveGroupBox"  //CREATE A PARTY THINGY
+	"PartyActiveGroupBox"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PartyActiveGroupBox"
-		"xpos"			"c-310"
-		"ypos"		"0"
+		"xpos"			"c+100"
+		"ypos"		"10"
 		"zpos"		"1"
-		"wide"		"280"
-		"tall"		"360"
+		"wide"		"200"
+		"tall"		"310"
 		"visible"	"0"
 
 		"NavToRelay"	"PartyGroupBox"
@@ -1525,55 +599,27 @@
 		"NavLeft"		"<<Sheet"
 		"NavRight"		"<<StartPartyButton"
 
-		"if_competitive"
-		{
-			"ypos"		"0"
-		}
-
-		"PartyWavesBG"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PartyWavesBG"
-				"xpos"			"c-144"
-				"ypos"			"10"
-				"zpos"			"-1"
-				"wide"			"260"
-				"tall"			"294"
-
-				"autoResize"		"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"		"0"
-				"bgcolor_override"	"40 37 37 0"
-				"proportionalToParent"	"1"
-
-				"border"			"MaterialBorderDARKMEDBLUGRAY"
-				"image"				"replay/thumbnails/materialPanel"
-				"paintbackground"	"0"
-			}
-
 		"PartyGroupBox"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PartyGroupBox"
 			"xpos"		"0"
-			"ypos"		"10"
+			"ypos"		"0"
 			"zpos"		"-1"
-			"wide"		"280"
-			"tall"		"360"
+			"wide"		"200"
+			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 0"
-			"border"		""
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 
 			"NavToRelay"	"InviteButton"
 
 			"PartyLabel"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"Label"
 				"fieldName"		"PartyLabel"
-				"font"			"Bold24"
+				"font"			"HudFontMediumBold"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"
@@ -1581,25 +627,24 @@
 				"zpos"			"0"
 				"wide"			"120"
 				"tall"			"20"
-				"fgcolor_override"	"SOFTLITEBLU"
 			}
 
 			"InviteButton"
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"InviteButton"
-				"xpos"			"-3"
-				"ypos"			"298"
-				"zpos"			"4"
-				"wide"			"258"
-				"tall"			"36"
+				"xpos"			"95"
+				"ypos"			"5"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"20"
 				"autoResize"	"0"
 				//"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labelText"		"INVITE"
-				"font"			"Bold18"
+				"labelText"		"#TF_Matchmaking_Invite"
+				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -1608,21 +653,13 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"border_default"	"MaterialBorderHPGREEN"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "WHITEY"
-				"armedFgColor_override" "DEEPRED"
-				"depressedFgColor_override" "DEEPRED"
 			}
 
 			"TourLevelImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"TourLevelImage"
-				"xpos"			"184"
+				"xpos"			"169"
 				"ypos"			"23"
 				"zpos"			"0"
 				"wide"			"25"
@@ -1639,10 +676,10 @@
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"PartyPlayerList"
 				"xpos"			"5"
-				"ypos"			"30"
+				"ypos"			"35"
 				"zpos"			"0"
-				"wide"			"242"
-				"tall"			"125"
+				"wide"			"190"
+				"tall"			"120"
 				"linespacing"	"18"
 			}
 		}
@@ -1653,12 +690,12 @@
 			"fieldName"		"ChatLog"
 			"Default"			"ChatMiniFont"
 			"xpos"			"0"
-			"ypos"			"190"
+			"ypos"			"170"
 			"zpos"			"0"
-			"wide"			"252"
-			"tall"			"90"
-			"bgcolor_override"	"0 0 0 0"
-			"border"		""
+			"wide"			"200"
+			"tall"			"110"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 		}
 
 		"ChatTextEntry"
@@ -1667,12 +704,12 @@
 			"fieldName"		"ChatTextEntry"
 			"font"			"ChatFont"
 			"xpos"			"0"
-			"ypos"			"280"
+			"ypos"			"290"
 			"zpos"			"0"
-			"wide"			"252"
+			"wide"			"200"
 			"tall"			"20"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"MaterialBorderDARKBLUGRAY"
+			"border"		"QuickplayBorder"
 		}
 	}
 
@@ -1691,7 +728,7 @@
 
 	"JoinLateValueLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"JoinLateValueLabel"
 		"font"			"HudFontSmall"
 		"textAlignment"	"west"
@@ -1700,626 +737,5 @@
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
-	}
-
-	"CompetitiveModeGroupBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CompetitiveModeGroupBox"
-		"xpos"		"0"
-		"ypos"		"10"
-		"zpos"		"-1"
-		"wide"		"f0"
-		"tall"		"470"
-		"visible"	"0"
-		"enabled"	"1"
-		//"border"	"MainMenuHighlightBorder"
-
-		"LadderLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LadderLabel"
-			"xpos"			"105"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			//"fgcolor_override"	"89 81 71 255"
-			"textAlignment"	"west"
-			"labelText"		"#TF_Competitive_Ladder"
-		}
-
-		// Dropdown
-		"CompetitiveModeComboBox"
-		{
-			"ControlName"		"ComboBox"
-			"fieldName"			"CompetitiveModeComboBox"
-			"Font"				"HudFontSmallestBold"
-			"xpos"				"155"
-			"ypos"				"1"
-			"zpos"				"0"
-			"wide"				"85"
-			"tall"				"15"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"1"
-			"textHidden"		"0"
-			"editable"			"0"
-			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			"default"			"0"
-			"border"			"MaterialBorderDARKMEDBLUGRAY"
-		
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
-			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
-			"defaultSelectionBG2Color_override" "0 0 0 0"
-		}
-
-		"LadderBackground"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"LadderBackground"
-			"xpos"			"c-35"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"330"
-			"tall"			"294"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 0"
-			"proportionalToParent"	"1"
-
-			"border"		"MaterialBorderDARKMEDBLUGRAY"
-			"image"				"replay/thumbnails/materialPanel"
-			"paintbackground"	"0"
-		}
-
-		"StatsTitle"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"StatsTitle"
-			"xpos"			"c-20"
-			"ypos"			"4"
-			"zpos"			"950"
-			"wide"			"225"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Stats"
-			"textAlignment"	"west"
-			"font"			"Bold24"
-			"fgcolor"		"SOFTORANGE"
-		}
-		
-		"LadderInfoPanel"   //RANKING SECTION SHIT
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"LadderInfoPanel"
-			"xpos"			"c-35"
-			"ypos"			"20"
-			"zpos"			"-1"
-			"wide"			"313"
-			"tall"			"285"
-			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
-			"bgcolor_override"	"25 25 25 0"
-			"border"			""
-
-			"StatsLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"StatsLabel"
-				"xpos"			"135"
-				"ypos"			"10"
-				"zpos"			"-1"
-				"wide"			"150"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"0"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"89 81 71 255"
-				"textAlignment"	"west"
-				"labelText"		"#TF_Competitive_Stats"
-			}
-			
-			// Rank title and icon
-			"RankBG"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"RankBG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"image"			"competitive/comp_badge_ui_spotlight"
-				"scaleImage"	"1"
-			}
-
-			"RankLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RankLabel"
-				"xpos"			"107"
-				"ypos"			"35"
-				"zpos"			"0"
-				"wide"			"100"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				//"fgcolor_override"	"89 81 71 255"
-				"textAlignment"	"west"
-				"labelText"		"#TF_Competitive_RankUpper"
-			}
-
-			"RankIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"RankIcon"
-				"xpos"			"20"
-				"ypos"			"18"
-				"zpos"			"0"
-				"wide"			"55"
-				"tall"			"55"
-				"visible"		"1"
-				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"image"			"pve/mvm_loot_image"
-				"scaleImage"	"1"
-			}
-
-			"RankNumber"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RankNumber"
-				"xpos"			"100"
-				"ypos"			"30"
-				"zpos"			"0"
-				"wide"			"30"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				//"fgcolor_override"	"250 114 45 255"
-				"textAlignment"	"west"
-				"labelText"		"%ranknumber%"
-			}
-
-			"RankTitle"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RankTitle"
-				"xpos"			"115"
-				"ypos"			"30"
-				"zpos"			"0"
-				"wide"			"150"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"250 114 45 255"
-				"textAlignment"	"west"
-				"labelText"		"%ranktitle%"
-			}
-
-			// Progress meter
-			"RankLevelLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RankLevelLabel"
-				"xpos"			"20"
-				"ypos"			"75"
-				"zpos"			"0"
-				"wide"			"100"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
-				//"fgcolor_override"	"89 81 71 255"
-				"textAlignment"	"west"
-				"labelText"		"#TF_Competitive_Next"
-			}
-
-			"RankLevel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RankLevel"
-				"xpos"			"55"
-				"ypos"			"75"
-				"zpos"			"0"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"250 114 45 255"
-				"textAlignment"	"west"
-				"labelText"		"%ranklevel%"
-			}
-
-			"NextRankLevel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"NextRankLevel"
-				"xpos"			"285"
-				"ypos"			"75"
-				"zpos"			"0"
-				"wide"			"100"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"250 114 45 255"
-				"textAlignment"	"west"
-				"labelText"		"%nextranklevel%"
-			}
-
-			"RankProgressMeter"
-			{	
-				"ControlName"	"ContinuousProgressBar"
-				"fieldName"		"RankProgressMeter"
-				"font"			"HudFontSmallestBold"
-				"xpos"			"100"
-				"ypos"			"50"
-				"zpos"			"2"
-				"wide"			"185"
-				"tall"			"10"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"fgcolor_override"	"132 229 37 255"
-			}
-
-			"RankProgressMeterBG"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"RankProgressMeterBG"
-				"xpos"			"99"
-				"ypos"			"49"
-				"zpos"			"-1"
-				"wide"			"187"
-				"tall"			"12"
-				"PaintBackgroundType"	"0"
-				"paintbackground"		"1"
-				"bgcolor_override"	"75 75 75 200"
-				//"border"			"QuickplayBorder"
-			}
-
-			"StatsButton"  //SEASON BUTTON
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"StatsButton"
-				"xpos"			"14"
-				"ypos"			"204"
-				"zpos"			"1"
-				"wide"			"302"
-				"tall"			"28"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"SEASON"
-				"font"			"Bold14"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"Command"		"stats_season"
-				"button_activation_type"	"1"	// only on press
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "WHITEY"
-				"armedFgColor_override" "SOFTORANGE"
-				"depressedFgColor_override" "SOFTORANGE"
-			}
-
-			"MatchStatsButton"  //LAST MATCH 
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"MatchStatsButton"
-				"xpos"			"14"
-				"ypos"			"232"
-				"zpos"			"1"
-				"wide"			"302"
-				"tall"			"28"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"LAST MATCH"
-				"font"			"Bold14"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"bgcolor_override"	"89 81 71 255"
-				"Command"		"stats_match"
-				"button_activation_type"	"1"	// only on press
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "WHITEY"
-				"armedFgColor_override" "SOFTORANGE"
-				"depressedFgColor_override" "SOFTORANGE"
-			}
-
-			"StatLine"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"StatLine"
-				"xpos"				"15"
-				"ypos"				"125"
-				"zpos"				"1"
-				"wide"				"p0.9"
-				"tall"				"0"
-				"visible"			"1"
-				"proportionaltoparent" "1"
-				"bgcolor_override"	"89 81 71 255"
-			}
-
-			"StatList"
-			{
-				"ControlName"	"SectionedListPanel"
-				"fieldName"		"StatList"
-				"xpos"			"10"
-				"ypos"			"60"
-				"zpos"			"2"
-				"wide"			"330"
-				"tall"			"150"
-				"visible"		"1"
-				"linespacing"	"16"
-				"linegap"		"2"
-				"bgcolor_override"	"0 0 0 0"
-			}
-
-			"GoldMedalIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"GoldMedalIcon"
-				"xpos"			"231"
-				"ypos"			"74"
-				"zpos"			"0"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"image"			"competitive/competitive_coin_gold"
-				"scaleImage"	"1"
-			}
-
-			"SilverMedalIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SilverMedalIcon"
-				"xpos"			"251"
-				"ypos"			"74"
-				"zpos"			"0"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"image"			"competitive/competitive_coin_silver"
-				"scaleImage"	"1"
-			}
-
-			"BronzeMedalIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"BronzeMedalIcon"
-				"xpos"			"270"
-				"ypos"			"74"
-				"zpos"			"0"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"image"			"competitive/competitive_coin_bronze"
-				"scaleImage"	"1"
-			}
-
-			"MedalsHelpButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"MedalsHelpButton"
-				"xpos"			"292"
-				"ypos"			"79"
-				"zpos"			"3"
-				"wide"			"12"
-				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"?"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"command"		"medals_help"
-				"button_activation_type"	"1"	// only on press
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-			}
-		}
-
-		"BackgroundLeaderboard"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BackgroundLeaderboard"
-			"xpos"			"c-314"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"260"
-			"tall"			"294"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 0"
-			"proportionalToParent"	"1"
-
-			"border"		"MaterialBorderDARKMEDBLUGRAY"
-			"image"				"replay/thumbnails/materialPanel"
-			"paintbackground"	"0"
-		}
-
-		"PlayersTitle"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PlayersTitle"
-			"xpos"			"c-293"
-			"ypos"			"4"
-			"zpos"			"950"
-			"wide"			"225"
-			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Players"
-			"textAlignment"	"west"
-			"font"			"Bold24"
-			"fgcolor"		"SOFTORANGE"
-		}
-
-		"LeaderboardPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"LeaderboardPanel"
-			"xpos"			"c-318"
-			"ypos"			"40"
-			"zpos"			"-1"
-			"wide"			"313"
-			"tall"			"290"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"25 25 25 0"
-			"border"			""
-			"mouseinputenabled" "1"
-
-
-			"Leaderboard"   //THIS IS THE LIST OF PLAYERS
-			{
-				"ControlName"	"CLadderLobbyLeaderboard"
-				"fieldName"		"Leaderboard"
-				"xpos"			"0"
-				"ypos"			"-20"
-				"zpos"			"0"
-				"wide"			"252"
-				"tall"			"200"
-				"visible"		"1"
-				"enabled"		"1"
-				"mouseinputenabled" "1"
-				"font"			"Bold10"
-				"scaleImage"	"1"
-				"entry_step"	"23"
-
-				//"border"		""
-				//"image"				"replay/thumbnails/materialPanel"
-				//"paintbackground"	"0"
-			}
-
-			"FriendsLeaderboardButton"  //FRIENDS BUTTON
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"FriendsLeaderboardButton"
-				"xpos"			"22"
-				"ypos"			"184"
-				"zpos"			"100"
-				"wide"			"222"
-				"tall"			"28"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"#TF_Competitive_Friends"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"Command"		"friends_leaderboard"
-				"button_activation_type"	"1"	// only on press
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "WHITEY"
-				"armedFgColor_override" "SOFTORANGE"
-				"depressedFgColor_override" "SOFTORANGE"
-			}
-
-			"GlobalLeaderboardButton"   //GLOBAL
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"GlobalLeaderboardButton"
-				"xpos"			"22"
-				"ypos"			"212"
-				"zpos"			"100"
-				"wide"			"222"
-				"tall"			"28"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		"#TF_Competitive_Global"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"bgcolor_override"	"89 81 71 255"
-				"Command"		"global_leaderboard"
-				"button_activation_type"	"1"	// only on press
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-
-				"defaultFgColor_override" "WHITEY"
-				"armedFgColor_override" "SOFTORANGE"
-				"depressedFgColor_override" "SOFTORANGE"
-			}
-		}
 	}
 }
