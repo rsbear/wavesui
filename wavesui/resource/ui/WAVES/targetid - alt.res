@@ -5,24 +5,24 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"-2"
-		"ypos"			"-1"   //-2
+		"ypos"			"-4"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"12"
+		"tall"	 		"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"				"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanel
 		"scaleImage"		"1"
 		"teambg_1"			"replay/thumbnails/waves-transparentbg"
 		"teambg_2"			"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelRed
-		"teambg_2_lodef"	"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelRed
+		"teambg_2_border"	"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelRed
 		"teambg_3"			"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
 		"teambg_3_lodef"	"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
 		
-		"src_corner_height"		"16"				// pixels inside the image
-		"src_corner_width"		"16"
+		"src_corner_height"		"15"				// pixels inside the image
+		"src_corner_width"		"24"
 			
 		"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"7"
@@ -32,7 +32,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"-2"
-		"ypos"			"-1"   //-2
+		"ypos"			"-2221"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"22"
@@ -40,8 +40,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/MaterialPanelBlu"	//replay/thumbnails/MaterialPanelBlu
-		"image_lodef"	"replay/thumbnails/MaterialPanelBlu"	//replay/thumbnails/MaterialPanelBlu
+		"image"			"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
+		"image_lodef"	"replay/thumbnails/targetalt"	//replay/thumbnails/MaterialPanelBlu
 		
 		"src_corner_height"		"0"				// pixels inside the image
 		"src_corner_width"		"0"
@@ -54,7 +54,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"-2"
-		"ypos"			"-1"  //-2
+		"ypos"			"-2221"  //-2
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -62,8 +62,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/MaterialPanelRed"	//replay/thumbnails/MaterialPanelRed
-		"image_lodef"	"replay/thumbnails/MaterialPanelRed"	//replay/thumbnails/MaterialPanelRed
+		"image"			"replay/thumbnails/targetalt"	//replay/thumbnails/MaterialPanelRed
+		"image_lodef"	"replay/thumbnails/targetalt"	//replay/thumbnails/MaterialPanelRed
 		
 		"src_corner_height"		"0"				// pixels inside the image
 		"src_corner_width"		"0"
@@ -83,10 +83,10 @@
 		"tall"	 		"24"
 		"autoResize"		"2"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
-		"image_lodef"	"replay/thumbnails/waves-transparentbg"	//replay/thumbnails/MaterialPanelBlu
+		"image"			"replay/thumbnails/waves-targetalt"	//replay/thumbnails/MaterialPanelBlu
+		"image_lodef"	"replay/thumbnails/waves-targetalt"	//replay/thumbnails/MaterialPanelBlu
 		
 		"src_corner_height"		"32"				// pixels inside the image
 		"src_corner_width"		"32"

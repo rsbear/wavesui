@@ -80,7 +80,7 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui/replay/thumbnails/xhairshadow/xhairshadowxweird" //sprites/crosshairs
+				"file"		"vgui/replay/thumbnails/xhairshadow/xhairshadowdot" //sprites/crosshairs
 				"x"			"0"
 				"y"			"0"
 				"width"		"64" //32
