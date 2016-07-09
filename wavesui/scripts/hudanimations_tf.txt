@@ -1756,7 +1756,7 @@ event MMenu_PlayList_Expand
 {
 	
 
-	Animate PlayListContainer wide 190	 Spline	0.0 0.40
+	Animate PlayListContainer wide 180	 Spline	0.0 0.40
 
 	FireCommand 0 "soundentry Panel.SlideDown"
 }

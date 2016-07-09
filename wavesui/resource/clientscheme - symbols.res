@@ -380,7 +380,16 @@ Scheme
 
 
 
-
+		"Paintbrush32"
+		{
+			"1"
+			{
+				"name"		"RissaTypeface"
+				"tall"		"32"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
 
 
 
@@ -438,6 +447,11 @@ CustomFontFiles
 	{
 		"font"	"resource/fonts/BLOKKNeue-Regular.otf"
 		"name"	"BLOKK Neue"
+	}
+	"7"
+	{
+		"font"	"resource/fonts/RissaTypeface.ttf"
+		"name"	"RissaTypeface"
 	}
 }	
 }
