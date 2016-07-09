@@ -133,7 +133,6 @@
 		"zpos"		"1000"
 		"wide"		"f0"
 		"tall"		"f0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
 
@@ -200,8 +199,7 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"330"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 0"
 
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"

@@ -1472,7 +1472,7 @@
 				{
 					"ControlName"	"EditablePanel"
 					"fieldname"		"FindAGameButton2"
-					"xpos"			"45"
+					"xpos"			"43"
 					"ypos"			"132"
 					"zpos"			"13"
 					"wide"			"80"
