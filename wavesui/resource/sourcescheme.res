@@ -147,7 +147,7 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"135 246 255 255"
+		TextEntry.TextColor			"155 246 255 255"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.SelectedBgColor	"NotoGreen"
 

@@ -10,6 +10,13 @@
 	}
 
 
+	///  HOME SERVER BUTTON aka scrim ////////////////////////////////////////////////////////
+	"HomeServerButton"
+	{
+		"label"			"scrim"
+		"command"		"engine connect 216.103.171.162:27015;password wavesui"
+	}
+
 	//////////////////////////////////////////////////////////////////////
 	"ResumeGameButton"
 	{

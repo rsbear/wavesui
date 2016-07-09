@@ -1547,19 +1547,78 @@
 					"font"					"Paintbrush32"
 				}
 
+				"HomeServerButton"
+				{
+					"ControlName"	"EditablePanel"
+					"fieldname"		"HomeServerButton"
+					"xpos"			"18"
+					"ypos"			"175"
+					"zpos"			"13"
+					"wide"			"100"
+					"tall"			"22"
+					"visible"		"1"
+					"PaintBackgroundType"	"0"
+
+					"SubButton"
+					{
+						"ControlName"	"CExImageButton"
+						"fieldName"		"SubButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"wide"			"100"
+						"tall"			"22"
+						"autoResize"	"0"
+						"pinCorner"		"0"
+						"visible"		"1"
+						"enabled"		"1"
+						"tabPosition"	"0"
+						"textinsetx"	"0"
+						"use_proportional_insets" "1"
+						"font"			"Bold16"
+						"textAlignment"	"center"
+						"dulltext"		"0"
+						"brighttext"	"0"
+						"default"		"1"
+						"sound_depressed"	"UI/buttonclick.wav"
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"border_default"	""
+						"border_armed"		""
+						"paintbackground"	"0"
+
+						"defaultFgColor_override" "WHITEY"
+						"armedFgColor_override" "SOFTORANGE"
+						"depressedFgColor_override" "SOFTORANGE"
+
+						"SubImage"
+						{
+							"ControlName"	"ImagePanel"
+							"fieldName"		"SubImage"
+							"xpos"			"9999"
+							"ypos"			"9999"
+							"zpos"			"1"
+							"wide"			"14"
+							"tall"			"14"
+							"visible"		"1"
+							"enabled"		"1"
+							"scaleImage"	"1"
+						}
+					}
+				}
+
 				"ScrimEntry"
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"ScrimEntry"
-					"xpos"			"6"
-					"ypos"			"175"
-					"tall"			"22"
+					"xpos"			"7"
+					"ypos"			"175"	//175
+					"tall"			"0"
 					"wide"			"p1"
 					"proportionaltoparent"	"1"
 
 					"image_name"		""
 					"button_token"		"scrim"
-					"button_command"	"engine connect 216.103.171.162:27015;password wavesui"
+					//"button_command"	"engine connect 216.103.171.162:27015;password wavesui"
 					"desc_token"		""
 				}
 
@@ -1567,7 +1626,7 @@
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"CasualEntry"
-					"xpos"			"6"
+					"xpos"			"7"
 					"ypos"			"197"
 					"tall"			"22"
 					"wide"			"p1"
@@ -1583,7 +1642,7 @@
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"CompetitiveEntry"
-					"xpos"			"6"
+					"xpos"			"7"
 					"ypos"			"219"
 					"tall"			"22"
 					"wide"			"p1"
@@ -1599,7 +1658,7 @@
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"ServerBrowserEntry"
-					"xpos"			"6"
+					"xpos"			"7"
 					"ypos"			"241"
 					"tall"			"22"
 					"wide"			"p1"
@@ -1615,7 +1674,7 @@
 				{
 					"ControlName"	"CMainMenuPlayListEntry"
 					"fieldName"		"LogsEntry"
-					"xpos"			"6"
+					"xpos"			"7"
 					"ypos"			"263"
 					"tall"			"25"
 					"wide"			"p1"
