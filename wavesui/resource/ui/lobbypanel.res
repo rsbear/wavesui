@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"DARKBLUGRAY"
 		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
@@ -66,9 +66,12 @@
 		"wide"		"f0"
 		"tall"		"f0"
 		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
+
+		"border"			"MainMenuBGBorder"
+		"image"				"replay/thumbnails/materialPanel"
+		"paintbackground"	"0"
 
 		"NoGCTitle"
 		{
@@ -131,9 +134,11 @@
 		"wide"		"f0"
 		"tall"		"f0"
 		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
+
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
 
 		"MatchInProgressTitle"
 		{
@@ -196,9 +201,10 @@
 		"wide"		"400"
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
 
 		"SearchActiveTitle"
 		{
@@ -608,10 +614,9 @@
 			"zpos"		"-1"
 			"wide"		"200"
 			"tall"		"160"
-			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"2"
+			"border"		"MainMenuBGBorder"
 
 			"NavToRelay"	"InviteButton"
 
@@ -694,8 +699,10 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+
+			"PaintBackgroundType"	"2"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"ChatTextEntry"
@@ -708,8 +715,10 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+
+			"PaintBackgroundType"	"2"
+			"border"		"MainMenuBGBorder"
 		}
 	}
 

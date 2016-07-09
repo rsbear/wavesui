@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"DARKBLUGRAY"
 		"proportionaltoparent"	"1"
 	}
 
@@ -26,14 +26,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeBackgroundImage"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"11110"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"p0.8"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
-		"image"			"competitive/comp_background_tier001a"
+		"image"			""
 		"scaleImage"	"1"
 	}
 
@@ -388,21 +388,21 @@
 		"PartyGroupBox"
 		{
 			"tall"		"160"
-			"border"		"QuickplayBorder"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"ChatLog"
 		{
 			"ypos"			"165"
 			"tall"			"100"
-			"border"		"QuickplayBorder"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"ChatTextEntry"
 		{
 			"ypos"			"270"
 			"tall"			"16"
-			"border"		"QuickplayBorder"
+			"border"		"MainMenuBGBorder"
 		}
 	}
 

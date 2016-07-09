@@ -5,7 +5,7 @@
 	"StartPartyButton"
 	{
 	//	"xpos"			"c+120"
-		"ypos"			"380"
+		"ypos"			"420"
 	}
 
 	"RankPanel"
@@ -869,10 +869,9 @@
 		"zpos"			"8"
 		"wide"			"321"
 		"tall"			"285"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{

@@ -313,14 +313,14 @@
 		"ypos"		"360"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"12"
+		"tall_minmode"	 	"34"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "40"
 
-		"ypos_minmode"		"245"
+		"ypos_minmode"		"285"
 	}
 	
 	CSecondaryTargetID

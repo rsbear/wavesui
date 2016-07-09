@@ -280,7 +280,7 @@
 		"fieldName"		"WaitingForLeaderLabel"
 		"font"			"HudFontSmall"
 		"xpos"		"c+35"
-		"ypos"		"410"
+		"ypos"		"444410"
 		"zpos"			"2"
 		"wide"		"300"
 		"tall"		"80"
@@ -308,7 +308,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c-101"
-		"ypos"			"437"
+		"ypos"			"444437" //437
 		"zpos"			"2"
 		"wide"			"195"
 		"tall"			"25"
@@ -373,10 +373,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"StartSearchButton"
-		"xpos"			"c-34"
-		"ypos"			"358"
+		"xpos"			"c-21"
+		"ypos"			"420"
 		"zpos"			"2"
-		"wide"			"328"
+		"wide"			"324"
 		"tall"			"36"
 		"autoResize"	"0"
 		//"pinCorner"		"3"
@@ -406,12 +406,12 @@
 		"depressedFgColor_override" "DEEPRED"
 	}
 
-	"PlayNowButton"
+	"PlayNowButton" 	//fuck off mvm
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayNowButton"
 		"xpos"			"c-295"
-		"ypos"			"303"
+		"ypos"			"333303"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -445,7 +445,7 @@
 		"depressedFgColor_override" "DEEPRED"
 	}
 
-	"MannUpDisabledLabel"
+	"MannUpDisabledLabel"  	// goodbye mvm :}
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MannUpDisabledLabel"
@@ -453,7 +453,7 @@
 		"labelText"		"#TF_Matchmaking_MannUpDisabled"
 		"textAlignment"	"center"
 		"xpos"			"c-295"
-		"ypos"			"300"
+		"ypos"			"333300"
 		"zpos"			"30"
 		"wide"			"180"
 		"tall"			"40"
@@ -463,12 +463,12 @@
 		"bgcolor_override"				"0 0 0 240"
 	}
 
-	"PracticeButton"
+	"PracticeButton"   //useless imo (bootcamp)
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PracticeButton"
 		"xpos"			"c-95"
-		"ypos"			"303"
+		"ypos"			"303333"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -511,10 +511,9 @@
 		"zpos"			"8"
 		"wide"			"200"
 		"tall"			"285"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{
@@ -565,8 +564,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StartPartyButton"
-		"xpos"			"c-311"
-		"ypos"			"330"
+		"xpos"			"c-304"
+		"ypos"			"400"
 		"zpos"			"10"
 		"wide"			"258"
 		"tall"			"36"
