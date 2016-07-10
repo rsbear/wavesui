@@ -154,9 +154,139 @@
 	}
 
 
+	"MenuSlideOutButton" //wip
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MenuSlideOutButton"
+		"xpos"			"46"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"30"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"26"
+			"tall"			"22"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"labelText"		">"
+			"use_proportional_insets" "1"
+			"font"			"Bold16"
+			"command"		"toggle_play_menu"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"defaultFgColor_override" "VERYBRIGHTGRAY"
+			"armedFgColor_override" "SOFTORANGE"
+			"depressedFgColor_override" "SOFTORANGE"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			""
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}
+	}
+
+	"PlayListContainer"	//wip
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayListContainer"
+		"xpos"			"-10"
+		"ypos"			"5"
+		"zpos"			"-10"
+		"wide"			"0" //180
+		"tall"			"1260"
+		"visible"		"1"
+
+		"PlaylistBGPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PlaylistBGPanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"171"
+			"tall"			"1260"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"border"		"wavesDARKBLUGRAY"
+			"proportionaltoparent"	"1"
+
+			"pinCorner"		"2"
+			"autoResize"	"1"
+
+			"PlayListDropShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"PlaylistBGPanel"
+				"xpos"			"cs-0.5"
+				"ypos"			"5"
+				"zpos"			"-100"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"PaintBackgroundType"	"2"
+				"border"		"InnerShadowBorder"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+			}
+
+			"PlayListContainer"
+			{
+				"ControlName"	"CExScrollingEditablePanel"
+				"fieldName"		"PlayListContainer"
+				"xpos"			"cs-0.5"
+				"ypos"			"25"
+				"wide"			"170"
+				"tall"			"1260"
+				"visible"		"1"
+				"proportionaltoparent"	"1"
+				"restrict_width" "1"
 
 
 
+			}
+		}
+	}
 	"CustomScout"
 	{
 		"ControlName"	"CExImageButton"

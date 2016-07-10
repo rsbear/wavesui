@@ -1756,7 +1756,7 @@ event MMenu_PlayList_Expand
 {
 	
 
-	Animate PlayListContainer wide 180	 Spline	0.0 0.40
+	Animate PlayListContainer wide 180	 Spline	0.0 0.4
 
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
@@ -1778,7 +1778,7 @@ event MMenu_PlayList_Collapse_Immediate
 	Animate VRModeButton			ypos 379 Spline 0 0
 	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
 
-	Animate PlayListContainer wide 0 Spline 0 0
+	Animate PlayListContainer wide 0 Spline 0 0.2
 }
 
 event MMenu_SafeMode_Blink
