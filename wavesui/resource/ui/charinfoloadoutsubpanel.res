@@ -152,7 +152,11 @@
 			"image"			"glyph_options"
 		}			
 	}
-	
+
+
+
+
+
 	"CustomScout"
 	{
 		"ControlName"	"CExImageButton"
@@ -210,6 +214,7 @@
 			"image"			"glyph_options"
 		}			
 	}
+
 	
 	"CustomSoldier"
 	{
