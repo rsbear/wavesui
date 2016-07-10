@@ -1540,11 +1540,12 @@
 					"tall"					"30"
 					"visible"				"1"
 					"enabled"				"1"
-					"labelText"				"Play"
+					"labelText"				"games"
 					"textAlignment"			"center"
 					"dulltext"				"0"
 					"brighttext"			"0"
 					"font"					"Paintbrush32"
+					"fgcolor"				"DARKERMEDBLUGRAY"
 				}
 
 				"HomeServerButton"
