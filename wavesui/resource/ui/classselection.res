@@ -777,6 +777,66 @@
 		"selectedFgColor_override" "SOFTORANGE"
 	}
 
+	"random"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"random"
+		"xpos"				"c1111119"
+		"ypos"				"351"
+		"zpos"				"6"
+		"wide"				"60"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Random"
+		"textAlignment"		"west"
+		"Command"			"select 12"
+		"Default"			"1"
+		"font"				"Medium10"
+		"scaleImage"		"1"
+		
+		"image_default"		"class_sel_sm_random_inactive"
+		"image_armed"		"class_sel_sm_random_inactive"
+		
+		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "227 227 227 255"
+		"selectedFgColor_override" "White"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		
+		"image_drawcolor"		"255 255 255 180"	//"255 255 255 180"
+		"image_armedcolor"		"200 200 200 255"	//"255 255 255 255"
+		"image_selectedcolor"		"255 255 255 255"	//
+		
+		"stayselectedonclick"	"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"50"
+			"tall"			"100"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_random_inactive"
+			"scaleImage"	"1"
+		}				
+	}
+
     "EditLoadoutButton"
 	{
 		"ControlName"	"CExButton"
