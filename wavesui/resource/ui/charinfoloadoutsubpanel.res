@@ -248,7 +248,7 @@
 			"tall"			"1260"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"wavesDARKBLUGRAY"
+			"border"		"MaterialBorderDARKBLUGRAY"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"

@@ -570,19 +570,21 @@
 		}
 	}
 
+
+
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"r268"
-		"ypos"			"30"
-		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"280"
+		"xpos"			"r175"
+		"ypos"			"5"
+		"zpos"			"-3"
+		"wide"			"180"
+		"tall"			"480"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MaterialBorderMEDGRAYBLU"
+		"border"		"MaterialBorderDARKBLUGRAY"
 		"image"				"replay/thumbnails/materialPanel"
 
 		"alpha"				"255"
@@ -600,9 +602,9 @@
 				{
 					"ControlName"	"CExButton"
 					"fieldName"		"Stream_URLButton"
-					"xpos"			"30"
-					"ypos"			"rs1.2"
-					"wide"			"200"
+					"xpos"			"16"
+					"ypos"			"rs1.3"
+					"wide"			"148"
 					"tall"			"28"
 					"autoResize"	"0"
 					"pinCorner"		"0"
@@ -1434,7 +1436,7 @@
 			"tall"			"1260"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"wavesDARKBLUGRAY"
+			"border"		"MaterialBorderDARKBLUGRAY"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"

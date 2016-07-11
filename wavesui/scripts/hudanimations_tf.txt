@@ -1752,12 +1752,13 @@ event HudMatchSummary_SlideInPanels
 	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
 }
 
+
+
 event MMenu_PlayList_Expand
 {
 	
 
 	Animate PlayListContainer wide 180	 Spline	0.0 0.4
-
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
 

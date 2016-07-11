@@ -85,12 +85,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"Bold14"
+		"font"			"Bold12"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
-		"xpos"			"68"
+		"xpos"			"7"	//78
 		"ypos"			"1"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"16"
 		"autoResize"	"0"
@@ -98,6 +98,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"135 246 255 255"  //SOFTLITEBLU
+	}
+
+	"DisplayNameLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DisplayNameLabelShadow"
+		"font"			"Bold12"
+		"labelText"		"%display_name%"
+		"textAlignment"	"west"
+		"xpos"			"7"	//78
+		"ypos"			"1"
+		"zpos"			"2"
+		"wide"			"181"
+		"tall"			"17"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"0 0 0 255"  //SOFTLITEBLU
 	}
 
 	"TextDescriptionLabel"
@@ -114,7 +133,7 @@
 		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -126,9 +145,9 @@
 		"font"			"SemiLight10"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
-		"xpos"			"68"
+		"xpos"			"7"
 		"ypos"			"24"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
 		"autoResize"	"0"
