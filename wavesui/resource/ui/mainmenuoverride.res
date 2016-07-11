@@ -502,7 +502,7 @@
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"r129"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"64"
 		"wide"			"26"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -614,7 +614,7 @@
 					"labelText"		"GO TO TWITCH.TV"
 					"textinsetx"	"20"
 					"use_proportional_insets" "1"
-					"font"			"Bold14"
+					"font"			"Bold12"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -809,19 +809,20 @@
 			"brighttext"	"0"
 			"default"		"1"
 
+			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"navActivate"	"<FindAGameButton"		// after selecting this, nav to this sibling
+			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "1"
+			"paintbackground" "0"
+			"image_drawcolor"	"235 226 202 0"
+			"image_armedcolor"	"255 255 255 0"
+
 			"defaultFgColor_override" "VERYBRIGHTGRAY"  //VERYBRIGHTGRAY
 			"armedFgColor_override" "SOFTORANGE"
 			"depressedFgColor_override" "SOFTORANGE"
-			
-			"defaultBgColor_override" "0 0 0 0"
-			"armedBgColor_override" "0 0 0 0"
-			"depressedBgColor_override" "0 0 0 0"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -831,9 +832,9 @@
 				"zpos"			"1"
 				"wide"			"32"
 				"tall"			"32"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
-				"image"			""
+				"image"			"button_MOTD"
 				"scaleImage"	"1"
 			}
 		}
@@ -843,16 +844,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"r308"
-		"ypos"			"30"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
+		"xpos"			"r175"
+		"ypos"			"5"
+		"zpos"			"-11"
+		"wide"			"180"
+		"tall"			"480"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MaterialBorderMEDGRAYBLU"
-		"image"				"replay/thumbnails/materialPanel"
+		"border"		"MaterialBorderDARKBLUGRAY"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
@@ -865,18 +865,18 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"300"
-			"tall"			"22"
+			"tall"			"0"
 			"visible"		"1"
 			
 			"MOTD_HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"Caps20"
-				"textAlignment"	"west"
+				"font"			"Paintbrush32"
+				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
-				"xpos"			"10"
-				"ypos"			"2"
+				"xpos"			"0"
+				"ypos"			"0"
 				"wide"			"300"
 				"tall"			"24"
 				"autoResize"	"0"
@@ -884,9 +884,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
-				"paintbackground"	"0"
-				"fgcolor_override"	"SOFTORANGE"
-				"bgcolor_override"	"0 0 0 0"
+				"fgcolor_override"	"235 226 202 255"
+				"bgcolor_override"	"141 178 61 255"
 			}
 		}
 		
@@ -894,11 +893,11 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"276"
-			"ypos"			"4"
+			"xpos"			"80"
+			"ypos"			"134"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -910,9 +909,10 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			"actionsignallevel"	"2"
 
 			"navDown"			"MOTD_URLButton"
-			"navActivate"		"<FindAGameButton"
+			"navActivate"		"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -920,11 +920,9 @@
 			
 			"paintbackground"	"0"
 			
-			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "188 75 81 255"
-			"depressedFgColor_override" "188 75 81 255"
+			"defaultFgColor_override" "WHITEY"
+			"armedFgColor_override" "TOMATORED"
+			"depressedFgColor_override" "TOMATORED"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -932,14 +930,14 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"-2220"
+				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			""
+				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
 		}	
@@ -963,8 +961,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"Caps20"
-			"labelText"		"%motdtitle%"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%motdtitle%"	//%motdtitle%
 			"textAlignment"	"west"
 			"xpos"			"10"
 			"ypos"			"25"
@@ -972,39 +970,57 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"fgcolor"		"SOFTLITEBLU"
+			"fgcolor"		"WHITEY"
 			"wrap"			"1"
 		}
 		
-		"MOTD_Label" //date
+		"updateslabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"updateslabel"
+			"xpos"					"52"
+			"ypos"					"48"
+			"wide"					"80"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"updates"
+			"textAlignment"			"center"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"font"					"Paintbrush32"
+			"fgcolor"				"DARKERMEDBLUGRAY"
+		}
+
+		"MOTD_Label"	//this is the motd date
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"Light18"
+			"font"			"HudFontSmall"
 			"labelText"		"%motddate%"
-			"textAlignment"	"north-west"
-			"xpos"			"10"
-			"ypos"			"36"
+			"textAlignment"	"west"
+			"xpos"			"17"
+			"ypos"			"180"
 			"wide"			"300"
-			"tall"			"18"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"WHITEY"
+			"fgcolor"		"SOFTORANGE"
 		}
 		
-		"MOTD_TitleImageBg" //news bg thingy
+		"MOTD_TitleImageBg"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_TitleImageBg"
 			"xpos"			"cs-0.5"
-			"ypos"			"55"
+			"ypos"			"195"
 			"zpos"			"99"
-			"wide"			"250"
-			"tall"			"150"
+			"wide"			"145"
+			"tall"			"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"item_bg"
@@ -1017,10 +1033,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"55"
+			"ypos"			"195"
 			"zpos"			"100"
-			"wide"			"250"
-			"tall"			"150"
+			"wide"			"125"
+			"tall"			"75"
 			"visible"		"1"
 			"proportionaltoparent" "1"
 			
@@ -1031,8 +1047,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"250"
-				"tall"			"250"
+				"wide"			"125"
+				"tall"			"125"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"class_icons/filter_all"
@@ -1040,13 +1056,13 @@
 			}
 		}
 			
-		"MOTD_TextScroller"
+		"MOTD_TextScroller"		//content position
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"20"
-			"ypos"			"215"
-			"wide"			"280"
+			"xpos"			"18"
+			"ypos"			"275"
+			"wide"			"170"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
 			"fgcolor"		"LabelDark"
@@ -1057,27 +1073,27 @@
 				"fieldName"		"MOTD_TextPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"250"
+				"wide"			"170"
 				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 			
-				"MOTD_TextLabel"
+				"MOTD_TextLabel"	//content text
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"SemiLight14"
+					"font"			"Medium12"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"250"
+					"wide"			"170"
 					"tall"			"300"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"VERYBRIGHTGRAY"
+					"fgcolor"		"WHITEY"
 					"wrap"			"1"
 				}
 			}
@@ -1087,9 +1103,9 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
-			"xpos"			"50"
-			"ypos"			"rs1.2"
-			"wide"			"200"
+			"xpos"			"16"
+			"ypos"			"rs1.3"
+			"wide"			"148"
 			"tall"			"28"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1099,13 +1115,15 @@
 			"labelText"		"#MMenu_MOTD_URL"
 			"textinsetx"	"20"
 			"use_proportional_insets" "1"
-			"font"			"Bold14"
+			"font"			"Bold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
+			"actionsignallevel"	"2"
+
 
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_PrevButton"
@@ -1113,7 +1131,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
@@ -1144,6 +1162,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_prev"
+			"actionsignallevel"	"2"
 
 			"navUp"			"MOTD_CloseButton"
 			"navRight"		"MOTD_URLButton"
@@ -1191,6 +1210,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_next"
+			"actionsignallevel"	"2"
 
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_URLButton"
@@ -1216,7 +1236,7 @@
 				"scaleImage"	"1"
 			}
 		}
-	}		
+	}	
 
 	"Notifications_Panel"
 	{

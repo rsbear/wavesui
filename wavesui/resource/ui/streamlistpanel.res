@@ -36,8 +36,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"78"
-		"ypos"			"130"
+		"xpos"			"80"
+		"ypos"			"134"
 		"zpos"			"201"
 		"wide"			"14"
 		"tall"			"14"
