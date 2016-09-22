@@ -1,7 +1,7 @@
 
 
-	#base		"WAVES/targetid - classic.res"
-	//#base		"WAVES/targetid - alt.res"
+	//#base		"WAVES/targetid - classic.res"
+	#base		"WAVES/targetid - alt.res"
 
 
 

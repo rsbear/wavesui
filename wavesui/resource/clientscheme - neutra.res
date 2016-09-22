@@ -154,6 +154,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"SemiLight11"
+		{
+			"1"
+			{
+				"name"		"Neutraface 2 Text Book"
+				"tall"		"11"
+				"antialias"	"1"
+			}
+		}
 		"SemiLight12"
 		{
 			"1"
@@ -254,6 +263,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Medium11"
+		{
+			"1"
+			{
+				"name"		"Neutra Text Light"
+				"tall"		"11"
+				"antialias"	"1"
+			}
+		}
 		"Medium12"
 		{
 			"1"
@@ -323,6 +341,15 @@ Scheme
 			}
 		}
 		"Bold10"
+		{
+			"1"
+			{
+				"name"		"Neutra Text"
+				"tall"		"9"
+				"antialias"	"1"
+			}
+		}
+		"Bold11"
 		{
 			"1"
 			{

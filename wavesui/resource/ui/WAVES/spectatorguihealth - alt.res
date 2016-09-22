@@ -150,7 +150,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Bold16"
+		"font"			"Bold14"
 		"fgcolor"		"WHITEY"
 	}
 	"PlayerStatusPlayerLevel"

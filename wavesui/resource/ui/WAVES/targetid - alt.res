@@ -8,7 +8,7 @@
 		"ypos"			"-4"   //-2
 		"zpos"			"-1"
 		"wide"			"252"
-		"tall"	 		"18"
+		"tall"	 		"28"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -72,36 +72,15 @@
 		"draw_corner_height" 	"0"
 	}
 
-	WavesBG
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"WavesBG"
-		"xpos"			"-2"
-		"ypos"			"3"   //-2
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"24"
-		"autoResize"		"2"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/waves-targetalt"	//replay/thumbnails/MaterialPanelBlu
-		"image_lodef"	"replay/thumbnails/waves-targetalt"	//replay/thumbnails/MaterialPanelBlu
-		
-		"src_corner_height"		"32"				// pixels inside the image
-		"src_corner_width"		"32"
-			
-		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
-	}
+	
 	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Bold12"
+		"font"			"SemiLight11"
 		"xpos"			"30"
-		"ypos"			"8"
+		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -120,10 +99,10 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"Medium10"
 		"xpos"			"30"
-		"ypos"			"-5"	
+		"ypos"			"11"	
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"15"
+		"tall"			"16"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -138,9 +117,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"-1"
 		"wide"			"36"
-		"tall"			"25"
+		"tall"			"26"
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
